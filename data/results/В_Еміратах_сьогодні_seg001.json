@@ -1,0 +1,308 @@
+{
+  "audio_file": "В_Еміратах_сьогодні_seg001.wav",
+  "duration_sec": 184.585,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.27,
+      "end": 2.27,
+      "text_uk": "Бажаю здоров'я й щенуні українці.",
+      "text_en": "May the health and health of the Ukrainians."
+    },
+    {
+      "id": 2,
+      "start": 2.27,
+      "end": 6.77,
+      "text_uk": "Сьогодні багато завдань, в тому числі у нашої дипломатичної команди.",
+      "text_en": "There are a lot of assignments today, including our diplomatic team."
+    },
+    {
+      "id": 3,
+      "start": 6.77,
+      "end": 11.27,
+      "text_uk": "Майже щогодини доповідають мені українські представники.",
+      "text_en": "Almost every hour, Ukrainian representatives report to me."
+    },
+    {
+      "id": 4,
+      "start": 11.27,
+      "end": 13.27,
+      "text_uk": "Вони зараз знаходяться в Еміратах.",
+      "text_en": "They're in Emirates now."
+    },
+    {
+      "id": 5,
+      "start": 13.27,
+      "end": 17.77,
+      "text_uk": "Там сьогодні українська, американська та російська делегації.",
+      "text_en": "Today, there is a Ukrainian, American, and Russian delegation."
+    },
+    {
+      "id": 6,
+      "start": 17.77,
+      "end": 24.77,
+      "text_uk": "Була вже розмова важлива, бо давно не було таких тристоронніх форматів зустрічі.",
+      "text_en": "There's been a big conversation, because there's been no three-way meeting formats like this a long time ago."
+    },
+    {
+      "id": 7,
+      "start": 24.77,
+      "end": 27.27,
+      "text_uk": "Говорять про параметри закінчення війни.",
+      "text_en": "They're talking about the end-of-war parameters."
+    },
+    {
+      "id": 8,
+      "start": 27.27,
+      "end": 31.77,
+      "text_uk": "Зараз у них має бути принаймні частина відповідей від Росії.",
+      "text_en": "They should now have at least some responses from Russia."
+    },
+    {
+      "id": 9,
+      "start": 31.77,
+      "end": 36.27,
+      "text_uk": "Головне, щоб Росія була готова завершити цю війну, яку сама ж почала.",
+      "text_en": "The main thing is that Russia is ready to end this war that it itself has started."
+    },
+    {
+      "id": 10,
+      "start": 36.27,
+      "end": 38.27,
+      "text_uk": "Українські позиції чіткі.",
+      "text_en": "Ukrainian positions are clear."
+    },
+    {
+      "id": 11,
+      "start": 38.27,
+      "end": 44.27,
+      "text_uk": "Рамки для діалогу я визначив, для нашої делегації, постійно делегація на зв'язку.",
+      "text_en": "The dialogue frame, I've defined, for our delegation, a permanent delegation to communicate."
+    },
+    {
+      "id": 12,
+      "start": 44.27,
+      "end": 49.27,
+      "text_uk": "Рустему Міров, Кирило Буданов, Давид Рахамія, Сергій Кислиця.",
+      "text_en": "Rustema Mirov, Cyril Budanov, David Rahami, Sergey Xysle"
+    },
+    {
+      "id": 13,
+      "start": 49.27,
+      "end": 53.27,
+      "text_uk": "Завтра до перемовин ще приєднаються генерал Гнатов,",
+      "text_en": "Tomorrow, there's still a call for General Gnath to join us."
+    },
+    {
+      "id": 14,
+      "start": 53.27,
+      "end": 58.27,
+      "text_uk": "начальник генерального штабу та представник ГУР «Скібійцький».",
+      "text_en": "The director of the headquarters and the spokesman for HURKIMBIKI."
+    },
+    {
+      "id": 15,
+      "start": 58.27,
+      "end": 63.27,
+      "text_uk": "По змісту перемовин сьогодні ще поки що зарано робити висновки.",
+      "text_en": "The topic of the call is still too early to arrive at conclusions."
+    },
+    {
+      "id": 16,
+      "start": 63.27,
+      "end": 67.27,
+      "text_uk": "Ми подивимось, як розмова піде завтра і які будуть результати.",
+      "text_en": "We'll see how the conversation goes tomorrow and what happens."
+    },
+    {
+      "id": 17,
+      "start": 67.27,
+      "end": 73.27,
+      "text_uk": "Треба, щоб не тільки українське бажання було закінчити цю війну, досягти повної безпеки,",
+      "text_en": "Not only does the Ukrainian wish have to end this war, achieve complete security,"
+    },
+    {
+      "id": 18,
+      "start": 73.27,
+      "end": 78.27,
+      "text_uk": "щоб і в Росії схоже бажання якось все ж таки народилось.",
+      "text_en": "I'd like Russia to have a similar desire somehow."
+    },
+    {
+      "id": 19,
+      "start": 78.27,
+      "end": 82.27,
+      "text_uk": "Був сьогодні на доповіді міністра оборони України Федоров.",
+      "text_en": "I went to a report by the Secretary of Defense of Ukraine on Fedorov."
+    },
+    {
+      "id": 20,
+      "start": 82.27,
+      "end": 86.27,
+      "text_uk": "У нас ситуація на фронті, наших технологічних відповідей.",
+      "text_en": "We have a situation on the front, our technological answers."
+    },
+    {
+      "id": 21,
+      "start": 86.27,
+      "end": 92.27,
+      "text_uk": "Я дякую кожному підрозділу, які захищають наші українські позиції",
+      "text_en": "I thank every unit that protects our Ukrainian positions"
+    },
+    {
+      "id": 22,
+      "start": 92.27,
+      "end": 96.27,
+      "text_uk": "і відчутно нарощують технологічну складову.",
+      "text_en": "And they're very much building up the technological component."
+    },
+    {
+      "id": 23,
+      "start": 96.27,
+      "end": 102.27,
+      "text_uk": "Рівень російських трат за грудень 35 тисяч. Це дуже серйозно.",
+      "text_en": "The level of Russian waste for December is 35,000."
+    },
+    {
+      "id": 24,
+      "start": 102.27,
+      "end": 106.27,
+      "text_uk": "Говорили з міністром також по кадрових питаннях не тільки в міністерстві,",
+      "text_en": "It wasn't just the Ministry that spoke to the Minister on record,"
+    },
+    {
+      "id": 25,
+      "start": 106.27,
+      "end": 109.27,
+      "text_uk": "але й в видах сил, зокрема у повітряних силах.",
+      "text_en": "Yeah, but it's also a form of power, especially in the air force."
+    },
+    {
+      "id": 26,
+      "start": 109.27,
+      "end": 115.27,
+      "text_uk": "Добре, що взаємодії всередині повітряних сил та розбору обставних лучань",
+      "text_en": "It's good that the interaction within the air force is going to be a good thing, and it's going to be a whole bunch of round-up shots."
+    },
+    {
+      "id": 27,
+      "start": 115.27,
+      "end": 120.27,
+      "text_uk": "стає більше. Висновки потрібні дуже, щоб система ставала ефективнішою.",
+      "text_en": "Well, it takes a lot to get the system to become more efficient."
+    },
+    {
+      "id": 28,
+      "start": 120.27,
+      "end": 124.27,
+      "text_uk": "Доручив також нашій команді якнайшвидше і максимально детально",
+      "text_en": "He also assigned our team as soon as possible and as much in detail as possible."
+    },
+    {
+      "id": 29,
+      "start": 124.27,
+      "end": 129.27,
+      "text_uk": "опрацювати наші домовленості з нашими партнерами",
+      "text_en": "process our agreements with our partners"
+    },
+    {
+      "id": 30,
+      "start": 129.27,
+      "end": 132.27,
+      "text_uk": "по ракетах для протиповітряної оборони.",
+      "text_en": "- rockets for anti-air defense."
+    },
+    {
+      "id": 31,
+      "start": 132.27,
+      "end": 136.27,
+      "text_uk": "Вчора був позитивний сигнал в розмові з президентом Трампом",
+      "text_en": "Yesterday was a positive signal to talk to President Trump."
+    },
+    {
+      "id": 32,
+      "start": 136.27,
+      "end": 141.27,
+      "text_uk": "по ракетах для патріотів ПАК-3. Потрібен тепер позитивний сигнал тут в Україні",
+      "text_en": "We need a positive signal here in Ukraine."
+    },
+    {
+      "id": 33,
+      "start": 141.27,
+      "end": 146.27,
+      "text_uk": "у реальному постачанні для наших захисників неба.",
+      "text_en": "in a real provision for our guardians of the sky."
+    },
+    {
+      "id": 34,
+      "start": 146.27,
+      "end": 149.27,
+      "text_uk": "Логістику треба максимально прискорити.",
+      "text_en": "Logistics have to accelerate as fast as possible."
+    },
+    {
+      "id": 35,
+      "start": 149.27,
+      "end": 152.27,
+      "text_uk": "Провів також спеціальний енергетичний селект.",
+      "text_en": "There's also a special energy grid."
+    },
+    {
+      "id": 36,
+      "start": 152.27,
+      "end": 157.27,
+      "text_uk": "Кожен день починається саме в такому форматі ремонтні бригади,",
+      "text_en": "Every day begins with this kind of repair crew,"
+    },
+    {
+      "id": 37,
+      "start": 157.27,
+      "end": 161.27,
+      "text_uk": "аварійні служби, енергетичні компанії, ДСНС України.",
+      "text_en": "emergency services, energy companies, Ukraine's DC."
+    },
+    {
+      "id": 38,
+      "start": 161.27,
+      "end": 165.27,
+      "text_uk": "Всі працюють, працюють цілодобово, є результати у відновлення,",
+      "text_en": "Everyone works, works around the clock, results in recovery,"
+    },
+    {
+      "id": 39,
+      "start": 165.27,
+      "end": 170.27,
+      "text_uk": "але все ж таки загалом ситуація залишається дуже складною.",
+      "text_en": "But still, in general, the situation remains very difficult."
+    },
+    {
+      "id": 40,
+      "start": 170.27,
+      "end": 177.27,
+      "text_uk": "І особливо це Київ та область Дніпровщина, Дніпро, Кривирі, Харків",
+      "text_en": "And this is especially Kiev and Dnieperland, Dnieper, Cryviri, Kharkiv."
+    },
+    {
+      "id": 41,
+      "start": 177.27,
+      "end": 181.27,
+      "text_uk": "і область Запоріжжя, Сумщина, Чернігівщина.",
+      "text_en": "And the province of Zaporozhya, Sumsra, Chernihivsmia."
+    },
+    {
+      "id": 42,
+      "start": 181.27,
+      "end": 184.27,
+      "text_uk": "Окрима розібрали ситуацію в Одесі.",
+      "text_en": "The eye doctor figured out the situation in Odessa."
+    }
+  ],
+  "full_text_uk": "Бажаю здоров'я й щенуні українці. Сьогодні багато завдань, в тому числі у нашої дипломатичної команди. Майже щогодини доповідають мені українські представники. Вони зараз знаходяться в Еміратах. Там сьогодні українська, американська та російська делегації. Була вже розмова важлива, бо давно не було таких тристоронніх форматів зустрічі. Говорять про параметри закінчення війни. Зараз у них має бути принаймні частина відповідей від Росії. Головне, щоб Росія була готова завершити цю війну, яку сама ж почала. Українські позиції чіткі. Рамки для діалогу я визначив, для нашої делегації, постійно делегація на зв'язку. Рустему Міров, Кирило Буданов, Давид Рахамія, Сергій Кислиця. Завтра до перемовин ще приєднаються генерал Гнатов, начальник генерального штабу та представник ГУР «Скібійцький». По змісту перемовин сьогодні ще поки що зарано робити висновки. Ми подивимось, як розмова піде завтра і які будуть результати. Треба, щоб не тільки українське бажання було закінчити цю війну, досягти повної безпеки, щоб і в Росії схоже бажання якось все ж таки народилось. Був сьогодні на доповіді міністра оборони України Федоров. У нас ситуація на фронті, наших технологічних відповідей. Я дякую кожному підрозділу, які захищають наші українські позиції і відчутно нарощують технологічну складову. Рівень російських трат за грудень 35 тисяч. Це дуже серйозно. Говорили з міністром також по кадрових питаннях не тільки в міністерстві, але й в видах сил, зокрема у повітряних силах. Добре, що взаємодії всередині повітряних сил та розбору обставних лучань стає більше. Висновки потрібні дуже, щоб система ставала ефективнішою. Доручив також нашій команді якнайшвидше і максимально детально опрацювати наші домовленості з нашими партнерами по ракетах для протиповітряної оборони. Вчора був позитивний сигнал в розмові з президентом Трампом по ракетах для патріотів ПАК-3. Потрібен тепер позитивний сигнал тут в Україні у реальному постачанні для наших захисників неба. Логістику треба максимально прискорити. Провів також спеціальний енергетичний селект. Кожен день починається саме в такому форматі ремонтні бригади, аварійні служби, енергетичні компанії, ДСНС України. Всі працюють, працюють цілодобово, є результати у відновлення, але все ж таки загалом ситуація залишається дуже складною. І особливо це Київ та область Дніпровщина, Дніпро, Кривирі, Харків і область Запоріжжя, Сумщина, Чернігівщина. Окрима розібрали ситуацію в Одесі.",
+  "full_text_en": "May the health and health of the Ukrainians. There are a lot of assignments today, including our diplomatic team. Almost every hour, Ukrainian representatives report to me. They're in Emirates now. Today, there is a Ukrainian, American, and Russian delegation. There's been a big conversation, because there's been no three-way meeting formats like this a long time ago. They're talking about the end-of-war parameters. They should now have at least some responses from Russia. The main thing is that Russia is ready to end this war that it itself has started. Ukrainian positions are clear. The dialogue frame, I've defined, for our delegation, a permanent delegation to communicate. Rustema Mirov, Cyril Budanov, David Rahami, Sergey Xysle Tomorrow, there's still a call for General Gnath to join us. The director of the headquarters and the spokesman for HURKIMBIKI. The topic of the call is still too early to arrive at conclusions. We'll see how the conversation goes tomorrow and what happens. Not only does the Ukrainian wish have to end this war, achieve complete security, I'd like Russia to have a similar desire somehow. I went to a report by the Secretary of Defense of Ukraine on Fedorov. We have a situation on the front, our technological answers. I thank every unit that protects our Ukrainian positions And they're very much building up the technological component. The level of Russian waste for December is 35,000. It wasn't just the Ministry that spoke to the Minister on record, Yeah, but it's also a form of power, especially in the air force. It's good that the interaction within the air force is going to be a good thing, and it's going to be a whole bunch of round-up shots. Well, it takes a lot to get the system to become more efficient. He also assigned our team as soon as possible and as much in detail as possible. process our agreements with our partners - rockets for anti-air defense. Yesterday was a positive signal to talk to President Trump. We need a positive signal here in Ukraine. in a real provision for our guardians of the sky. Logistics have to accelerate as fast as possible. There's also a special energy grid. Every day begins with this kind of repair crew, emergency services, energy companies, Ukraine's DC. Everyone works, works around the clock, results in recovery, But still, in general, the situation remains very difficult. And this is especially Kiev and Dnieperland, Dnieper, Cryviri, Kharkiv. And the province of Zaporozhya, Sumsra, Chernihivsmia. The eye doctor figured out the situation in Odessa.",
+  "asr_time_sec": 35.003694999963045,
+  "mt_time_sec": 17.576746900042053,
+  "total_time_sec": 52.5804419000051,
+  "whisper_model": "medium",
+  "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+  "language": "uk"
+}

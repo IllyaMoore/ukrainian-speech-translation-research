@@ -1,0 +1,434 @@
+{
+  "audio_file": "Отримуємо_хороші_seg001.wav",
+  "duration_sec": 214.447,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 4.48,
+      "text_uk": "Шановні українці-українки, сьогодні активний день дипломатичної роботи.",
+      "text_en": "Dear Ukrainian Ukrainians, today is an active diplomatic day."
+    },
+    {
+      "id": 2,
+      "start": 4.48,
+      "end": 8.28,
+      "text_uk": "Сьогодні я говорив з Кіром Стармером, прем'єром Британії,",
+      "text_en": "Today I spoke to Cyrus Starmer, prime minister of Britain,"
+    },
+    {
+      "id": 3,
+      "start": 8.28,
+      "end": 14.2,
+      "text_uk": "сьогодні ж були у мене розмови з прем'єром Норвегії та канцлером Австрії.",
+      "text_en": "Today I had a conversation with the prime minister of Norway and the chancellor of Austria."
+    },
+    {
+      "id": 4,
+      "start": 14.2,
+      "end": 15.96,
+      "text_uk": "Я хочу подякувати за підтримку.",
+      "text_en": "I want to thank you for your support."
+    },
+    {
+      "id": 5,
+      "start": 15.96,
+      "end": 21.48,
+      "text_uk": "Дуже щиро цікавість, що у перемовинах з Америкою та російською стороною.",
+      "text_en": "What's really interesting is in negotiations with America and the Russian side."
+    },
+    {
+      "id": 6,
+      "start": 21.48,
+      "end": 24.08,
+      "text_uk": "Наші команди працюють активно сьогодні.",
+      "text_en": "Our teams are working actively today."
+    },
+    {
+      "id": 7,
+      "start": 24.08,
+      "end": 28.24,
+      "text_uk": "Якраз ми з урядовцями та командою Офісу президента",
+      "text_en": "It's just that the government and the Ops team of the president."
+    },
+    {
+      "id": 8,
+      "start": 28.64,
+      "end": 30.88,
+      "text_uk": "працювали з документом щодо відбудови,",
+      "text_en": "worked with the rebuilding document,"
+    },
+    {
+      "id": 9,
+      "start": 30.88,
+      "end": 36.16,
+      "text_uk": "я сподіваюсь, що наші партнери так само ставляться до завдань.",
+      "text_en": "I hope our partners feel the same way about problems."
+    },
+    {
+      "id": 10,
+      "start": 36.16,
+      "end": 39.24,
+      "text_uk": "Чіткі гранті безпеки для України та всієї Європи,",
+      "text_en": "Clear Grants of Security for Ukraine and all of Europe,"
+    },
+    {
+      "id": 11,
+      "start": 39.24,
+      "end": 43.68,
+      "text_uk": "абсолютно чіткі зобов'язання і можливості для відбудови України,",
+      "text_en": "A completely clear commitment and opportunity to rebuild Ukraine,"
+    },
+    {
+      "id": 12,
+      "start": 43.68,
+      "end": 48.72,
+      "text_uk": "та, звісно, реальні можливості достойно закінчити цю війну.",
+      "text_en": "and, of course, the real possibilities are worthy of ending this war."
+    },
+    {
+      "id": 13,
+      "start": 48.72,
+      "end": 53.16,
+      "text_uk": "Зараз жодних сумнівів не може бути ні у кого в світі.",
+      "text_en": "There can be no doubt right now about anyone in the world."
+    },
+    {
+      "id": 14,
+      "start": 53.16,
+      "end": 56.92,
+      "text_uk": "Що це за війна? Хто її почав? Чому війна досі триває?",
+      "text_en": "Why is the war still going on?"
+    },
+    {
+      "id": 15,
+      "start": 56.92,
+      "end": 59.24,
+      "text_uk": "Всі розуміють, що це російська війна.",
+      "text_en": "Everybody understands it's Russian war."
+    },
+    {
+      "id": 16,
+      "start": 59.24,
+      "end": 63.44,
+      "text_uk": "І відповідальність також російська, щоб війну закінчити.",
+      "text_en": "And it's also Russian to end the war."
+    },
+    {
+      "id": 17,
+      "start": 63.44,
+      "end": 65.24,
+      "text_uk": "І тиск на Росії має бути.",
+      "text_en": "And there's got to be pressure on Russia."
+    },
+    {
+      "id": 18,
+      "start": 65.24,
+      "end": 67.96,
+      "text_uk": "Ми зараз отримаємо хороші сигнали з Європи",
+      "text_en": "We're now getting good signals from Europe."
+    },
+    {
+      "id": 19,
+      "start": 67.96,
+      "end": 72.24,
+      "text_uk": "щодо готовності європейців більш активно тиснути на агресора.",
+      "text_en": "You know, I think it's more about the willingness of Europeans to put more pressure on the antagonist."
+    },
+    {
+      "id": 20,
+      "start": 72.24,
+      "end": 77.12,
+      "text_uk": "Дуже важливо, щоб це був тиск, зокрема, на танкерний флот Росії,",
+      "text_en": "It's very important that it be the pressure, especially on the Russian tanker fleet,"
+    },
+    {
+      "id": 21,
+      "start": 77.12,
+      "end": 80.16,
+      "text_uk": "на всю інфраструктуру російського експорту навти.",
+      "text_en": "the entire infrastructure of Russian exports to teach."
+    },
+    {
+      "id": 22,
+      "start": 80.16,
+      "end": 82.96,
+      "text_uk": "Це дуже допоможе нам усім в Європі,",
+      "text_en": "It's going to help us all in Europe,"
+    },
+    {
+      "id": 23,
+      "start": 82.96,
+      "end": 86.6,
+      "text_uk": "якщо російські доходи будуть обрізані ще більш.",
+      "text_en": "If Russian revenues were to be circumcised even more."
+    },
+    {
+      "id": 24,
+      "start": 86.6,
+      "end": 91.28,
+      "text_uk": "Вже бачимо колосальні нові проблеми у агресора з федеральним бюджетом,",
+      "text_en": "We're already seeing huge new problems with the federal budget aggression,"
+    },
+    {
+      "id": 25,
+      "start": 91.28,
+      "end": 95.92,
+      "text_uk": "а також з інфляцією, з економічними показниками.",
+      "text_en": "as well as inflation, with economic performance."
+    },
+    {
+      "id": 26,
+      "start": 95.92,
+      "end": 101.68,
+      "text_uk": "Це все хороші, правильні сигнали для того, щоб мир все ж таки настав.",
+      "text_en": "These are all good, the right signals for peace to come."
+    },
+    {
+      "id": 27,
+      "start": 101.68,
+      "end": 104.44,
+      "text_uk": "Чим для Росії складніше, тим мир ближче.",
+      "text_en": "The harder Russia gets, the closer peace."
+    },
+    {
+      "id": 28,
+      "start": 104.44,
+      "end": 108.32,
+      "text_uk": "Говорили з прем'єром Британії, зокрема, про ці удари,",
+      "text_en": "They spoke to the prime minister of Britain, especially these blows,"
+    },
+    {
+      "id": 29,
+      "start": 108.32,
+      "end": 112.0,
+      "text_uk": "про потребу захисту нашої держави і людей.",
+      "text_en": "magazines on the need to protect our country and people."
+    },
+    {
+      "id": 30,
+      "start": 112.0,
+      "end": 116.2,
+      "text_uk": "Сьогодні в Одесі протягом дня рятувальні роботи, розбір завалів",
+      "text_en": "Today, in Odessa, there's a life rescue day, there's an invasion of the wrecks."
+    },
+    {
+      "id": 31,
+      "start": 116.64,
+      "end": 120.32,
+      "text_uk": "після російського удару 52 ударні дрони саме проти міста,",
+      "text_en": "After the Russian strike, 52 shock drones are against the city,"
+    },
+    {
+      "id": 32,
+      "start": 120.32,
+      "end": 124.48,
+      "text_uk": "багато проти центру Одеси, район навколо привозу.",
+      "text_en": "A lot of it against the center of Odessa, the area around the invasion."
+    },
+    {
+      "id": 33,
+      "start": 124.48,
+      "end": 128.4,
+      "text_uk": "Жодних військових об'єктів там не було, немає.",
+      "text_en": "No military facilities were there, no."
+    },
+    {
+      "id": 34,
+      "start": 128.4,
+      "end": 132.64,
+      "text_uk": "І фактично усі мішені російських шахеїв – це звичайні будинки.",
+      "text_en": "And in fact, all the targets of Russian shahea are ordinary houses."
+    },
+    {
+      "id": 35,
+      "start": 132.64,
+      "end": 136.12,
+      "text_uk": "Проста цивільна інфраструктура, жорсткий був удар.",
+      "text_en": "Simple civil infrastructure, hard was the blow."
+    },
+    {
+      "id": 36,
+      "start": 136.12,
+      "end": 140.08,
+      "text_uk": "Більшість дронів вдалося збити, але, на жаль, не всі.",
+      "text_en": "Most drones have been knocked down, but unfortunately not all."
+    },
+    {
+      "id": 37,
+      "start": 140.08,
+      "end": 144.28,
+      "text_uk": "Три людини загинули, мої співчуття рідним і близьким.",
+      "text_en": "Three people died, my sympathy for family and loved ones."
+    },
+    {
+      "id": 38,
+      "start": 144.32,
+      "end": 146.68,
+      "text_uk": "Майже 50 людей звернулися по допомогою.",
+      "text_en": "Almost 50 people called for help."
+    },
+    {
+      "id": 39,
+      "start": 146.68,
+      "end": 149.56,
+      "text_uk": "Це один удар по одному місту.",
+      "text_en": "It's one punch on the same city."
+    },
+    {
+      "id": 40,
+      "start": 149.56,
+      "end": 153.64,
+      "text_uk": "Наприклад, до дні був ще російський удар по енергетиці Харкова,",
+      "text_en": "For example, until the day when there was a Russian attack on Kharkov's energy,"
+    },
+    {
+      "id": 41,
+      "start": 153.64,
+      "end": 157.28,
+      "text_uk": "удар РСЗВ, реактивні системи залпового вогню.",
+      "text_en": "I'm gonna go. I'm gonna take care of you. I'm gonna take care of you. I'm gonna take care of you."
+    },
+    {
+      "id": 42,
+      "start": 157.28,
+      "end": 161.84,
+      "text_uk": "Значні були пошкодження, відновлення буде максимально швидким,",
+      "text_en": "There were significant damages, the recovery will be as fast as possible,"
+    },
+    {
+      "id": 43,
+      "start": 161.84,
+      "end": 164.44,
+      "text_uk": "настільки-наскільки це можливо.",
+      "text_en": "You know, as much as possible."
+    },
+    {
+      "id": 44,
+      "start": 164.44,
+      "end": 169.08,
+      "text_uk": "Я хочу відзначити нашу ДСНС України і Українера,",
+      "text_en": "I want to celebrate our Ukraine and Ukraine,"
+    },
+    {
+      "id": 45,
+      "start": 169.08,
+      "end": 172.52,
+      "text_uk": "і Харків обл енера, усіх фахівців, які працюють,",
+      "text_en": "And Kharkiv is surrounded by energy, all of the experts who work,"
+    },
+    {
+      "id": 46,
+      "start": 172.52,
+      "end": 174.72,
+      "text_uk": "щоб стабілізувати цю ситуацію.",
+      "text_en": "I'm here to stabilize this situation."
+    },
+    {
+      "id": 47,
+      "start": 174.72,
+      "end": 178.36,
+      "text_uk": "Кожен, хто працює зараз, заради стікості України,",
+      "text_en": "Anyone who works now, for Ukraine's sewers,"
+    },
+    {
+      "id": 48,
+      "start": 178.36,
+      "end": 182.6,
+      "text_uk": "працює над десь, щоб життя, як таке, перемагало.",
+      "text_en": "She's working on something to make life like this win."
+    },
+    {
+      "id": 49,
+      "start": 182.6,
+      "end": 185.4,
+      "text_uk": "Хочу також подякувати всім, хто працює і в Києві,",
+      "text_en": "I also want to thank all those who work in Kiev,"
+    },
+    {
+      "id": 50,
+      "start": 185.4,
+      "end": 188.52,
+      "text_uk": "і на Київщині, в Запоріжжині, на Дніпровщині,",
+      "text_en": "and in Kyiv, in Zaporozin, in Dnieper,"
+    },
+    {
+      "id": 51,
+      "start": 188.52,
+      "end": 191.48,
+      "text_uk": "Сумщині, Чернігівщині, в усіх областях,",
+      "text_en": "The land, the Chernigs, all over the world,"
+    },
+    {
+      "id": 52,
+      "start": 191.48,
+      "end": 194.04,
+      "text_uk": "в усіх громадах після ударів.",
+      "text_en": "In all communities after the beating."
+    },
+    {
+      "id": 53,
+      "start": 194.04,
+      "end": 196.92,
+      "text_uk": "Був також удар росіян по газовій інфраструктурі",
+      "text_en": "There was also a blow to the Russians in gas infrastructure."
+    },
+    {
+      "id": 54,
+      "start": 196.92,
+      "end": 199.24,
+      "text_uk": "у західній частині нашої держави,",
+      "text_en": "in the western part of our state,"
+    },
+    {
+      "id": 55,
+      "start": 199.24,
+      "end": 202.24,
+      "text_uk": "але всюди є наша допомога,",
+      "text_en": "But everywhere there's our help,"
+    },
+    {
+      "id": 56,
+      "start": 202.24,
+      "end": 204.68,
+      "text_uk": "всюди є робота заради життя і людей.",
+      "text_en": "There's work everywhere for the sake of life and for people."
+    },
+    {
+      "id": 57,
+      "start": 204.68,
+      "end": 207.84,
+      "text_uk": "Я дякую кожному, хто допомагає, тим, хто поруч.",
+      "text_en": "I give thanks to everyone who helps, to those around me."
+    },
+    {
+      "id": 58,
+      "start": 207.84,
+      "end": 211.2,
+      "text_uk": "Я дякую всім, хто б'ється заради України,",
+      "text_en": "I thank everyone who fights for Ukraine,"
+    },
+    {
+      "id": 59,
+      "start": 211.2,
+      "end": 213.56,
+      "text_uk": "як заради самого себе.",
+      "text_en": "It's not like it's for the sake of itself."
+    },
+    {
+      "id": 60,
+      "start": 213.56,
+      "end": 214.4,
+      "text_uk": "Слава Україні!",
+      "text_en": "Thank you, Ukraine!"
+    }
+  ],
+  "full_text_uk": "Шановні українці-українки, сьогодні активний день дипломатичної роботи. Сьогодні я говорив з Кіром Стармером, прем'єром Британії, сьогодні ж були у мене розмови з прем'єром Норвегії та канцлером Австрії. Я хочу подякувати за підтримку. Дуже щиро цікавість, що у перемовинах з Америкою та російською стороною. Наші команди працюють активно сьогодні. Якраз ми з урядовцями та командою Офісу президента працювали з документом щодо відбудови, я сподіваюсь, що наші партнери так само ставляться до завдань. Чіткі гранті безпеки для України та всієї Європи, абсолютно чіткі зобов'язання і можливості для відбудови України, та, звісно, реальні можливості достойно закінчити цю війну. Зараз жодних сумнівів не може бути ні у кого в світі. Що це за війна? Хто її почав? Чому війна досі триває? Всі розуміють, що це російська війна. І відповідальність також російська, щоб війну закінчити. І тиск на Росії має бути. Ми зараз отримаємо хороші сигнали з Європи щодо готовності європейців більш активно тиснути на агресора. Дуже важливо, щоб це був тиск, зокрема, на танкерний флот Росії, на всю інфраструктуру російського експорту навти. Це дуже допоможе нам усім в Європі, якщо російські доходи будуть обрізані ще більш. Вже бачимо колосальні нові проблеми у агресора з федеральним бюджетом, а також з інфляцією, з економічними показниками. Це все хороші, правильні сигнали для того, щоб мир все ж таки настав. Чим для Росії складніше, тим мир ближче. Говорили з прем'єром Британії, зокрема, про ці удари, про потребу захисту нашої держави і людей. Сьогодні в Одесі протягом дня рятувальні роботи, розбір завалів після російського удару 52 ударні дрони саме проти міста, багато проти центру Одеси, район навколо привозу. Жодних військових об'єктів там не було, немає. І фактично усі мішені російських шахеїв – це звичайні будинки. Проста цивільна інфраструктура, жорсткий був удар. Більшість дронів вдалося збити, але, на жаль, не всі. Три людини загинули, мої співчуття рідним і близьким. Майже 50 людей звернулися по допомогою. Це один удар по одному місту. Наприклад, до дні був ще російський удар по енергетиці Харкова, удар РСЗВ, реактивні системи залпового вогню. Значні були пошкодження, відновлення буде максимально швидким, настільки-наскільки це можливо. Я хочу відзначити нашу ДСНС України і Українера, і Харків обл енера, усіх фахівців, які працюють, щоб стабілізувати цю ситуацію. Кожен, хто працює зараз, заради стікості України, працює над десь, щоб життя, як таке, перемагало. Хочу також подякувати всім, хто працює і в Києві, і на Київщині, в Запоріжжині, на Дніпровщині, Сумщині, Чернігівщині, в усіх областях, в усіх громадах після ударів. Був також удар росіян по газовій інфраструктурі у західній частині нашої держави, але всюди є наша допомога, всюди є робота заради життя і людей. Я дякую кожному, хто допомагає, тим, хто поруч. Я дякую всім, хто б'ється заради України, як заради самого себе. Слава Україні!",
+  "full_text_en": "Dear Ukrainian Ukrainians, today is an active diplomatic day. Today I spoke to Cyrus Starmer, prime minister of Britain, Today I had a conversation with the prime minister of Norway and the chancellor of Austria. I want to thank you for your support. What's really interesting is in negotiations with America and the Russian side. Our teams are working actively today. It's just that the government and the Ops team of the president. worked with the rebuilding document, I hope our partners feel the same way about problems. Clear Grants of Security for Ukraine and all of Europe, A completely clear commitment and opportunity to rebuild Ukraine, and, of course, the real possibilities are worthy of ending this war. There can be no doubt right now about anyone in the world. Why is the war still going on? Everybody understands it's Russian war. And it's also Russian to end the war. And there's got to be pressure on Russia. We're now getting good signals from Europe. You know, I think it's more about the willingness of Europeans to put more pressure on the antagonist. It's very important that it be the pressure, especially on the Russian tanker fleet, the entire infrastructure of Russian exports to teach. It's going to help us all in Europe, If Russian revenues were to be circumcised even more. We're already seeing huge new problems with the federal budget aggression, as well as inflation, with economic performance. These are all good, the right signals for peace to come. The harder Russia gets, the closer peace. They spoke to the prime minister of Britain, especially these blows, magazines on the need to protect our country and people. Today, in Odessa, there's a life rescue day, there's an invasion of the wrecks. After the Russian strike, 52 shock drones are against the city, A lot of it against the center of Odessa, the area around the invasion. No military facilities were there, no. And in fact, all the targets of Russian shahea are ordinary houses. Simple civil infrastructure, hard was the blow. Most drones have been knocked down, but unfortunately not all. Three people died, my sympathy for family and loved ones. Almost 50 people called for help. It's one punch on the same city. For example, until the day when there was a Russian attack on Kharkov's energy, I'm gonna go. I'm gonna take care of you. I'm gonna take care of you. I'm gonna take care of you. There were significant damages, the recovery will be as fast as possible, You know, as much as possible. I want to celebrate our Ukraine and Ukraine, And Kharkiv is surrounded by energy, all of the experts who work, I'm here to stabilize this situation. Anyone who works now, for Ukraine's sewers, She's working on something to make life like this win. I also want to thank all those who work in Kiev, and in Kyiv, in Zaporozin, in Dnieper, The land, the Chernigs, all over the world, In all communities after the beating. There was also a blow to the Russians in gas infrastructure. in the western part of our state, But everywhere there's our help, There's work everywhere for the sake of life and for people. I give thanks to everyone who helps, to those around me. I thank everyone who fights for Ukraine, It's not like it's for the sake of itself. Thank you, Ukraine!",
+  "asr_time_sec": 41.241554700012784,
+  "mt_time_sec": 19.512939600041136,
+  "total_time_sec": 60.75449430005392,
+  "whisper_model": "medium",
+  "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+  "language": "uk"
+}

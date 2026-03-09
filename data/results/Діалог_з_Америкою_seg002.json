@@ -1,0 +1,56 @@
+{
+  "audio_file": "Діалог_з_Америкою_seg002.wav",
+  "duration_sec": 98.895,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.21,
+      "end": 22.21,
+      "text_uk": "Покровський напрямок, воїни 38-ї бригади морської піхоти, 425-го кримового штурмового полку, 414-ї бригади безпілотних систем Тахимадяра та 14-ї бригади оперативного призначення Национальної гвардії України «Червона Калина». Дякую вам!",
+      "text_en": "In a covert direction, men of the 38th Marines, 425th ice storm regiment, 414 Tachimadora, and 14th task force of Ukraine's National Guard, \"Calina Charrodena.\" Thank you!"
+    },
+    {
+      "id": 2,
+      "start": 22.21,
+      "end": 38.21,
+      "text_uk": "Краматорський напрямок. Це передусім воїнем 24-ї механізованої бригади. Дякую. Куп'янський напрямок. 43-я механізована бригада та 13-я бригада Национальної гвардії «Харть». Дякую.",
+      "text_en": "It's mainly a 24-man mechanized crew, thank you, the merchant team, 43-management team, and 13th team of the National Guard, which are known as the \"Hartha.\" Thank you."
+    },
+    {
+      "id": 3,
+      "start": 38.21,
+      "end": 54.21,
+      "text_uk": "Дякую. І теж на нашій Харківщині заслуговують на вдячність воїни 72-ї механізованої бригади. Молодці воїни. Воля й поле 5-та штурмова бригада, 1-й та 225-й штурмові полки. Дякую вам!",
+      "text_en": "Thank you, too, on our Kharkivsland, deserves to be thanked by the 72nd Mechanized Brigade."
+    },
+    {
+      "id": 4,
+      "start": 54.21,
+      "end": 64.21,
+      "text_uk": "Дякую всім, хто б є це заради України. Була сьогодні доповідь Михайла Федорова, фактично по плану нашого захисту. Стратегічні речі обговорювали.",
+      "text_en": "Thank you, everyone, for Ukraine, and there was this report today by Michael Fyodorov, based on our plan of defense, and the strategy was discussed."
+    },
+    {
+      "id": 5,
+      "start": 64.21,
+      "end": 83.21,
+      "text_uk": "Розраховують, що парламентарів вже наступного тижня підтримують Михайла на посаду міністра оборони України. Для сфери оборони у нас план дій є. Так само, як і для дипломатії. Це залежить виключно від рішучості партнерів, який план стане основним на рік.",
+      "text_en": "It is estimated that Parliamentarys have been supporting Michael within the next week as secretary of defense of Ukraine, and we have a plan of action for the defense, as well as for diplomacy, and it depends solely on the determination of the partners, which will become the primary policy for the year."
+    },
+    {
+      "id": 6,
+      "start": 83.21,
+      "end": 98.21,
+      "text_uk": "Війну треба завершувати. Для чого на Росії треба тиснути. Той, хто говорить мовою балістики та шахедів, нічого крім сили не зрозуміє. Працюємо, щоб світ діяв ефективно. Слава Україні!",
+      "text_en": "The war has to be finished, and you have to press on in Russia."
+    }
+  ],
+  "full_text_uk": "Покровський напрямок, воїни 38-ї бригади морської піхоти, 425-го кримового штурмового полку, 414-ї бригади безпілотних систем Тахимадяра та 14-ї бригади оперативного призначення Национальної гвардії України «Червона Калина». Дякую вам! Краматорський напрямок. Це передусім воїнем 24-ї механізованої бригади. Дякую. Куп'янський напрямок. 43-я механізована бригада та 13-я бригада Национальної гвардії «Харть». Дякую. Дякую. І теж на нашій Харківщині заслуговують на вдячність воїни 72-ї механізованої бригади. Молодці воїни. Воля й поле 5-та штурмова бригада, 1-й та 225-й штурмові полки. Дякую вам! Дякую всім, хто б є це заради України. Була сьогодні доповідь Михайла Федорова, фактично по плану нашого захисту. Стратегічні речі обговорювали. Розраховують, що парламентарів вже наступного тижня підтримують Михайла на посаду міністра оборони України. Для сфери оборони у нас план дій є. Так само, як і для дипломатії. Це залежить виключно від рішучості партнерів, який план стане основним на рік. Війну треба завершувати. Для чого на Росії треба тиснути. Той, хто говорить мовою балістики та шахедів, нічого крім сили не зрозуміє. Працюємо, щоб світ діяв ефективно. Слава Україні!",
+  "full_text_en": "In a covert direction, men of the 38th Marines, 425th ice storm regiment, 414 Tachimadora, and 14th task force of Ukraine's National Guard, \"Calina Charrodena.\" Thank you! It's mainly a 24-man mechanized crew, thank you, the merchant team, 43-management team, and 13th team of the National Guard, which are known as the \"Hartha.\" Thank you. Thank you, too, on our Kharkivsland, deserves to be thanked by the 72nd Mechanized Brigade. Thank you, everyone, for Ukraine, and there was this report today by Michael Fyodorov, based on our plan of defense, and the strategy was discussed. It is estimated that Parliamentarys have been supporting Michael within the next week as secretary of defense of Ukraine, and we have a plan of action for the defense, as well as for diplomacy, and it depends solely on the determination of the partners, which will become the primary policy for the year. The war has to be finished, and you have to press on in Russia.",
+  "asr_time_sec": 16.439771199948154,
+  "mt_time_sec": 6.812096000008751,
+  "total_time_sec": 23.251867199956905,
+  "whisper_model": "medium",
+  "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+  "language": "uk"
+}

@@ -1,0 +1,280 @@
+{
+  "audio_file": "Знаємо,_що_росіяни_seg001.wav",
+  "duration_sec": 180.415,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.21,
+      "end": 2.85,
+      "text_uk": "Бажаю здоров'ю! Коротко про сьогодні.",
+      "text_en": "I wish you good health, briefly today."
+    },
+    {
+      "id": 2,
+      "start": 2.85,
+      "end": 9.21,
+      "text_uk": "У всіх регіонах, де є для цього потреба залучені ремонтні бригади та необхідні сили для відновлення.",
+      "text_en": "In all regions where there is a need to do so, repair teams and recovery forces are involved."
+    },
+    {
+      "id": 3,
+      "start": 9.21,
+      "end": 14.17,
+      "text_uk": "Найбільш складна ситуація зараз в Києві. Прежде всім з опаленням.",
+      "text_en": "The most difficult situation right now is in Kiev, before everyone with heating."
+    },
+    {
+      "id": 4,
+      "start": 14.17,
+      "end": 16.65,
+      "text_uk": "Є також значні проблеми з електрикою.",
+      "text_en": "There are also major electricity problems."
+    },
+    {
+      "id": 5,
+      "start": 16.65,
+      "end": 26.17,
+      "text_uk": "Для Києва залучені бригади з багатьох наших регіонів фактично з усієї країни, в тому числі при фронтові регіони, готові допомагати.",
+      "text_en": "Kyiv is involved in teams from many of our regions, actually from all over the country, including the front regions, ready to help."
+    },
+    {
+      "id": 6,
+      "start": 26.61,
+      "end": 35.53,
+      "text_uk": "Я хочу подякувати за допомогу також у Крзалізниці, іншим державним компаніям, всій приватній сфері, хто підтримує людей.",
+      "text_en": "I want to thank you for your help, too, in Crystal, another government company, all the private sector that supports people."
+    },
+    {
+      "id": 7,
+      "start": 35.53,
+      "end": 41.81,
+      "text_uk": "МВС України забезпечувало гаряче харчування в районах в Києві, де це необхідно.",
+      "text_en": "Ukraine's ISS has provided hot food for areas in Kiev, where it is needed."
+    },
+    {
+      "id": 8,
+      "start": 41.81,
+      "end": 49.33,
+      "text_uk": "Тільки за минулу добу 6200 людей в Києві. На Київщині 22 тисячі людей отримали гаряче харчування.",
+      "text_en": "In the last year alone, 6200 people in Kiev received a hot diet of 22,000 people in Kiev."
+    },
+    {
+      "id": 9,
+      "start": 49.33,
+      "end": 53.89,
+      "text_uk": "Готовість збільшувати масштаб такої допомоги, якщо це буде потрібно.",
+      "text_en": "Willingness to increase the scope of such help, if necessary."
+    },
+    {
+      "id": 10,
+      "start": 53.89,
+      "end": 59.09,
+      "text_uk": "Я очікую звіти по всіх тих дорученнях на роботу з партнерами, які були.",
+      "text_en": "I'm expecting reports on all the assignments I've been to work with the partners I've had."
+    },
+    {
+      "id": 11,
+      "start": 59.09,
+      "end": 64.09,
+      "text_uk": "Шукати та купувати обладнання треба було ще до цієї зими.",
+      "text_en": "We had to look for and buy equipment before this winter."
+    },
+    {
+      "id": 12,
+      "start": 64.09,
+      "end": 70.85,
+      "text_uk": "Міська влада в Києві повинна діти значно швидше зараз, щоб хоча б в лютому було людям легше.",
+      "text_en": "City authorities in Kiev should have children much faster now so that they can be easier in February."
+    },
+    {
+      "id": 13,
+      "start": 70.85,
+      "end": 73.85,
+      "text_uk": "Тим більше, щоб всі в уряді готові допомагати.",
+      "text_en": "Especially so that everyone in the government is ready to help."
+    },
+    {
+      "id": 14,
+      "start": 73.85,
+      "end": 81.13,
+      "text_uk": "Регулярні доповіді по ситуації в Чернігові, на Сумщині, Дніпровщина.",
+      "text_en": "Regular reports of the situation in Chernig, Sumsna, Dnieper"
+    },
+    {
+      "id": 15,
+      "start": 81.37,
+      "end": 85.13,
+      "text_uk": "У Кривому протягом дня відновлювали постачання тепла.",
+      "text_en": "During the day, there was renewed heat supply in Crete."
+    },
+    {
+      "id": 16,
+      "start": 85.13,
+      "end": 92.13,
+      "text_uk": "На сьогоднішній ранок не було опалення більш ніж у двох сотнях будинків після російського удару.",
+      "text_en": "By this morning, there was no heat in more than two hundred homes after the Russian blow."
+    },
+    {
+      "id": 17,
+      "start": 92.13,
+      "end": 97.13,
+      "text_uk": "Харківщина, Одесьщина, Запоріжжя. Я хочу подякувати кожному, хто працює.",
+      "text_en": "Kharkivs, Odyssey, Zaporozhye, I want to thank everyone who works."
+    },
+    {
+      "id": 18,
+      "start": 97.13,
+      "end": 100.13,
+      "text_uk": "Щоб люди були з теплом і світлом.",
+      "text_en": "I want people to be warm and light."
+    },
+    {
+      "id": 19,
+      "start": 100.13,
+      "end": 106.13,
+      "text_uk": "Значні відключення також в Валтавській області, також на Кіровоградщині, на Миколаївщині,",
+      "text_en": "Major disfellowshippings also took place in the Valvas region, also in Kyravograds, in Nicholasland,"
+    },
+    {
+      "id": 20,
+      "start": 106.13,
+      "end": 110.13,
+      "text_uk": "в Вінницькій та Чернівецькій областях.",
+      "text_en": "It's in the Vinnycchia and the Chernitz region."
+    },
+    {
+      "id": 21,
+      "start": 110.13,
+      "end": 112.13,
+      "text_uk": "Говорив з президентом Франції.",
+      "text_en": "He spoke to the president of France."
+    },
+    {
+      "id": 22,
+      "start": 112.13,
+      "end": 116.13,
+      "text_uk": "Менуель відзначив виклики, які є.",
+      "text_en": "Menuel noted the challenges that there are."
+    },
+    {
+      "id": 23,
+      "start": 116.13,
+      "end": 120.13,
+      "text_uk": "Ми говорили про допомогу Україні, яку ми зараз потребуємо найбільше.",
+      "text_en": "We talked about Ukraine's help, which we need most now."
+    },
+    {
+      "id": 24,
+      "start": 120.13,
+      "end": 123.13,
+      "text_uk": "Розраховуємо на підтримку Європи.",
+      "text_en": "We're counting on European support."
+    },
+    {
+      "id": 25,
+      "start": 123.13,
+      "end": 127.13,
+      "text_uk": "Важливо, щоб лідери та держави не мовчали про те, що відбувається.",
+      "text_en": "It's important that leaders and states remain silent about what's going on."
+    },
+    {
+      "id": 26,
+      "start": 127.13,
+      "end": 132.13,
+      "text_uk": "Не мовчали про те, що росіяни все одно намагаються завдати українцям",
+      "text_en": "They didn't say that the Russians were still trying to hurt the Ukrainians."
+    },
+    {
+      "id": 27,
+      "start": 132.13,
+      "end": 136.13,
+      "text_uk": "якнайбільшу болю, не зважаючи на жодну дипломаті.",
+      "text_en": "The worst pain, no matter what diplomacy."
+    },
+    {
+      "id": 28,
+      "start": 137.13,
+      "end": 141.13,
+      "text_uk": "Знаємо і про те, що росіяни готуються до нового удару.",
+      "text_en": "We also know that the Russians are preparing for a new blow."
+    },
+    {
+      "id": 29,
+      "start": 141.13,
+      "end": 147.13,
+      "text_uk": "Розвідка дає інформацію, що до цього треба, щоб зараз Америка, зараз Європа,",
+      "text_en": "Reconnaissance gives the information that we need to get America, now Europe,"
+    },
+    {
+      "id": 30,
+      "start": 147.13,
+      "end": 153.13,
+      "text_uk": "зараз всі партнери розуміли, як це дискредитує дипломатичні розмови.",
+      "text_en": "Now all the partners understood how this discredits diplomatic conversations."
+    },
+    {
+      "id": 31,
+      "start": 153.13,
+      "end": 156.13,
+      "text_uk": "Кожен з російських ударів.",
+      "text_en": "Every single Russian beat."
+    },
+    {
+      "id": 32,
+      "start": 156.13,
+      "end": 160.13,
+      "text_uk": "Сьогодні росіяни на Київщині убили жінку та чоловіка.",
+      "text_en": "Today, Russians in Kyivs killed a woman and a man."
+    },
+    {
+      "id": 33,
+      "start": 160.13,
+      "end": 162.13,
+      "text_uk": "Просто люди були в своїй квартирі.",
+      "text_en": "It's just that people were in their apartment."
+    },
+    {
+      "id": 34,
+      "start": 162.13,
+      "end": 164.13,
+      "text_uk": "Ми з півчуття рідним та близьким.",
+      "text_en": "Half the family and I are close."
+    },
+    {
+      "id": 35,
+      "start": 164.13,
+      "end": 167.13,
+      "text_uk": "Дитину чотири роки вдалось врятувати.",
+      "text_en": "The child was rescued for four years."
+    },
+    {
+      "id": 36,
+      "start": 167.13,
+      "end": 170.13,
+      "text_uk": "Я хочу подякувати Мар'яну Кушніру.",
+      "text_en": "I want to thank Marian Kushner."
+    },
+    {
+      "id": 37,
+      "start": 170.13,
+      "end": 175.13,
+      "text_uk": "Журналісту радіосвобода Ваенкору, який мужньо дієв, врятував цю дівчинку.",
+      "text_en": "Radio Freedom Journalist Weenkor, who is now active, has saved the girl."
+    },
+    {
+      "id": 38,
+      "start": 175.13,
+      "end": 180.13,
+      "text_uk": "Багато залежить саме від того, що наші люди не втрачають мужності.",
+      "text_en": "Much depends on the courage of our people."
+    }
+  ],
+  "full_text_uk": "Бажаю здоров'ю! Коротко про сьогодні. У всіх регіонах, де є для цього потреба залучені ремонтні бригади та необхідні сили для відновлення. Найбільш складна ситуація зараз в Києві. Прежде всім з опаленням. Є також значні проблеми з електрикою. Для Києва залучені бригади з багатьох наших регіонів фактично з усієї країни, в тому числі при фронтові регіони, готові допомагати. Я хочу подякувати за допомогу також у Крзалізниці, іншим державним компаніям, всій приватній сфері, хто підтримує людей. МВС України забезпечувало гаряче харчування в районах в Києві, де це необхідно. Тільки за минулу добу 6200 людей в Києві. На Київщині 22 тисячі людей отримали гаряче харчування. Готовість збільшувати масштаб такої допомоги, якщо це буде потрібно. Я очікую звіти по всіх тих дорученнях на роботу з партнерами, які були. Шукати та купувати обладнання треба було ще до цієї зими. Міська влада в Києві повинна діти значно швидше зараз, щоб хоча б в лютому було людям легше. Тим більше, щоб всі в уряді готові допомагати. Регулярні доповіді по ситуації в Чернігові, на Сумщині, Дніпровщина. У Кривому протягом дня відновлювали постачання тепла. На сьогоднішній ранок не було опалення більш ніж у двох сотнях будинків після російського удару. Харківщина, Одесьщина, Запоріжжя. Я хочу подякувати кожному, хто працює. Щоб люди були з теплом і світлом. Значні відключення також в Валтавській області, також на Кіровоградщині, на Миколаївщині, в Вінницькій та Чернівецькій областях. Говорив з президентом Франції. Менуель відзначив виклики, які є. Ми говорили про допомогу Україні, яку ми зараз потребуємо найбільше. Розраховуємо на підтримку Європи. Важливо, щоб лідери та держави не мовчали про те, що відбувається. Не мовчали про те, що росіяни все одно намагаються завдати українцям якнайбільшу болю, не зважаючи на жодну дипломаті. Знаємо і про те, що росіяни готуються до нового удару. Розвідка дає інформацію, що до цього треба, щоб зараз Америка, зараз Європа, зараз всі партнери розуміли, як це дискредитує дипломатичні розмови. Кожен з російських ударів. Сьогодні росіяни на Київщині убили жінку та чоловіка. Просто люди були в своїй квартирі. Ми з півчуття рідним та близьким. Дитину чотири роки вдалось врятувати. Я хочу подякувати Мар'яну Кушніру. Журналісту радіосвобода Ваенкору, який мужньо дієв, врятував цю дівчинку. Багато залежить саме від того, що наші люди не втрачають мужності.",
+  "full_text_en": "I wish you good health, briefly today. In all regions where there is a need to do so, repair teams and recovery forces are involved. The most difficult situation right now is in Kiev, before everyone with heating. There are also major electricity problems. Kyiv is involved in teams from many of our regions, actually from all over the country, including the front regions, ready to help. I want to thank you for your help, too, in Crystal, another government company, all the private sector that supports people. Ukraine's ISS has provided hot food for areas in Kiev, where it is needed. In the last year alone, 6200 people in Kiev received a hot diet of 22,000 people in Kiev. Willingness to increase the scope of such help, if necessary. I'm expecting reports on all the assignments I've been to work with the partners I've had. We had to look for and buy equipment before this winter. City authorities in Kiev should have children much faster now so that they can be easier in February. Especially so that everyone in the government is ready to help. Regular reports of the situation in Chernig, Sumsna, Dnieper During the day, there was renewed heat supply in Crete. By this morning, there was no heat in more than two hundred homes after the Russian blow. Kharkivs, Odyssey, Zaporozhye, I want to thank everyone who works. I want people to be warm and light. Major disfellowshippings also took place in the Valvas region, also in Kyravograds, in Nicholasland, It's in the Vinnycchia and the Chernitz region. He spoke to the president of France. Menuel noted the challenges that there are. We talked about Ukraine's help, which we need most now. We're counting on European support. It's important that leaders and states remain silent about what's going on. They didn't say that the Russians were still trying to hurt the Ukrainians. The worst pain, no matter what diplomacy. We also know that the Russians are preparing for a new blow. Reconnaissance gives the information that we need to get America, now Europe, Now all the partners understood how this discredits diplomatic conversations. Every single Russian beat. Today, Russians in Kyivs killed a woman and a man. It's just that people were in their apartment. Half the family and I are close. The child was rescued for four years. I want to thank Marian Kushner. Radio Freedom Journalist Weenkor, who is now active, has saved the girl. Much depends on the courage of our people.",
+  "asr_time_sec": 34.80917500000214,
+  "mt_time_sec": 15.251120300032198,
+  "total_time_sec": 50.06029530003434,
+  "whisper_model": "medium",
+  "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+  "language": "uk"
+}

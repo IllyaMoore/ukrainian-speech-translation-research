@@ -1,0 +1,2480 @@
+{
+  "summary": {
+    "total_files": 12,
+    "total_audio_duration_sec": 2001.0409999999997,
+    "total_asr_time_sec": 361.25649179989705,
+    "total_mt_time_sec": 156.70143310015555,
+    "total_processing_time_sec": 517.9579249000526,
+    "avg_asr_rtf": 0.1805342778083493,
+    "avg_mt_time_per_file_sec": 13.058452758346297,
+    "overall_rtf": 0.2588442340262157,
+    "whisper_model": "medium",
+    "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+    "files": [
+      "В_Еміратах_сьогодні_seg001.wav",
+      "В_Еміратах_сьогодні_seg002.wav",
+      "Діалог_з_Америкою_seg001.wav",
+      "Діалог_з_Америкою_seg002.wav",
+      "Знаємо,_що_росіяни_seg001.wav",
+      "Знаємо,_що_росіяни_seg002.wav",
+      "Командна_ланка_seg001.wav",
+      "Наша_стратегія_seg001.wav",
+      "Наша_стратегія_seg002.wav",
+      "Отримуємо_хороші_seg001.wav",
+      "Поведінка_seg001.wav",
+      "Поведінка_seg002.wav"
+    ]
+  },
+  "results": [
+    {
+      "audio_file": "В_Еміратах_сьогодні_seg001.wav",
+      "duration_sec": 184.585,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.27,
+          "end": 2.27,
+          "text_uk": "Бажаю здоров'я й щенуні українці.",
+          "text_en": "May the health and health of the Ukrainians."
+        },
+        {
+          "id": 2,
+          "start": 2.27,
+          "end": 6.77,
+          "text_uk": "Сьогодні багато завдань, в тому числі у нашої дипломатичної команди.",
+          "text_en": "There are a lot of assignments today, including our diplomatic team."
+        },
+        {
+          "id": 3,
+          "start": 6.77,
+          "end": 11.27,
+          "text_uk": "Майже щогодини доповідають мені українські представники.",
+          "text_en": "Almost every hour, Ukrainian representatives report to me."
+        },
+        {
+          "id": 4,
+          "start": 11.27,
+          "end": 13.27,
+          "text_uk": "Вони зараз знаходяться в Еміратах.",
+          "text_en": "They're in Emirates now."
+        },
+        {
+          "id": 5,
+          "start": 13.27,
+          "end": 17.77,
+          "text_uk": "Там сьогодні українська, американська та російська делегації.",
+          "text_en": "Today, there is a Ukrainian, American, and Russian delegation."
+        },
+        {
+          "id": 6,
+          "start": 17.77,
+          "end": 24.77,
+          "text_uk": "Була вже розмова важлива, бо давно не було таких тристоронніх форматів зустрічі.",
+          "text_en": "There's been a big conversation, because there's been no three-way meeting formats like this a long time ago."
+        },
+        {
+          "id": 7,
+          "start": 24.77,
+          "end": 27.27,
+          "text_uk": "Говорять про параметри закінчення війни.",
+          "text_en": "They're talking about the end-of-war parameters."
+        },
+        {
+          "id": 8,
+          "start": 27.27,
+          "end": 31.77,
+          "text_uk": "Зараз у них має бути принаймні частина відповідей від Росії.",
+          "text_en": "They should now have at least some responses from Russia."
+        },
+        {
+          "id": 9,
+          "start": 31.77,
+          "end": 36.27,
+          "text_uk": "Головне, щоб Росія була готова завершити цю війну, яку сама ж почала.",
+          "text_en": "The main thing is that Russia is ready to end this war that it itself has started."
+        },
+        {
+          "id": 10,
+          "start": 36.27,
+          "end": 38.27,
+          "text_uk": "Українські позиції чіткі.",
+          "text_en": "Ukrainian positions are clear."
+        },
+        {
+          "id": 11,
+          "start": 38.27,
+          "end": 44.27,
+          "text_uk": "Рамки для діалогу я визначив, для нашої делегації, постійно делегація на зв'язку.",
+          "text_en": "The dialogue frame, I've defined, for our delegation, a permanent delegation to communicate."
+        },
+        {
+          "id": 12,
+          "start": 44.27,
+          "end": 49.27,
+          "text_uk": "Рустему Міров, Кирило Буданов, Давид Рахамія, Сергій Кислиця.",
+          "text_en": "Rustema Mirov, Cyril Budanov, David Rahami, Sergey Xysle"
+        },
+        {
+          "id": 13,
+          "start": 49.27,
+          "end": 53.27,
+          "text_uk": "Завтра до перемовин ще приєднаються генерал Гнатов,",
+          "text_en": "Tomorrow, there's still a call for General Gnath to join us."
+        },
+        {
+          "id": 14,
+          "start": 53.27,
+          "end": 58.27,
+          "text_uk": "начальник генерального штабу та представник ГУР «Скібійцький».",
+          "text_en": "The director of the headquarters and the spokesman for HURKIMBIKI."
+        },
+        {
+          "id": 15,
+          "start": 58.27,
+          "end": 63.27,
+          "text_uk": "По змісту перемовин сьогодні ще поки що зарано робити висновки.",
+          "text_en": "The topic of the call is still too early to arrive at conclusions."
+        },
+        {
+          "id": 16,
+          "start": 63.27,
+          "end": 67.27,
+          "text_uk": "Ми подивимось, як розмова піде завтра і які будуть результати.",
+          "text_en": "We'll see how the conversation goes tomorrow and what happens."
+        },
+        {
+          "id": 17,
+          "start": 67.27,
+          "end": 73.27,
+          "text_uk": "Треба, щоб не тільки українське бажання було закінчити цю війну, досягти повної безпеки,",
+          "text_en": "Not only does the Ukrainian wish have to end this war, achieve complete security,"
+        },
+        {
+          "id": 18,
+          "start": 73.27,
+          "end": 78.27,
+          "text_uk": "щоб і в Росії схоже бажання якось все ж таки народилось.",
+          "text_en": "I'd like Russia to have a similar desire somehow."
+        },
+        {
+          "id": 19,
+          "start": 78.27,
+          "end": 82.27,
+          "text_uk": "Був сьогодні на доповіді міністра оборони України Федоров.",
+          "text_en": "I went to a report by the Secretary of Defense of Ukraine on Fedorov."
+        },
+        {
+          "id": 20,
+          "start": 82.27,
+          "end": 86.27,
+          "text_uk": "У нас ситуація на фронті, наших технологічних відповідей.",
+          "text_en": "We have a situation on the front, our technological answers."
+        },
+        {
+          "id": 21,
+          "start": 86.27,
+          "end": 92.27,
+          "text_uk": "Я дякую кожному підрозділу, які захищають наші українські позиції",
+          "text_en": "I thank every unit that protects our Ukrainian positions"
+        },
+        {
+          "id": 22,
+          "start": 92.27,
+          "end": 96.27,
+          "text_uk": "і відчутно нарощують технологічну складову.",
+          "text_en": "And they're very much building up the technological component."
+        },
+        {
+          "id": 23,
+          "start": 96.27,
+          "end": 102.27,
+          "text_uk": "Рівень російських трат за грудень 35 тисяч. Це дуже серйозно.",
+          "text_en": "The level of Russian waste for December is 35,000."
+        },
+        {
+          "id": 24,
+          "start": 102.27,
+          "end": 106.27,
+          "text_uk": "Говорили з міністром також по кадрових питаннях не тільки в міністерстві,",
+          "text_en": "It wasn't just the Ministry that spoke to the Minister on record,"
+        },
+        {
+          "id": 25,
+          "start": 106.27,
+          "end": 109.27,
+          "text_uk": "але й в видах сил, зокрема у повітряних силах.",
+          "text_en": "Yeah, but it's also a form of power, especially in the air force."
+        },
+        {
+          "id": 26,
+          "start": 109.27,
+          "end": 115.27,
+          "text_uk": "Добре, що взаємодії всередині повітряних сил та розбору обставних лучань",
+          "text_en": "It's good that the interaction within the air force is going to be a good thing, and it's going to be a whole bunch of round-up shots."
+        },
+        {
+          "id": 27,
+          "start": 115.27,
+          "end": 120.27,
+          "text_uk": "стає більше. Висновки потрібні дуже, щоб система ставала ефективнішою.",
+          "text_en": "Well, it takes a lot to get the system to become more efficient."
+        },
+        {
+          "id": 28,
+          "start": 120.27,
+          "end": 124.27,
+          "text_uk": "Доручив також нашій команді якнайшвидше і максимально детально",
+          "text_en": "He also assigned our team as soon as possible and as much in detail as possible."
+        },
+        {
+          "id": 29,
+          "start": 124.27,
+          "end": 129.27,
+          "text_uk": "опрацювати наші домовленості з нашими партнерами",
+          "text_en": "process our agreements with our partners"
+        },
+        {
+          "id": 30,
+          "start": 129.27,
+          "end": 132.27,
+          "text_uk": "по ракетах для протиповітряної оборони.",
+          "text_en": "- rockets for anti-air defense."
+        },
+        {
+          "id": 31,
+          "start": 132.27,
+          "end": 136.27,
+          "text_uk": "Вчора був позитивний сигнал в розмові з президентом Трампом",
+          "text_en": "Yesterday was a positive signal to talk to President Trump."
+        },
+        {
+          "id": 32,
+          "start": 136.27,
+          "end": 141.27,
+          "text_uk": "по ракетах для патріотів ПАК-3. Потрібен тепер позитивний сигнал тут в Україні",
+          "text_en": "We need a positive signal here in Ukraine."
+        },
+        {
+          "id": 33,
+          "start": 141.27,
+          "end": 146.27,
+          "text_uk": "у реальному постачанні для наших захисників неба.",
+          "text_en": "in a real provision for our guardians of the sky."
+        },
+        {
+          "id": 34,
+          "start": 146.27,
+          "end": 149.27,
+          "text_uk": "Логістику треба максимально прискорити.",
+          "text_en": "Logistics have to accelerate as fast as possible."
+        },
+        {
+          "id": 35,
+          "start": 149.27,
+          "end": 152.27,
+          "text_uk": "Провів також спеціальний енергетичний селект.",
+          "text_en": "There's also a special energy grid."
+        },
+        {
+          "id": 36,
+          "start": 152.27,
+          "end": 157.27,
+          "text_uk": "Кожен день починається саме в такому форматі ремонтні бригади,",
+          "text_en": "Every day begins with this kind of repair crew,"
+        },
+        {
+          "id": 37,
+          "start": 157.27,
+          "end": 161.27,
+          "text_uk": "аварійні служби, енергетичні компанії, ДСНС України.",
+          "text_en": "emergency services, energy companies, Ukraine's DC."
+        },
+        {
+          "id": 38,
+          "start": 161.27,
+          "end": 165.27,
+          "text_uk": "Всі працюють, працюють цілодобово, є результати у відновлення,",
+          "text_en": "Everyone works, works around the clock, results in recovery,"
+        },
+        {
+          "id": 39,
+          "start": 165.27,
+          "end": 170.27,
+          "text_uk": "але все ж таки загалом ситуація залишається дуже складною.",
+          "text_en": "But still, in general, the situation remains very difficult."
+        },
+        {
+          "id": 40,
+          "start": 170.27,
+          "end": 177.27,
+          "text_uk": "І особливо це Київ та область Дніпровщина, Дніпро, Кривирі, Харків",
+          "text_en": "And this is especially Kiev and Dnieperland, Dnieper, Cryviri, Kharkiv."
+        },
+        {
+          "id": 41,
+          "start": 177.27,
+          "end": 181.27,
+          "text_uk": "і область Запоріжжя, Сумщина, Чернігівщина.",
+          "text_en": "And the province of Zaporozhya, Sumsra, Chernihivsmia."
+        },
+        {
+          "id": 42,
+          "start": 181.27,
+          "end": 184.27,
+          "text_uk": "Окрима розібрали ситуацію в Одесі.",
+          "text_en": "The eye doctor figured out the situation in Odessa."
+        }
+      ],
+      "full_text_uk": "Бажаю здоров'я й щенуні українці. Сьогодні багато завдань, в тому числі у нашої дипломатичної команди. Майже щогодини доповідають мені українські представники. Вони зараз знаходяться в Еміратах. Там сьогодні українська, американська та російська делегації. Була вже розмова важлива, бо давно не було таких тристоронніх форматів зустрічі. Говорять про параметри закінчення війни. Зараз у них має бути принаймні частина відповідей від Росії. Головне, щоб Росія була готова завершити цю війну, яку сама ж почала. Українські позиції чіткі. Рамки для діалогу я визначив, для нашої делегації, постійно делегація на зв'язку. Рустему Міров, Кирило Буданов, Давид Рахамія, Сергій Кислиця. Завтра до перемовин ще приєднаються генерал Гнатов, начальник генерального штабу та представник ГУР «Скібійцький». По змісту перемовин сьогодні ще поки що зарано робити висновки. Ми подивимось, як розмова піде завтра і які будуть результати. Треба, щоб не тільки українське бажання було закінчити цю війну, досягти повної безпеки, щоб і в Росії схоже бажання якось все ж таки народилось. Був сьогодні на доповіді міністра оборони України Федоров. У нас ситуація на фронті, наших технологічних відповідей. Я дякую кожному підрозділу, які захищають наші українські позиції і відчутно нарощують технологічну складову. Рівень російських трат за грудень 35 тисяч. Це дуже серйозно. Говорили з міністром також по кадрових питаннях не тільки в міністерстві, але й в видах сил, зокрема у повітряних силах. Добре, що взаємодії всередині повітряних сил та розбору обставних лучань стає більше. Висновки потрібні дуже, щоб система ставала ефективнішою. Доручив також нашій команді якнайшвидше і максимально детально опрацювати наші домовленості з нашими партнерами по ракетах для протиповітряної оборони. Вчора був позитивний сигнал в розмові з президентом Трампом по ракетах для патріотів ПАК-3. Потрібен тепер позитивний сигнал тут в Україні у реальному постачанні для наших захисників неба. Логістику треба максимально прискорити. Провів також спеціальний енергетичний селект. Кожен день починається саме в такому форматі ремонтні бригади, аварійні служби, енергетичні компанії, ДСНС України. Всі працюють, працюють цілодобово, є результати у відновлення, але все ж таки загалом ситуація залишається дуже складною. І особливо це Київ та область Дніпровщина, Дніпро, Кривирі, Харків і область Запоріжжя, Сумщина, Чернігівщина. Окрима розібрали ситуацію в Одесі.",
+      "full_text_en": "May the health and health of the Ukrainians. There are a lot of assignments today, including our diplomatic team. Almost every hour, Ukrainian representatives report to me. They're in Emirates now. Today, there is a Ukrainian, American, and Russian delegation. There's been a big conversation, because there's been no three-way meeting formats like this a long time ago. They're talking about the end-of-war parameters. They should now have at least some responses from Russia. The main thing is that Russia is ready to end this war that it itself has started. Ukrainian positions are clear. The dialogue frame, I've defined, for our delegation, a permanent delegation to communicate. Rustema Mirov, Cyril Budanov, David Rahami, Sergey Xysle Tomorrow, there's still a call for General Gnath to join us. The director of the headquarters and the spokesman for HURKIMBIKI. The topic of the call is still too early to arrive at conclusions. We'll see how the conversation goes tomorrow and what happens. Not only does the Ukrainian wish have to end this war, achieve complete security, I'd like Russia to have a similar desire somehow. I went to a report by the Secretary of Defense of Ukraine on Fedorov. We have a situation on the front, our technological answers. I thank every unit that protects our Ukrainian positions And they're very much building up the technological component. The level of Russian waste for December is 35,000. It wasn't just the Ministry that spoke to the Minister on record, Yeah, but it's also a form of power, especially in the air force. It's good that the interaction within the air force is going to be a good thing, and it's going to be a whole bunch of round-up shots. Well, it takes a lot to get the system to become more efficient. He also assigned our team as soon as possible and as much in detail as possible. process our agreements with our partners - rockets for anti-air defense. Yesterday was a positive signal to talk to President Trump. We need a positive signal here in Ukraine. in a real provision for our guardians of the sky. Logistics have to accelerate as fast as possible. There's also a special energy grid. Every day begins with this kind of repair crew, emergency services, energy companies, Ukraine's DC. Everyone works, works around the clock, results in recovery, But still, in general, the situation remains very difficult. And this is especially Kiev and Dnieperland, Dnieper, Cryviri, Kharkiv. And the province of Zaporozhya, Sumsra, Chernihivsmia. The eye doctor figured out the situation in Odessa.",
+      "asr_time_sec": 35.003694999963045,
+      "mt_time_sec": 17.576746900042053,
+      "total_time_sec": 52.5804419000051,
+      "whisper_model": "medium",
+      "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+      "language": "uk"
+    },
+    {
+      "audio_file": "В_Еміратах_сьогодні_seg002.wav",
+      "duration_sec": 104.503,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 10.0,
+          "text_uk": "Хочу відзначити роботу МВС, дякую усім, хто залучений, все максимально чітко та конкретно по запасам генераторів і обладнання,",
+          "text_en": "I want to point out the MBI work, and I want to thank you to all of you who are involved, as clearly and as clearly as possible with the generators and hardware,"
+        },
+        {
+          "id": 2,
+          "start": 10.0,
+          "end": 17.0,
+          "text_uk": "по реальній допомозі містами, найбільше Києву, по пунктах оббігріву та підтримки людей.",
+          "text_en": "to the real help of cities, the largest of Kiev, and the support of people."
+        },
+        {
+          "id": 3,
+          "start": 17.0,
+          "end": 26.0,
+          "text_uk": "На жаль, в столиці досі без упалення багато будинків, максимум бригад, максимум обладнання застосовується, щоб допомогти людям.",
+          "text_en": "Unfortunately, the capital still has many houses, maximum teams, maximum equipment used to help people."
+        },
+        {
+          "id": 4,
+          "start": 26.0,
+          "end": 34.0,
+          "text_uk": "Говорили з прем'єр-міністром Юлією Свириденко по програмах, які можуть підтримати і економіку, і громади.",
+          "text_en": "They've spoken to Prime Minister Julia Swirdenko on programs that can support both the economy and the community."
+        },
+        {
+          "id": 5,
+          "start": 34.0,
+          "end": 48.0,
+          "text_uk": "Те, що стосується генераторів та можливостей бізнесу працювати, максимально лояльні програми, щоб допомогти малому бізнесу купувати і утримувати генератори.",
+          "text_en": "What about the generators and business opportunities to work is the maximum loyal software to help small businesses buy and keep generators."
+        },
+        {
+          "id": 6,
+          "start": 48.0,
+          "end": 58.0,
+          "text_uk": "Урядовці сьогодні мають представити все суспільству. Є також рішення, щоб підтримати безпосередньо кожного і кожного в ремонтних бригадах.",
+          "text_en": "Governments today have to present everything to society, and it's also a decision to support everyone and everyone directly in the repair teams."
+        },
+        {
+          "id": 7,
+          "start": 58.0,
+          "end": 68.0,
+          "text_uk": "Це доплати за кожен місяць цієї надзвичайної ситуації. Ми домовились сьогодні з прем'єр-міністром, також з міністром енергетики.",
+          "text_en": "This is a fee for every month of this emergency situation, and we have an appointment with the Prime Minister, also with the Minister of Energy."
+        },
+        {
+          "id": 8,
+          "start": 68.0,
+          "end": 82.0,
+          "text_uk": "Який формат виплат буде і як люди отримують ці виплати. Кожному робітнику, хто в аварійно відновлювальних роботах, доплата 20 тисяч гривень за січень, лютий і березень цього року.",
+          "text_en": "What's the rate for payout and how people get that payout, every worker who's in emergency recovery, will pay 20,000 dollars for January, February, and March this year."
+        },
+        {
+          "id": 9,
+          "start": 82.0,
+          "end": 91.0,
+          "text_uk": "За кожен місяць 20. Деталі від уряду будуть додатково і звісно, я дякую кожній країні всім лідерам, які надають необхідну допомогу.",
+          "text_en": "Every month, 20. The government's details will be extra, and of course, I thank every country's leaders who provide the help they need."
+        },
+        {
+          "id": 10,
+          "start": 91.0,
+          "end": 104.0,
+          "text_uk": "Вже є і будуть пакети ще саме енергетичні. Євросоюз, окрема Італія, Німеччина, Литва, Британія, Польща, Японія, Америка. Дякую усім вам, хто з нами, хто з України. Слава Україні!",
+          "text_en": "Eurosoys, private Italy, Germany, Lithuania, Britain, Poland, Japan, all of you who are with us who are from Ukraine."
+        }
+      ],
+      "full_text_uk": "Хочу відзначити роботу МВС, дякую усім, хто залучений, все максимально чітко та конкретно по запасам генераторів і обладнання, по реальній допомозі містами, найбільше Києву, по пунктах оббігріву та підтримки людей. На жаль, в столиці досі без упалення багато будинків, максимум бригад, максимум обладнання застосовується, щоб допомогти людям. Говорили з прем'єр-міністром Юлією Свириденко по програмах, які можуть підтримати і економіку, і громади. Те, що стосується генераторів та можливостей бізнесу працювати, максимально лояльні програми, щоб допомогти малому бізнесу купувати і утримувати генератори. Урядовці сьогодні мають представити все суспільству. Є також рішення, щоб підтримати безпосередньо кожного і кожного в ремонтних бригадах. Це доплати за кожен місяць цієї надзвичайної ситуації. Ми домовились сьогодні з прем'єр-міністром, також з міністром енергетики. Який формат виплат буде і як люди отримують ці виплати. Кожному робітнику, хто в аварійно відновлювальних роботах, доплата 20 тисяч гривень за січень, лютий і березень цього року. За кожен місяць 20. Деталі від уряду будуть додатково і звісно, я дякую кожній країні всім лідерам, які надають необхідну допомогу. Вже є і будуть пакети ще саме енергетичні. Євросоюз, окрема Італія, Німеччина, Литва, Британія, Польща, Японія, Америка. Дякую усім вам, хто з нами, хто з України. Слава Україні!",
+      "full_text_en": "I want to point out the MBI work, and I want to thank you to all of you who are involved, as clearly and as clearly as possible with the generators and hardware, to the real help of cities, the largest of Kiev, and the support of people. Unfortunately, the capital still has many houses, maximum teams, maximum equipment used to help people. They've spoken to Prime Minister Julia Swirdenko on programs that can support both the economy and the community. What about the generators and business opportunities to work is the maximum loyal software to help small businesses buy and keep generators. Governments today have to present everything to society, and it's also a decision to support everyone and everyone directly in the repair teams. This is a fee for every month of this emergency situation, and we have an appointment with the Prime Minister, also with the Minister of Energy. What's the rate for payout and how people get that payout, every worker who's in emergency recovery, will pay 20,000 dollars for January, February, and March this year. Every month, 20. The government's details will be extra, and of course, I thank every country's leaders who provide the help they need. Eurosoys, private Italy, Germany, Lithuania, Britain, Poland, Japan, all of you who are with us who are from Ukraine.",
+      "asr_time_sec": 18.873692699999083,
+      "mt_time_sec": 7.877774799999315,
+      "total_time_sec": 26.751467499998398,
+      "whisper_model": "medium",
+      "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+      "language": "uk"
+    },
+    {
+      "audio_file": "Діалог_з_Америкою_seg001.wav",
+      "duration_sec": 193.03,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.3,
+          "end": 8.3,
+          "text_uk": "Бажаю здоров'я, коротко про цей день. Доповідь СБУ Євгеній Ахмари, він керує багатьма нашими операціями, саме про це і говорили.",
+          "text_en": "I wish to be healthy, briefly about this day, and that's what Juggenian Ahmar's report, and he's running many of our operations, and that's what we talked about."
+        },
+        {
+          "id": 2,
+          "start": 8.3,
+          "end": 19.3,
+          "text_uk": "Про операції, які відбулися нещодавно. Служба безпеки України працює результативно, я хочу подякувати за це всім оперативникам та спецпризначенцям служби.",
+          "text_en": "On recent operations, Ukraine's Security Service has been successful, and I want to thank all of the operating personnel and security officials for this."
+        },
+        {
+          "id": 3,
+          "start": 19.3,
+          "end": 26.3,
+          "text_uk": "Про деякі операції, які росіяни вже відчули, говорити публічного ще зарано. Частина операцій в роботі.",
+          "text_en": "Some of the operations that the Russians already felt were too early to speak to the public, part of the operation at work."
+        },
+        {
+          "id": 4,
+          "start": 26.3,
+          "end": 40.3,
+          "text_uk": "Погодив також нові. Ми активно захищаємось і всі російські втрати, це те, що наближає закінчення війни. Наші дівстрайки, спеціальні заходи, все має продовжуватись безумовно.",
+          "text_en": "We're actively defending ourselves and all the Russian casualties, that's what's approaching the end of the war, our girls, our special measures, everything should go on for sure."
+        },
+        {
+          "id": 5,
+          "start": 40.3,
+          "end": 54.3,
+          "text_uk": "Говорив також з Кирилом Бодановим, в тому числі про санкційну політику. Миного року з багатьма партнерами була налагоджена нова співпраця для синхронізації санкцій, але темп має стати значно більше.",
+          "text_en": "I also spoke to Cyril Bodanov, including the sanctimonial policy, and during the past year, a new partnership was made with many partners to synchronize the sanctions, but the pace has to be much higher."
+        },
+        {
+          "id": 6,
+          "start": 55.3,
+          "end": 68.3,
+          "text_uk": "Російське виробництво ракет і дронів не може існувати без постачання компонентів. З інших країн це стосується не просто якихось російських виробів, а всієї російської зброї.",
+          "text_en": "The Russian rocket and drone manufacturing can't exist without a component supply. From other countries, it's not just about Russian products, it's about all Russian weapons."
+        },
+        {
+          "id": 7,
+          "start": 68.3,
+          "end": 80.3,
+          "text_uk": "Це зброя, яка будується на компонентах, які сама Росія не виробляє. І тому блокування постачання та розширення санкцій – це один з ключових наших пріоритетів.",
+          "text_en": "It's a weapon that's built on components that Russia itself doesn't produce, and that's why the provision and expansion of the sanctum is one of our key priorities."
+        },
+        {
+          "id": 8,
+          "start": 80.3,
+          "end": 87.3,
+          "text_uk": "Це має бути пріоритетом також у партнерів. Наші інституті мають працювати для цього активніше.",
+          "text_en": "It has to be a top priority for partners as well, and our institutions have to work for that more active."
+        },
+        {
+          "id": 9,
+          "start": 87.3,
+          "end": 97.3,
+          "text_uk": "Боданов доповів і про частину зустрічі в рамках дипломатичного треку. Я очікую повну, детальну доповідь всієї переговорної команди.",
+          "text_en": "I'm expecting a full, detailed report of the entire negotiation team."
+        },
+        {
+          "id": 10,
+          "start": 97.3,
+          "end": 107.3,
+          "text_uk": "І фактично кожного дня ми продовжуємо спілкування з американською стороною. Сьогодні Рустим Умеров знову був на контакті з американськими партнерами.",
+          "text_en": "And in fact, every day, we continue to communicate with the American side, and today, Rust Umerov was back in contact with U.S. partners."
+        },
+        {
+          "id": 11,
+          "start": 107.3,
+          "end": 116.3,
+          "text_uk": "Це наше стратегічне завдання. Діалог з Америкою має бути на 100% конструктивним. Україна ніколи не була і не буде перепонною для дипломатії.",
+          "text_en": "The dialogue with America should be 100% constructive. Ukraine has never been and will never be a barrier to diplomacy."
+        },
+        {
+          "id": 12,
+          "start": 116.3,
+          "end": 122.3,
+          "text_uk": "Наша ефективність в роботі з партнерами завжди найвищого рівня. Так буде і надалі.",
+          "text_en": "Our effectiveness in working with partners is always at the highest level, as it will continue."
+        },
+        {
+          "id": 13,
+          "start": 122.3,
+          "end": 135.3,
+          "text_uk": "Тільки Росія є джерелом цієї війни, причиною затягування війни і заслуговує на всі удари і тиск у відповідь за все, що вона робить проти життя і людей, проти дипломатії, проти партнерів.",
+          "text_en": "Russia alone is the source of this war, the cause of this war, and it deserves all the blows and pressures in response to everything it does against life and people, against diplomacy, against partners."
+        },
+        {
+          "id": 14,
+          "start": 136.3,
+          "end": 143.3,
+          "text_uk": "Ми уважно відслідковуємо та фіксуємо всі намагання росіян зламати наші відносини з партнерами.",
+          "text_en": "We carefully trace and record all Russian attempts to break our relationship with our partners."
+        },
+        {
+          "id": 15,
+          "start": 143.3,
+          "end": 153.3,
+          "text_uk": "Бачимо, яких лобістів Москва залучає, через кого намагається діяти, які внутрішні операції в Україні та Європі намагаються забускати.",
+          "text_en": "We can see how the Locists Moscow are involved in what they're trying to do, what internal operations in Ukraine and Europe are trying to get there."
+        },
+        {
+          "id": 16,
+          "start": 153.3,
+          "end": 164.3,
+          "text_uk": "Наша протидія буде відчутною і по лінії спеціальних служб, і по лінії наших розвиток, і політичною співпрацією з партнерами, і зокрема санкціями.",
+          "text_en": "Our opposition will be evident through the ranks of special services, through the line of development, and through political cooperation with partners, and in particular sanctions."
+        },
+        {
+          "id": 17,
+          "start": 165.3,
+          "end": 174.3,
+          "text_uk": "Важливо, що поновлено рух в Конгресі Сполучених Штатів Америки у напрямку більш жорстких санкцій проти Росії, проти російської нафти.",
+          "text_en": "The important thing is that the movement in the United States Congress is moving toward more rigid sanctions against Russia, against Russian oil."
+        },
+        {
+          "id": 18,
+          "start": 174.3,
+          "end": 181.3,
+          "text_uk": "Це дійсно може спрацювати. Я дякую всім, хто допомагає. Я хочу відзначити сьогодні наших вбойнів.",
+          "text_en": "It really can work, and I thank everyone who helps, and I want to celebrate our killers today."
+        },
+        {
+          "id": 19,
+          "start": 181.3,
+          "end": 192.3,
+          "text_uk": "Кожного і кожного, хто попри все, попри постійні удари, російські штурви, попри всю цю важку, холодну зиму, захищає наші позиції та знищує окупант.",
+          "text_en": "Everyone who, in spite of the constant blows, Russia's Swamps, despite this difficult, cold winter, defends our position and destroys the invaders."
+        }
+      ],
+      "full_text_uk": "Бажаю здоров'я, коротко про цей день. Доповідь СБУ Євгеній Ахмари, він керує багатьма нашими операціями, саме про це і говорили. Про операції, які відбулися нещодавно. Служба безпеки України працює результативно, я хочу подякувати за це всім оперативникам та спецпризначенцям служби. Про деякі операції, які росіяни вже відчули, говорити публічного ще зарано. Частина операцій в роботі. Погодив також нові. Ми активно захищаємось і всі російські втрати, це те, що наближає закінчення війни. Наші дівстрайки, спеціальні заходи, все має продовжуватись безумовно. Говорив також з Кирилом Бодановим, в тому числі про санкційну політику. Миного року з багатьма партнерами була налагоджена нова співпраця для синхронізації санкцій, але темп має стати значно більше. Російське виробництво ракет і дронів не може існувати без постачання компонентів. З інших країн це стосується не просто якихось російських виробів, а всієї російської зброї. Це зброя, яка будується на компонентах, які сама Росія не виробляє. І тому блокування постачання та розширення санкцій – це один з ключових наших пріоритетів. Це має бути пріоритетом також у партнерів. Наші інституті мають працювати для цього активніше. Боданов доповів і про частину зустрічі в рамках дипломатичного треку. Я очікую повну, детальну доповідь всієї переговорної команди. І фактично кожного дня ми продовжуємо спілкування з американською стороною. Сьогодні Рустим Умеров знову був на контакті з американськими партнерами. Це наше стратегічне завдання. Діалог з Америкою має бути на 100% конструктивним. Україна ніколи не була і не буде перепонною для дипломатії. Наша ефективність в роботі з партнерами завжди найвищого рівня. Так буде і надалі. Тільки Росія є джерелом цієї війни, причиною затягування війни і заслуговує на всі удари і тиск у відповідь за все, що вона робить проти життя і людей, проти дипломатії, проти партнерів. Ми уважно відслідковуємо та фіксуємо всі намагання росіян зламати наші відносини з партнерами. Бачимо, яких лобістів Москва залучає, через кого намагається діяти, які внутрішні операції в Україні та Європі намагаються забускати. Наша протидія буде відчутною і по лінії спеціальних служб, і по лінії наших розвиток, і політичною співпрацією з партнерами, і зокрема санкціями. Важливо, що поновлено рух в Конгресі Сполучених Штатів Америки у напрямку більш жорстких санкцій проти Росії, проти російської нафти. Це дійсно може спрацювати. Я дякую всім, хто допомагає. Я хочу відзначити сьогодні наших вбойнів. Кожного і кожного, хто попри все, попри постійні удари, російські штурви, попри всю цю важку, холодну зиму, захищає наші позиції та знищує окупант.",
+      "full_text_en": "I wish to be healthy, briefly about this day, and that's what Juggenian Ahmar's report, and he's running many of our operations, and that's what we talked about. On recent operations, Ukraine's Security Service has been successful, and I want to thank all of the operating personnel and security officials for this. Some of the operations that the Russians already felt were too early to speak to the public, part of the operation at work. We're actively defending ourselves and all the Russian casualties, that's what's approaching the end of the war, our girls, our special measures, everything should go on for sure. I also spoke to Cyril Bodanov, including the sanctimonial policy, and during the past year, a new partnership was made with many partners to synchronize the sanctions, but the pace has to be much higher. The Russian rocket and drone manufacturing can't exist without a component supply. From other countries, it's not just about Russian products, it's about all Russian weapons. It's a weapon that's built on components that Russia itself doesn't produce, and that's why the provision and expansion of the sanctum is one of our key priorities. It has to be a top priority for partners as well, and our institutions have to work for that more active. I'm expecting a full, detailed report of the entire negotiation team. And in fact, every day, we continue to communicate with the American side, and today, Rust Umerov was back in contact with U.S. partners. The dialogue with America should be 100% constructive. Ukraine has never been and will never be a barrier to diplomacy. Our effectiveness in working with partners is always at the highest level, as it will continue. Russia alone is the source of this war, the cause of this war, and it deserves all the blows and pressures in response to everything it does against life and people, against diplomacy, against partners. We carefully trace and record all Russian attempts to break our relationship with our partners. We can see how the Locists Moscow are involved in what they're trying to do, what internal operations in Ukraine and Europe are trying to get there. Our opposition will be evident through the ranks of special services, through the line of development, and through political cooperation with partners, and in particular sanctions. The important thing is that the movement in the United States Congress is moving toward more rigid sanctions against Russia, against Russian oil. It really can work, and I thank everyone who helps, and I want to celebrate our killers today. Everyone who, in spite of the constant blows, Russia's Swamps, despite this difficult, cold winter, defends our position and destroys the invaders.",
+      "asr_time_sec": 35.722593699989375,
+      "mt_time_sec": 15.594852200010791,
+      "total_time_sec": 51.317445900000166,
+      "whisper_model": "medium",
+      "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+      "language": "uk"
+    },
+    {
+      "audio_file": "Діалог_з_Америкою_seg002.wav",
+      "duration_sec": 98.895,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.21,
+          "end": 22.21,
+          "text_uk": "Покровський напрямок, воїни 38-ї бригади морської піхоти, 425-го кримового штурмового полку, 414-ї бригади безпілотних систем Тахимадяра та 14-ї бригади оперативного призначення Национальної гвардії України «Червона Калина». Дякую вам!",
+          "text_en": "In a covert direction, men of the 38th Marines, 425th ice storm regiment, 414 Tachimadora, and 14th task force of Ukraine's National Guard, \"Calina Charrodena.\" Thank you!"
+        },
+        {
+          "id": 2,
+          "start": 22.21,
+          "end": 38.21,
+          "text_uk": "Краматорський напрямок. Це передусім воїнем 24-ї механізованої бригади. Дякую. Куп'янський напрямок. 43-я механізована бригада та 13-я бригада Национальної гвардії «Харть». Дякую.",
+          "text_en": "It's mainly a 24-man mechanized crew, thank you, the merchant team, 43-management team, and 13th team of the National Guard, which are known as the \"Hartha.\" Thank you."
+        },
+        {
+          "id": 3,
+          "start": 38.21,
+          "end": 54.21,
+          "text_uk": "Дякую. І теж на нашій Харківщині заслуговують на вдячність воїни 72-ї механізованої бригади. Молодці воїни. Воля й поле 5-та штурмова бригада, 1-й та 225-й штурмові полки. Дякую вам!",
+          "text_en": "Thank you, too, on our Kharkivsland, deserves to be thanked by the 72nd Mechanized Brigade."
+        },
+        {
+          "id": 4,
+          "start": 54.21,
+          "end": 64.21,
+          "text_uk": "Дякую всім, хто б є це заради України. Була сьогодні доповідь Михайла Федорова, фактично по плану нашого захисту. Стратегічні речі обговорювали.",
+          "text_en": "Thank you, everyone, for Ukraine, and there was this report today by Michael Fyodorov, based on our plan of defense, and the strategy was discussed."
+        },
+        {
+          "id": 5,
+          "start": 64.21,
+          "end": 83.21,
+          "text_uk": "Розраховують, що парламентарів вже наступного тижня підтримують Михайла на посаду міністра оборони України. Для сфери оборони у нас план дій є. Так само, як і для дипломатії. Це залежить виключно від рішучості партнерів, який план стане основним на рік.",
+          "text_en": "It is estimated that Parliamentarys have been supporting Michael within the next week as secretary of defense of Ukraine, and we have a plan of action for the defense, as well as for diplomacy, and it depends solely on the determination of the partners, which will become the primary policy for the year."
+        },
+        {
+          "id": 6,
+          "start": 83.21,
+          "end": 98.21,
+          "text_uk": "Війну треба завершувати. Для чого на Росії треба тиснути. Той, хто говорить мовою балістики та шахедів, нічого крім сили не зрозуміє. Працюємо, щоб світ діяв ефективно. Слава Україні!",
+          "text_en": "The war has to be finished, and you have to press on in Russia."
+        }
+      ],
+      "full_text_uk": "Покровський напрямок, воїни 38-ї бригади морської піхоти, 425-го кримового штурмового полку, 414-ї бригади безпілотних систем Тахимадяра та 14-ї бригади оперативного призначення Национальної гвардії України «Червона Калина». Дякую вам! Краматорський напрямок. Це передусім воїнем 24-ї механізованої бригади. Дякую. Куп'янський напрямок. 43-я механізована бригада та 13-я бригада Национальної гвардії «Харть». Дякую. Дякую. І теж на нашій Харківщині заслуговують на вдячність воїни 72-ї механізованої бригади. Молодці воїни. Воля й поле 5-та штурмова бригада, 1-й та 225-й штурмові полки. Дякую вам! Дякую всім, хто б є це заради України. Була сьогодні доповідь Михайла Федорова, фактично по плану нашого захисту. Стратегічні речі обговорювали. Розраховують, що парламентарів вже наступного тижня підтримують Михайла на посаду міністра оборони України. Для сфери оборони у нас план дій є. Так само, як і для дипломатії. Це залежить виключно від рішучості партнерів, який план стане основним на рік. Війну треба завершувати. Для чого на Росії треба тиснути. Той, хто говорить мовою балістики та шахедів, нічого крім сили не зрозуміє. Працюємо, щоб світ діяв ефективно. Слава Україні!",
+      "full_text_en": "In a covert direction, men of the 38th Marines, 425th ice storm regiment, 414 Tachimadora, and 14th task force of Ukraine's National Guard, \"Calina Charrodena.\" Thank you! It's mainly a 24-man mechanized crew, thank you, the merchant team, 43-management team, and 13th team of the National Guard, which are known as the \"Hartha.\" Thank you. Thank you, too, on our Kharkivsland, deserves to be thanked by the 72nd Mechanized Brigade. Thank you, everyone, for Ukraine, and there was this report today by Michael Fyodorov, based on our plan of defense, and the strategy was discussed. It is estimated that Parliamentarys have been supporting Michael within the next week as secretary of defense of Ukraine, and we have a plan of action for the defense, as well as for diplomacy, and it depends solely on the determination of the partners, which will become the primary policy for the year. The war has to be finished, and you have to press on in Russia.",
+      "asr_time_sec": 16.439771199948154,
+      "mt_time_sec": 6.812096000008751,
+      "total_time_sec": 23.251867199956905,
+      "whisper_model": "medium",
+      "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+      "language": "uk"
+    },
+    {
+      "audio_file": "Знаємо,_що_росіяни_seg001.wav",
+      "duration_sec": 180.415,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.21,
+          "end": 2.85,
+          "text_uk": "Бажаю здоров'ю! Коротко про сьогодні.",
+          "text_en": "I wish you good health, briefly today."
+        },
+        {
+          "id": 2,
+          "start": 2.85,
+          "end": 9.21,
+          "text_uk": "У всіх регіонах, де є для цього потреба залучені ремонтні бригади та необхідні сили для відновлення.",
+          "text_en": "In all regions where there is a need to do so, repair teams and recovery forces are involved."
+        },
+        {
+          "id": 3,
+          "start": 9.21,
+          "end": 14.17,
+          "text_uk": "Найбільш складна ситуація зараз в Києві. Прежде всім з опаленням.",
+          "text_en": "The most difficult situation right now is in Kiev, before everyone with heating."
+        },
+        {
+          "id": 4,
+          "start": 14.17,
+          "end": 16.65,
+          "text_uk": "Є також значні проблеми з електрикою.",
+          "text_en": "There are also major electricity problems."
+        },
+        {
+          "id": 5,
+          "start": 16.65,
+          "end": 26.17,
+          "text_uk": "Для Києва залучені бригади з багатьох наших регіонів фактично з усієї країни, в тому числі при фронтові регіони, готові допомагати.",
+          "text_en": "Kyiv is involved in teams from many of our regions, actually from all over the country, including the front regions, ready to help."
+        },
+        {
+          "id": 6,
+          "start": 26.61,
+          "end": 35.53,
+          "text_uk": "Я хочу подякувати за допомогу також у Крзалізниці, іншим державним компаніям, всій приватній сфері, хто підтримує людей.",
+          "text_en": "I want to thank you for your help, too, in Crystal, another government company, all the private sector that supports people."
+        },
+        {
+          "id": 7,
+          "start": 35.53,
+          "end": 41.81,
+          "text_uk": "МВС України забезпечувало гаряче харчування в районах в Києві, де це необхідно.",
+          "text_en": "Ukraine's ISS has provided hot food for areas in Kiev, where it is needed."
+        },
+        {
+          "id": 8,
+          "start": 41.81,
+          "end": 49.33,
+          "text_uk": "Тільки за минулу добу 6200 людей в Києві. На Київщині 22 тисячі людей отримали гаряче харчування.",
+          "text_en": "In the last year alone, 6200 people in Kiev received a hot diet of 22,000 people in Kiev."
+        },
+        {
+          "id": 9,
+          "start": 49.33,
+          "end": 53.89,
+          "text_uk": "Готовість збільшувати масштаб такої допомоги, якщо це буде потрібно.",
+          "text_en": "Willingness to increase the scope of such help, if necessary."
+        },
+        {
+          "id": 10,
+          "start": 53.89,
+          "end": 59.09,
+          "text_uk": "Я очікую звіти по всіх тих дорученнях на роботу з партнерами, які були.",
+          "text_en": "I'm expecting reports on all the assignments I've been to work with the partners I've had."
+        },
+        {
+          "id": 11,
+          "start": 59.09,
+          "end": 64.09,
+          "text_uk": "Шукати та купувати обладнання треба було ще до цієї зими.",
+          "text_en": "We had to look for and buy equipment before this winter."
+        },
+        {
+          "id": 12,
+          "start": 64.09,
+          "end": 70.85,
+          "text_uk": "Міська влада в Києві повинна діти значно швидше зараз, щоб хоча б в лютому було людям легше.",
+          "text_en": "City authorities in Kiev should have children much faster now so that they can be easier in February."
+        },
+        {
+          "id": 13,
+          "start": 70.85,
+          "end": 73.85,
+          "text_uk": "Тим більше, щоб всі в уряді готові допомагати.",
+          "text_en": "Especially so that everyone in the government is ready to help."
+        },
+        {
+          "id": 14,
+          "start": 73.85,
+          "end": 81.13,
+          "text_uk": "Регулярні доповіді по ситуації в Чернігові, на Сумщині, Дніпровщина.",
+          "text_en": "Regular reports of the situation in Chernig, Sumsna, Dnieper"
+        },
+        {
+          "id": 15,
+          "start": 81.37,
+          "end": 85.13,
+          "text_uk": "У Кривому протягом дня відновлювали постачання тепла.",
+          "text_en": "During the day, there was renewed heat supply in Crete."
+        },
+        {
+          "id": 16,
+          "start": 85.13,
+          "end": 92.13,
+          "text_uk": "На сьогоднішній ранок не було опалення більш ніж у двох сотнях будинків після російського удару.",
+          "text_en": "By this morning, there was no heat in more than two hundred homes after the Russian blow."
+        },
+        {
+          "id": 17,
+          "start": 92.13,
+          "end": 97.13,
+          "text_uk": "Харківщина, Одесьщина, Запоріжжя. Я хочу подякувати кожному, хто працює.",
+          "text_en": "Kharkivs, Odyssey, Zaporozhye, I want to thank everyone who works."
+        },
+        {
+          "id": 18,
+          "start": 97.13,
+          "end": 100.13,
+          "text_uk": "Щоб люди були з теплом і світлом.",
+          "text_en": "I want people to be warm and light."
+        },
+        {
+          "id": 19,
+          "start": 100.13,
+          "end": 106.13,
+          "text_uk": "Значні відключення також в Валтавській області, також на Кіровоградщині, на Миколаївщині,",
+          "text_en": "Major disfellowshippings also took place in the Valvas region, also in Kyravograds, in Nicholasland,"
+        },
+        {
+          "id": 20,
+          "start": 106.13,
+          "end": 110.13,
+          "text_uk": "в Вінницькій та Чернівецькій областях.",
+          "text_en": "It's in the Vinnycchia and the Chernitz region."
+        },
+        {
+          "id": 21,
+          "start": 110.13,
+          "end": 112.13,
+          "text_uk": "Говорив з президентом Франції.",
+          "text_en": "He spoke to the president of France."
+        },
+        {
+          "id": 22,
+          "start": 112.13,
+          "end": 116.13,
+          "text_uk": "Менуель відзначив виклики, які є.",
+          "text_en": "Menuel noted the challenges that there are."
+        },
+        {
+          "id": 23,
+          "start": 116.13,
+          "end": 120.13,
+          "text_uk": "Ми говорили про допомогу Україні, яку ми зараз потребуємо найбільше.",
+          "text_en": "We talked about Ukraine's help, which we need most now."
+        },
+        {
+          "id": 24,
+          "start": 120.13,
+          "end": 123.13,
+          "text_uk": "Розраховуємо на підтримку Європи.",
+          "text_en": "We're counting on European support."
+        },
+        {
+          "id": 25,
+          "start": 123.13,
+          "end": 127.13,
+          "text_uk": "Важливо, щоб лідери та держави не мовчали про те, що відбувається.",
+          "text_en": "It's important that leaders and states remain silent about what's going on."
+        },
+        {
+          "id": 26,
+          "start": 127.13,
+          "end": 132.13,
+          "text_uk": "Не мовчали про те, що росіяни все одно намагаються завдати українцям",
+          "text_en": "They didn't say that the Russians were still trying to hurt the Ukrainians."
+        },
+        {
+          "id": 27,
+          "start": 132.13,
+          "end": 136.13,
+          "text_uk": "якнайбільшу болю, не зважаючи на жодну дипломаті.",
+          "text_en": "The worst pain, no matter what diplomacy."
+        },
+        {
+          "id": 28,
+          "start": 137.13,
+          "end": 141.13,
+          "text_uk": "Знаємо і про те, що росіяни готуються до нового удару.",
+          "text_en": "We also know that the Russians are preparing for a new blow."
+        },
+        {
+          "id": 29,
+          "start": 141.13,
+          "end": 147.13,
+          "text_uk": "Розвідка дає інформацію, що до цього треба, щоб зараз Америка, зараз Європа,",
+          "text_en": "Reconnaissance gives the information that we need to get America, now Europe,"
+        },
+        {
+          "id": 30,
+          "start": 147.13,
+          "end": 153.13,
+          "text_uk": "зараз всі партнери розуміли, як це дискредитує дипломатичні розмови.",
+          "text_en": "Now all the partners understood how this discredits diplomatic conversations."
+        },
+        {
+          "id": 31,
+          "start": 153.13,
+          "end": 156.13,
+          "text_uk": "Кожен з російських ударів.",
+          "text_en": "Every single Russian beat."
+        },
+        {
+          "id": 32,
+          "start": 156.13,
+          "end": 160.13,
+          "text_uk": "Сьогодні росіяни на Київщині убили жінку та чоловіка.",
+          "text_en": "Today, Russians in Kyivs killed a woman and a man."
+        },
+        {
+          "id": 33,
+          "start": 160.13,
+          "end": 162.13,
+          "text_uk": "Просто люди були в своїй квартирі.",
+          "text_en": "It's just that people were in their apartment."
+        },
+        {
+          "id": 34,
+          "start": 162.13,
+          "end": 164.13,
+          "text_uk": "Ми з півчуття рідним та близьким.",
+          "text_en": "Half the family and I are close."
+        },
+        {
+          "id": 35,
+          "start": 164.13,
+          "end": 167.13,
+          "text_uk": "Дитину чотири роки вдалось врятувати.",
+          "text_en": "The child was rescued for four years."
+        },
+        {
+          "id": 36,
+          "start": 167.13,
+          "end": 170.13,
+          "text_uk": "Я хочу подякувати Мар'яну Кушніру.",
+          "text_en": "I want to thank Marian Kushner."
+        },
+        {
+          "id": 37,
+          "start": 170.13,
+          "end": 175.13,
+          "text_uk": "Журналісту радіосвобода Ваенкору, який мужньо дієв, врятував цю дівчинку.",
+          "text_en": "Radio Freedom Journalist Weenkor, who is now active, has saved the girl."
+        },
+        {
+          "id": 38,
+          "start": 175.13,
+          "end": 180.13,
+          "text_uk": "Багато залежить саме від того, що наші люди не втрачають мужності.",
+          "text_en": "Much depends on the courage of our people."
+        }
+      ],
+      "full_text_uk": "Бажаю здоров'ю! Коротко про сьогодні. У всіх регіонах, де є для цього потреба залучені ремонтні бригади та необхідні сили для відновлення. Найбільш складна ситуація зараз в Києві. Прежде всім з опаленням. Є також значні проблеми з електрикою. Для Києва залучені бригади з багатьох наших регіонів фактично з усієї країни, в тому числі при фронтові регіони, готові допомагати. Я хочу подякувати за допомогу також у Крзалізниці, іншим державним компаніям, всій приватній сфері, хто підтримує людей. МВС України забезпечувало гаряче харчування в районах в Києві, де це необхідно. Тільки за минулу добу 6200 людей в Києві. На Київщині 22 тисячі людей отримали гаряче харчування. Готовість збільшувати масштаб такої допомоги, якщо це буде потрібно. Я очікую звіти по всіх тих дорученнях на роботу з партнерами, які були. Шукати та купувати обладнання треба було ще до цієї зими. Міська влада в Києві повинна діти значно швидше зараз, щоб хоча б в лютому було людям легше. Тим більше, щоб всі в уряді готові допомагати. Регулярні доповіді по ситуації в Чернігові, на Сумщині, Дніпровщина. У Кривому протягом дня відновлювали постачання тепла. На сьогоднішній ранок не було опалення більш ніж у двох сотнях будинків після російського удару. Харківщина, Одесьщина, Запоріжжя. Я хочу подякувати кожному, хто працює. Щоб люди були з теплом і світлом. Значні відключення також в Валтавській області, також на Кіровоградщині, на Миколаївщині, в Вінницькій та Чернівецькій областях. Говорив з президентом Франції. Менуель відзначив виклики, які є. Ми говорили про допомогу Україні, яку ми зараз потребуємо найбільше. Розраховуємо на підтримку Європи. Важливо, щоб лідери та держави не мовчали про те, що відбувається. Не мовчали про те, що росіяни все одно намагаються завдати українцям якнайбільшу болю, не зважаючи на жодну дипломаті. Знаємо і про те, що росіяни готуються до нового удару. Розвідка дає інформацію, що до цього треба, щоб зараз Америка, зараз Європа, зараз всі партнери розуміли, як це дискредитує дипломатичні розмови. Кожен з російських ударів. Сьогодні росіяни на Київщині убили жінку та чоловіка. Просто люди були в своїй квартирі. Ми з півчуття рідним та близьким. Дитину чотири роки вдалось врятувати. Я хочу подякувати Мар'яну Кушніру. Журналісту радіосвобода Ваенкору, який мужньо дієв, врятував цю дівчинку. Багато залежить саме від того, що наші люди не втрачають мужності.",
+      "full_text_en": "I wish you good health, briefly today. In all regions where there is a need to do so, repair teams and recovery forces are involved. The most difficult situation right now is in Kiev, before everyone with heating. There are also major electricity problems. Kyiv is involved in teams from many of our regions, actually from all over the country, including the front regions, ready to help. I want to thank you for your help, too, in Crystal, another government company, all the private sector that supports people. Ukraine's ISS has provided hot food for areas in Kiev, where it is needed. In the last year alone, 6200 people in Kiev received a hot diet of 22,000 people in Kiev. Willingness to increase the scope of such help, if necessary. I'm expecting reports on all the assignments I've been to work with the partners I've had. We had to look for and buy equipment before this winter. City authorities in Kiev should have children much faster now so that they can be easier in February. Especially so that everyone in the government is ready to help. Regular reports of the situation in Chernig, Sumsna, Dnieper During the day, there was renewed heat supply in Crete. By this morning, there was no heat in more than two hundred homes after the Russian blow. Kharkivs, Odyssey, Zaporozhye, I want to thank everyone who works. I want people to be warm and light. Major disfellowshippings also took place in the Valvas region, also in Kyravograds, in Nicholasland, It's in the Vinnycchia and the Chernitz region. He spoke to the president of France. Menuel noted the challenges that there are. We talked about Ukraine's help, which we need most now. We're counting on European support. It's important that leaders and states remain silent about what's going on. They didn't say that the Russians were still trying to hurt the Ukrainians. The worst pain, no matter what diplomacy. We also know that the Russians are preparing for a new blow. Reconnaissance gives the information that we need to get America, now Europe, Now all the partners understood how this discredits diplomatic conversations. Every single Russian beat. Today, Russians in Kyivs killed a woman and a man. It's just that people were in their apartment. Half the family and I are close. The child was rescued for four years. I want to thank Marian Kushner. Radio Freedom Journalist Weenkor, who is now active, has saved the girl. Much depends on the courage of our people.",
+      "asr_time_sec": 34.80917500000214,
+      "mt_time_sec": 15.251120300032198,
+      "total_time_sec": 50.06029530003434,
+      "whisper_model": "medium",
+      "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+      "language": "uk"
+    },
+    {
+      "audio_file": "Знаємо,_що_росіяни_seg002.wav",
+      "duration_sec": 204.2,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 8.0,
+          "text_uk": "Напередодні, росіяни ударили по звичайному цивільному потягу, дронами вдарили, були загибли, були поранені.",
+          "text_en": "On the eve of the day, the Russians hit the normal civilian train, hit the drones, were killed, injured."
+        },
+        {
+          "id": 2,
+          "start": 8.0,
+          "end": 19.0,
+          "text_uk": "В потязі їхав український сержант, воїн 93 окремої механізованої бригади Владислав Рожковський, позивний Омар.",
+          "text_en": "In the train, a Ukrainian sergeant, a warrior of 93 individual mechanized team, Vladislav Rozkowski, called Omar, traveled."
+        },
+        {
+          "id": 3,
+          "start": 19.0,
+          "end": 25.0,
+          "text_uk": "Не розгубився і все, що міг, робив заради того, щоб допомогти іншим.",
+          "text_en": "He did all he could to help others."
+        },
+        {
+          "id": 4,
+          "start": 25.0,
+          "end": 35.0,
+          "text_uk": "Я хочу подякувати тобі, Владислава. Дякую всім, хто робить зараз все можливе і неможливо, щоб врятувати як найбільше людей, як найбільше життів.",
+          "text_en": "I want to thank you, Vladislav, and thank you, everyone who's doing everything he can right now, and it's not possible to save as many people as the greatest lives."
+        },
+        {
+          "id": 5,
+          "start": 35.0,
+          "end": 47.0,
+          "text_uk": "Говорила сьогодні з Татою Кеплером, українською волонтеркою, яка багато допомогла в розвитку нашої тактичної медицини та в порятунку наших воїнів.",
+          "text_en": "I spoke to my father today, Kepler, a Ukrainian volunteer who has helped a great deal in the development of our tactics medicine and in the survival of our warriors."
+        },
+        {
+          "id": 6,
+          "start": 47.0,
+          "end": 53.0,
+          "text_uk": "Українські хірури, українські лікарі роблять дивовижні операції, рятуючи життя в умовах війни.",
+          "text_en": "Ukrainian Hiruras, Ukrainian doctors, perform amazing operations to save lives in the face of war."
+        },
+        {
+          "id": 7,
+          "start": 53.0,
+          "end": 63.0,
+          "text_uk": "Це досвід, який треба масштабувати і який треба підтримати, але не словами, а рішеннями, розвитком наших державних інституцій.",
+          "text_en": "It's an experience that needs to be scaled up and supported, not by words, but by solutions, by the development of our public institutions."
+        },
+        {
+          "id": 8,
+          "start": 63.0,
+          "end": 76.0,
+          "text_uk": "Ми домовили, що Тата разом з діючими військовими медиками дадуть пропозиції, як зробити більш сильну підготовку військових, саме з точки зору, медицини.",
+          "text_en": "We agreed that Tata, along with active military professionals, would offer suggestions on how to make military training more powerful, from the point of view, medicine."
+        },
+        {
+          "id": 9,
+          "start": 77.0,
+          "end": 84.0,
+          "text_uk": "Поранень, військових травм, уміння допомогти побратим украйшую та більш швидку евакуацію.",
+          "text_en": "Injuries, military traumas, skills to help the brothers with increased and more rapid evacuation."
+        },
+        {
+          "id": 10,
+          "start": 84.0,
+          "end": 92.0,
+          "text_uk": "Як зробити український такмед ще сильніш? Є що зробити і є досвід, який треба поширити.",
+          "text_en": "How do you make the Ukrainian bear stronger? There's something to do, and there's an experience that needs to be extended."
+        },
+        {
+          "id": 11,
+          "start": 92.0,
+          "end": 95.0,
+          "text_uk": "Дякую всім, хто саме цим займається.",
+          "text_en": "Thank you everyone who does that."
+        },
+        {
+          "id": 12,
+          "start": 95.0,
+          "end": 104.0,
+          "text_uk": "Була доповідь генерал-майора Хмари, передусім про бойові операції Служби безпеки України, те, що стосується нашого фронту.",
+          "text_en": "There was a report by Major General Cloud, above all about combat operations in Ukraine's Security Service, about what's going on with our front."
+        },
+        {
+          "id": 13,
+          "start": 104.0,
+          "end": 110.0,
+          "text_uk": "Зокрема, дій Альфи і те, що Служба робить цілком справедливо на території агресора.",
+          "text_en": "In particular, Alfi's actions and what the Service does is fairly fair in the territory of the Aggressor."
+        },
+        {
+          "id": 14,
+          "start": 110.0,
+          "end": 117.0,
+          "text_uk": "У відповідь на всі удари, у відповідь на все російське зло, яке прийшло на нашу землю.",
+          "text_en": "In response to all the blows, in response to all the Russian evil that came upon our earth."
+        },
+        {
+          "id": 15,
+          "start": 117.0,
+          "end": 125.0,
+          "text_uk": "Пишаюся нашими спецпризначенцями, також говорили про контроль за всіма процесами у сфері військового виробництва.",
+          "text_en": "I'm proud of our special forces, and I've also been talking about control of all military production processes."
+        },
+        {
+          "id": 16,
+          "start": 125.0,
+          "end": 133.0,
+          "text_uk": "Максимальна чіткість має бути і все, що потрібно Україні, має вироблятись саме так, як потрібно Україні.",
+          "text_en": "The maximum clarity of Ukraine is going to have to be exactly what Ukraine needs to produce."
+        },
+        {
+          "id": 17,
+          "start": 133.0,
+          "end": 141.0,
+          "text_uk": "Без будь-яких шансів на російській диверсії чи будь-яких внутрішнього бруду, корупції і тому подібного.",
+          "text_en": "Without any chance of a Russian division or any internal filth, corruption, etc."
+        },
+        {
+          "id": 18,
+          "start": 141.0,
+          "end": 148.0,
+          "text_uk": "Це багато, в чому відповідальність Служби безпеки України, що була реальна чистота процесів.",
+          "text_en": "That's a lot of the responsibility of Ukraine's Security Service, which was the real cleanliness of the processes."
+        },
+        {
+          "id": 19,
+          "start": 148.0,
+          "end": 156.0,
+          "text_uk": "Ще одне, коли є стільки дипломатичних зусиль, щоб завершити цю війну, коли і американці говорять з росіянами,",
+          "text_en": "One more thing, when there's so much diplomatic effort to end this war, when Americans talk to the Russians,"
+        },
+        {
+          "id": 20,
+          "start": 157.0,
+          "end": 167.0,
+          "text_uk": "і європейці намагаються, щоб вся ця дипломатія мала реальну вагу для людей, реальне значення в ситуації зараз.",
+          "text_en": "And Europeans are trying to make this diplomacy really important for people now."
+        },
+        {
+          "id": 21,
+          "start": 167.0,
+          "end": 178.0,
+          "text_uk": "Коли російські удари продовжуються, коли штурми тривають, людям складно відчувати, що дипломатія конструктивна і може дати результат.",
+          "text_en": "As the Russian blows continue, as the storm lasts, people find it difficult to feel that diplomacy is constructive and can produce results."
+        },
+        {
+          "id": 22,
+          "start": 178.0,
+          "end": 188.0,
+          "text_uk": "Треба думати усім, хто справді хоче миру, як забезпечити, щоб не до нових масованих атак росіяни видувалися, а до закінчення війни.",
+          "text_en": "You have to think to all of you who really want peace, how to make sure that you don't have the Russians coming out before the war is over."
+        },
+        {
+          "id": 23,
+          "start": 188.0,
+          "end": 197.0,
+          "text_uk": "У світу є сила, щоб це забезпечити, треба тільки користуватись цією силою, заради миру, безумовно.",
+          "text_en": "The world has the power to provide that, you only have to use that power, for peace, of course."
+        },
+        {
+          "id": 24,
+          "start": 197.0,
+          "end": 204.0,
+          "text_uk": "Дякую всім, хто сприймає ситуацію саме так. Слава Україні!",
+          "text_en": "Thank you, everyone who sees this situation this way."
+        }
+      ],
+      "full_text_uk": "Напередодні, росіяни ударили по звичайному цивільному потягу, дронами вдарили, були загибли, були поранені. В потязі їхав український сержант, воїн 93 окремої механізованої бригади Владислав Рожковський, позивний Омар. Не розгубився і все, що міг, робив заради того, щоб допомогти іншим. Я хочу подякувати тобі, Владислава. Дякую всім, хто робить зараз все можливе і неможливо, щоб врятувати як найбільше людей, як найбільше життів. Говорила сьогодні з Татою Кеплером, українською волонтеркою, яка багато допомогла в розвитку нашої тактичної медицини та в порятунку наших воїнів. Українські хірури, українські лікарі роблять дивовижні операції, рятуючи життя в умовах війни. Це досвід, який треба масштабувати і який треба підтримати, але не словами, а рішеннями, розвитком наших державних інституцій. Ми домовили, що Тата разом з діючими військовими медиками дадуть пропозиції, як зробити більш сильну підготовку військових, саме з точки зору, медицини. Поранень, військових травм, уміння допомогти побратим украйшую та більш швидку евакуацію. Як зробити український такмед ще сильніш? Є що зробити і є досвід, який треба поширити. Дякую всім, хто саме цим займається. Була доповідь генерал-майора Хмари, передусім про бойові операції Служби безпеки України, те, що стосується нашого фронту. Зокрема, дій Альфи і те, що Служба робить цілком справедливо на території агресора. У відповідь на всі удари, у відповідь на все російське зло, яке прийшло на нашу землю. Пишаюся нашими спецпризначенцями, також говорили про контроль за всіма процесами у сфері військового виробництва. Максимальна чіткість має бути і все, що потрібно Україні, має вироблятись саме так, як потрібно Україні. Без будь-яких шансів на російській диверсії чи будь-яких внутрішнього бруду, корупції і тому подібного. Це багато, в чому відповідальність Служби безпеки України, що була реальна чистота процесів. Ще одне, коли є стільки дипломатичних зусиль, щоб завершити цю війну, коли і американці говорять з росіянами, і європейці намагаються, щоб вся ця дипломатія мала реальну вагу для людей, реальне значення в ситуації зараз. Коли російські удари продовжуються, коли штурми тривають, людям складно відчувати, що дипломатія конструктивна і може дати результат. Треба думати усім, хто справді хоче миру, як забезпечити, щоб не до нових масованих атак росіяни видувалися, а до закінчення війни. У світу є сила, щоб це забезпечити, треба тільки користуватись цією силою, заради миру, безумовно. Дякую всім, хто сприймає ситуацію саме так. Слава Україні!",
+      "full_text_en": "On the eve of the day, the Russians hit the normal civilian train, hit the drones, were killed, injured. In the train, a Ukrainian sergeant, a warrior of 93 individual mechanized team, Vladislav Rozkowski, called Omar, traveled. He did all he could to help others. I want to thank you, Vladislav, and thank you, everyone who's doing everything he can right now, and it's not possible to save as many people as the greatest lives. I spoke to my father today, Kepler, a Ukrainian volunteer who has helped a great deal in the development of our tactics medicine and in the survival of our warriors. Ukrainian Hiruras, Ukrainian doctors, perform amazing operations to save lives in the face of war. It's an experience that needs to be scaled up and supported, not by words, but by solutions, by the development of our public institutions. We agreed that Tata, along with active military professionals, would offer suggestions on how to make military training more powerful, from the point of view, medicine. Injuries, military traumas, skills to help the brothers with increased and more rapid evacuation. How do you make the Ukrainian bear stronger? There's something to do, and there's an experience that needs to be extended. Thank you everyone who does that. There was a report by Major General Cloud, above all about combat operations in Ukraine's Security Service, about what's going on with our front. In particular, Alfi's actions and what the Service does is fairly fair in the territory of the Aggressor. In response to all the blows, in response to all the Russian evil that came upon our earth. I'm proud of our special forces, and I've also been talking about control of all military production processes. The maximum clarity of Ukraine is going to have to be exactly what Ukraine needs to produce. Without any chance of a Russian division or any internal filth, corruption, etc. That's a lot of the responsibility of Ukraine's Security Service, which was the real cleanliness of the processes. One more thing, when there's so much diplomatic effort to end this war, when Americans talk to the Russians, And Europeans are trying to make this diplomacy really important for people now. As the Russian blows continue, as the storm lasts, people find it difficult to feel that diplomacy is constructive and can produce results. You have to think to all of you who really want peace, how to make sure that you don't have the Russians coming out before the war is over. The world has the power to provide that, you only have to use that power, for peace, of course. Thank you, everyone who sees this situation this way.",
+      "asr_time_sec": 34.173918000014964,
+      "mt_time_sec": 13.848603799997363,
+      "total_time_sec": 48.02252180001233,
+      "whisper_model": "medium",
+      "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+      "language": "uk"
+    },
+    {
+      "audio_file": "Командна_ланка_seg001.wav",
+      "duration_sec": 184.96,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.4,
+          "end": 3.4,
+          "text_uk": "Шановні українці-українки, коротко про цей день.",
+          "text_en": "Dear Ukrainian Ukrainians, briefly about this day."
+        },
+        {
+          "id": 2,
+          "start": 3.4,
+          "end": 7.4,
+          "text_uk": "Енергетика, фактично, постійно триває відновлення після ударів.",
+          "text_en": "Energy, in fact, continues to resume recovery after strokes."
+        },
+        {
+          "id": 3,
+          "start": 7.4,
+          "end": 11.4,
+          "text_uk": "Це стосується не тільки Києва, але і Харкова та області,",
+          "text_en": "This applies not only to Kiev but also to Kharkova and the region,"
+        },
+        {
+          "id": 4,
+          "start": 11.4,
+          "end": 17.4,
+          "text_uk": "Запоріжжя, Дніпрощини, Дніпра, Кривого, Чернігівщини, Сумщини, всі.",
+          "text_en": "Zapora, Dnieper, Dnieper, Crimea, Chernihivs, Sublimia, all."
+        },
+        {
+          "id": 5,
+          "start": 17.4,
+          "end": 20.4,
+          "text_uk": "Всі регіони, де ситуація найскладніша.",
+          "text_en": "All regions where the situation is the hardest."
+        },
+        {
+          "id": 6,
+          "start": 20.4,
+          "end": 24.4,
+          "text_uk": "Безперечно, у Києві викликів зараз найбільше,",
+          "text_en": "Of course, the most challenging of all is now in Kiev."
+        },
+        {
+          "id": 7,
+          "start": 24.4,
+          "end": 27.4,
+          "text_uk": "я очікую, від київської влади, посилення робот.",
+          "text_en": "I expect the Kyiv government to increase the robot."
+        },
+        {
+          "id": 8,
+          "start": 27.4,
+          "end": 31.4,
+          "text_uk": "Багато міста, громад готовий допомогти. Уряд готовий допомогти.",
+          "text_en": "Many cities, communities are ready to help."
+        },
+        {
+          "id": 9,
+          "start": 31.4,
+          "end": 34.4,
+          "text_uk": "Всі доручення, можливості, все є.",
+          "text_en": "Every mission, every opportunity, everything is there."
+        },
+        {
+          "id": 10,
+          "start": 34.4,
+          "end": 39.4,
+          "text_uk": "174 бригади працюють. Це значний ресурс, який зараз спрямували на Київ.",
+          "text_en": "174 teams are working, it's a huge resource that is now being sent to Kiev."
+        },
+        {
+          "id": 11,
+          "start": 39.4,
+          "end": 42.4,
+          "text_uk": "Є певні результати, але недостатньо.",
+          "text_en": "There are certain results, but not enough."
+        },
+        {
+          "id": 12,
+          "start": 42.4,
+          "end": 44.4,
+          "text_uk": "Значна частина будинків без опалення,",
+          "text_en": "A lot of homes without heating,"
+        },
+        {
+          "id": 13,
+          "start": 44.4,
+          "end": 48.4,
+          "text_uk": "всеред них є ті, що без опалення тривалий час.",
+          "text_en": "There are those without heat for a long time."
+        },
+        {
+          "id": 14,
+          "start": 48.4,
+          "end": 52.4,
+          "text_uk": "Я доручив уряду спрямувати додаткові ресурси.",
+          "text_en": "I commissioned the government to send additional resources."
+        },
+        {
+          "id": 15,
+          "start": 52.4,
+          "end": 54.4,
+          "text_uk": "МВС працює по своїй лінії.",
+          "text_en": "The ISS works on its own line."
+        },
+        {
+          "id": 16,
+          "start": 54.4,
+          "end": 57.4,
+          "text_uk": "Масштабуємо пункти підтримки та обігріву.",
+          "text_en": "We're zooming in on support points, and we're zooming in."
+        },
+        {
+          "id": 17,
+          "start": 57.4,
+          "end": 60.4,
+          "text_uk": "Всі в уряді працюватимуть з партнерами,",
+          "text_en": "Everyone in the government is going to work with their partners,"
+        },
+        {
+          "id": 18,
+          "start": 60.4,
+          "end": 64.4,
+          "text_uk": "щоб якомога швидше отримали саме додаткове обладнання.",
+          "text_en": "So that as soon as possible, we can get exactly the extra equipment."
+        },
+        {
+          "id": 19,
+          "start": 64.4,
+          "end": 66.4,
+          "text_uk": "Я дякую всім нашим друзям.",
+          "text_en": "I thank all our friends."
+        },
+        {
+          "id": 20,
+          "start": 66.4,
+          "end": 68.4,
+          "text_uk": "І це різні європейські країни.",
+          "text_en": "And these are different European countries."
+        },
+        {
+          "id": 21,
+          "start": 68.4,
+          "end": 73.4,
+          "text_uk": "Від Норвегії до Італії, Польща, Німеччина, держава Балдія.",
+          "text_en": "From Norway to Italy, Poland, Germany, the state of Baldia."
+        },
+        {
+          "id": 22,
+          "start": 73.4,
+          "end": 77.4,
+          "text_uk": "Багато хто ще, хто зараз підтримує Україну, наші міста,",
+          "text_en": "Many others who now support Ukraine, our cities,"
+        },
+        {
+          "id": 23,
+          "start": 77.4,
+          "end": 79.4,
+          "text_uk": "і багато робить для Києва.",
+          "text_en": "And he does much for Kiev."
+        },
+        {
+          "id": 24,
+          "start": 79.4,
+          "end": 82.4,
+          "text_uk": "Окриму говорили сьогодні з міністром оборони,",
+          "text_en": "They spoke to the Secretary of Defense today,"
+        },
+        {
+          "id": 25,
+          "start": 82.4,
+          "end": 84.4,
+          "text_uk": "до захисту об'єктів енергетки.",
+          "text_en": "to protect energy."
+        },
+        {
+          "id": 26,
+          "start": 84.4,
+          "end": 88.4,
+          "text_uk": "Також з командувачем Збройних сил України,",
+          "text_en": "Also with the commander of Ukraine's Armed Forces,"
+        },
+        {
+          "id": 27,
+          "start": 88.4,
+          "end": 93.4,
+          "text_uk": "командна ланка повітряних сил має бути значно швидшою у захисті.",
+          "text_en": "The air force's command link has to be much faster in defense."
+        },
+        {
+          "id": 28,
+          "start": 93.4,
+          "end": 97.4,
+          "text_uk": "Сьогодні була також повна доповідь нашої делегації.",
+          "text_en": "Today, too, there was a full report of our delegation."
+        },
+        {
+          "id": 29,
+          "start": 97.4,
+          "end": 101.4,
+          "text_uk": "Хлопці повернулися після тристоронніх зустрічей.",
+          "text_en": "The boys came back after three-way meetings."
+        },
+        {
+          "id": 30,
+          "start": 101.4,
+          "end": 107.4,
+          "text_uk": "За довгий час був знову формат з американцями та росіянами.",
+          "text_en": "Over the years, there has been another format with the Americans and the Russians."
+        },
+        {
+          "id": 31,
+          "start": 107.4,
+          "end": 111.4,
+          "text_uk": "Встигло обговорити різні питання більше військового характеру.",
+          "text_en": "As a result, various matters of more military character were discussed."
+        },
+        {
+          "id": 32,
+          "start": 111.4,
+          "end": 117.4,
+          "text_uk": "Якщо стосується кроків для закінчення війни та реального контролю,",
+          "text_en": "If it's about steps to end war and real control,"
+        },
+        {
+          "id": 33,
+          "start": 117.4,
+          "end": 122.4,
+          "text_uk": "моніторингу, є питання, які мають бути підготовлені на наступну зустріч.",
+          "text_en": "monitoring, there are questions to be prepared for the next meeting."
+        },
+        {
+          "id": 34,
+          "start": 122.4,
+          "end": 128.4,
+          "text_uk": "Попередньо ми говорили про те, що команди зустрінуться ще раз в неділю.",
+          "text_en": "We talked earlier about having teams meet again on Sunday."
+        },
+        {
+          "id": 35,
+          "start": 128.4,
+          "end": 131.4,
+          "text_uk": "Буде добре, якщо вдасться прискорити цю зустріч.",
+          "text_en": "It will be good to be able to speed up this meeting."
+        },
+        {
+          "id": 36,
+          "start": 131.4,
+          "end": 136.4,
+          "text_uk": "Україна буде максимально підготовленою по всіх речах,",
+          "text_en": "Ukraine will be as fully prepared as possible,"
+        },
+        {
+          "id": 37,
+          "start": 136.4,
+          "end": 139.4,
+          "text_uk": "які мають бути обговорені до узгодження.",
+          "text_en": "magazines to be discussed before reconciliation."
+        },
+        {
+          "id": 38,
+          "start": 139.4,
+          "end": 144.4,
+          "text_uk": "Україна завжди є і буде на стороні миру і єдиний,",
+          "text_en": "Ukraine is always and always will be on the side of peace and one,"
+        },
+        {
+          "id": 39,
+          "start": 144.4,
+          "end": 147.4,
+          "text_uk": "через кого ця війна досі триває, Росією.",
+          "text_en": "That's who this war is still going on, Russia."
+        },
+        {
+          "id": 40,
+          "start": 147.4,
+          "end": 149.4,
+          "text_uk": "Потрібні реальні результати дипломатії,",
+          "text_en": "We need real results of diplomacy,"
+        },
+        {
+          "id": 41,
+          "start": 149.4,
+          "end": 155.4,
+          "text_uk": "щоб не було враження, що росіяни використовують і переговорний процес,",
+          "text_en": "So that it doesn't feel like the Russians are using and negotiating a process,"
+        },
+        {
+          "id": 42,
+          "start": 155.4,
+          "end": 163.94,
+          "text_uk": "і з дуже цинічною жорсткою метою відсувають нові заходи тиску",
+          "text_en": "and for a very cynical, hard reason to remove new pressures"
+        },
+        {
+          "id": 43,
+          "start": 163.94,
+          "end": 165.94,
+          "text_uk": "на Росію, які могли б спрацювати.",
+          "text_en": "Russia, which could have worked."
+        },
+        {
+          "id": 44,
+          "start": 165.94,
+          "end": 168.94,
+          "text_uk": "А тиск потрібен, саме тиск, його наслідки,",
+          "text_en": "And you need the pressure, the pressure, the consequences,"
+        },
+        {
+          "id": 45,
+          "start": 168.94,
+          "end": 172.94,
+          "text_uk": "результат санкцій, результат блокування російських операцій.",
+          "text_en": "result of sanctifications, result of blocking Russian operations."
+        },
+        {
+          "id": 46,
+          "start": 172.94,
+          "end": 175.94,
+          "text_uk": "Все це працює на зупинку війн.",
+          "text_en": "All of this works at the end of the war."
+        },
+        {
+          "id": 47,
+          "start": 175.94,
+          "end": 178.94,
+          "text_uk": "Треба, щоб партнери про це не забували.",
+          "text_en": "I need my partners to remember that."
+        },
+        {
+          "id": 48,
+          "start": 178.94,
+          "end": 180.94,
+          "text_uk": "Я дякую всім, хто з Україною.",
+          "text_en": "I thank everyone from Ukraine."
+        },
+        {
+          "id": 49,
+          "start": 180.94,
+          "end": 183.94,
+          "text_uk": "Дякую всім, хто нам допомагає.",
+          "text_en": "Thank you all for helping us."
+        },
+        {
+          "id": 50,
+          "start": 183.94,
+          "end": 184.94,
+          "text_uk": "Слава Україні!",
+          "text_en": "Thank you, Ukraine!"
+        }
+      ],
+      "full_text_uk": "Шановні українці-українки, коротко про цей день. Енергетика, фактично, постійно триває відновлення після ударів. Це стосується не тільки Києва, але і Харкова та області, Запоріжжя, Дніпрощини, Дніпра, Кривого, Чернігівщини, Сумщини, всі. Всі регіони, де ситуація найскладніша. Безперечно, у Києві викликів зараз найбільше, я очікую, від київської влади, посилення робот. Багато міста, громад готовий допомогти. Уряд готовий допомогти. Всі доручення, можливості, все є. 174 бригади працюють. Це значний ресурс, який зараз спрямували на Київ. Є певні результати, але недостатньо. Значна частина будинків без опалення, всеред них є ті, що без опалення тривалий час. Я доручив уряду спрямувати додаткові ресурси. МВС працює по своїй лінії. Масштабуємо пункти підтримки та обігріву. Всі в уряді працюватимуть з партнерами, щоб якомога швидше отримали саме додаткове обладнання. Я дякую всім нашим друзям. І це різні європейські країни. Від Норвегії до Італії, Польща, Німеччина, держава Балдія. Багато хто ще, хто зараз підтримує Україну, наші міста, і багато робить для Києва. Окриму говорили сьогодні з міністром оборони, до захисту об'єктів енергетки. Також з командувачем Збройних сил України, командна ланка повітряних сил має бути значно швидшою у захисті. Сьогодні була також повна доповідь нашої делегації. Хлопці повернулися після тристоронніх зустрічей. За довгий час був знову формат з американцями та росіянами. Встигло обговорити різні питання більше військового характеру. Якщо стосується кроків для закінчення війни та реального контролю, моніторингу, є питання, які мають бути підготовлені на наступну зустріч. Попередньо ми говорили про те, що команди зустрінуться ще раз в неділю. Буде добре, якщо вдасться прискорити цю зустріч. Україна буде максимально підготовленою по всіх речах, які мають бути обговорені до узгодження. Україна завжди є і буде на стороні миру і єдиний, через кого ця війна досі триває, Росією. Потрібні реальні результати дипломатії, щоб не було враження, що росіяни використовують і переговорний процес, і з дуже цинічною жорсткою метою відсувають нові заходи тиску на Росію, які могли б спрацювати. А тиск потрібен, саме тиск, його наслідки, результат санкцій, результат блокування російських операцій. Все це працює на зупинку війн. Треба, щоб партнери про це не забували. Я дякую всім, хто з Україною. Дякую всім, хто нам допомагає. Слава Україні!",
+      "full_text_en": "Dear Ukrainian Ukrainians, briefly about this day. Energy, in fact, continues to resume recovery after strokes. This applies not only to Kiev but also to Kharkova and the region, Zapora, Dnieper, Dnieper, Crimea, Chernihivs, Sublimia, all. All regions where the situation is the hardest. Of course, the most challenging of all is now in Kiev. I expect the Kyiv government to increase the robot. Many cities, communities are ready to help. Every mission, every opportunity, everything is there. 174 teams are working, it's a huge resource that is now being sent to Kiev. There are certain results, but not enough. A lot of homes without heating, There are those without heat for a long time. I commissioned the government to send additional resources. The ISS works on its own line. We're zooming in on support points, and we're zooming in. Everyone in the government is going to work with their partners, So that as soon as possible, we can get exactly the extra equipment. I thank all our friends. And these are different European countries. From Norway to Italy, Poland, Germany, the state of Baldia. Many others who now support Ukraine, our cities, And he does much for Kiev. They spoke to the Secretary of Defense today, to protect energy. Also with the commander of Ukraine's Armed Forces, The air force's command link has to be much faster in defense. Today, too, there was a full report of our delegation. The boys came back after three-way meetings. Over the years, there has been another format with the Americans and the Russians. As a result, various matters of more military character were discussed. If it's about steps to end war and real control, monitoring, there are questions to be prepared for the next meeting. We talked earlier about having teams meet again on Sunday. It will be good to be able to speed up this meeting. Ukraine will be as fully prepared as possible, magazines to be discussed before reconciliation. Ukraine is always and always will be on the side of peace and one, That's who this war is still going on, Russia. We need real results of diplomacy, So that it doesn't feel like the Russians are using and negotiating a process, and for a very cynical, hard reason to remove new pressures Russia, which could have worked. And you need the pressure, the pressure, the consequences, result of sanctifications, result of blocking Russian operations. All of this works at the end of the war. I need my partners to remember that. I thank everyone from Ukraine. Thank you all for helping us. Thank you, Ukraine!",
+      "asr_time_sec": 34.30236969998805,
+      "mt_time_sec": 15.183486099995207,
+      "total_time_sec": 49.485855799983256,
+      "whisper_model": "medium",
+      "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+      "language": "uk"
+    },
+    {
+      "audio_file": "Наша_стратегія_seg001.wav",
+      "duration_sec": 182.88,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 8.6,
+          "text_uk": "Шановні українці, українки, зараз у Харкові та Дніпрі в інших наших містах і громадах триває ліквідація наслідків російських ударів.",
+          "text_en": "Dear Ukrainians, Ukrainians, now in Kharkiv and Dnieper in other cities and communities, continue to eliminate the effects of Russian blows."
+        },
+        {
+          "id": 2,
+          "start": 8.6,
+          "end": 15.0,
+          "text_uk": "В Києві сьогодні російська армія пошкодила чергову лікарню, абсолютно цивільний об'єкт.",
+          "text_en": "In Kiev today the Russian army has damaged another hospital, a completely civil facility."
+        },
+        {
+          "id": 3,
+          "start": 15.0,
+          "end": 27.6,
+          "text_uk": "В Дніпрі серед влучань цивільне підприємство, виробник продовольства, звичайно, соняшникова голія, і це для Росії, як виявляється, теж мішень.",
+          "text_en": "In the Dnieper, amongst the civil ventures, the food manufacturer, of course, the sunflower goal, and this for Russia, it turns out, is also a target."
+        },
+        {
+          "id": 4,
+          "start": 27.6,
+          "end": 35.6,
+          "text_uk": "У Харкові росіяни ударили просто по теплу, по енергії для людей, по звичайному життю, балістика, проти енергетики.",
+          "text_en": "In Kharkiv, the Russians hit just by the heat, the energy for people, in normal life, the ballistics, against energy."
+        },
+        {
+          "id": 5,
+          "start": 35.6,
+          "end": 43.6,
+          "text_uk": "В Херсоні ремонтні бригади енергетики працювали, щоб відновити постачання електрики після російських ударів.",
+          "text_en": "In Kherson, repair teams worked to restore electricity after Russian strikes."
+        },
+        {
+          "id": 6,
+          "start": 43.6,
+          "end": 54.6,
+          "text_uk": "І це все свідчить тільки про те, що Росія не сприймає реально всерйоз дипломатичну роботу, яку з нею намагаються ввести цивілізовані країни.",
+          "text_en": "And all of this is evidence that Russia doesn't really take seriously the diplomatic work that civilized countries try to do with it."
+        },
+        {
+          "id": 7,
+          "start": 54.6,
+          "end": 62.6,
+          "text_uk": "Росія за тягою війну намагається завдати Україні якнайбільше шкод. Їхня стратегія незмінна. Наша стратегія.",
+          "text_en": "Russia for the war effort is trying to bring as much damage to Ukraine as it can, and their strategy is consistent, and our strategy."
+        },
+        {
+          "id": 8,
+          "start": 62.6,
+          "end": 67.6,
+          "text_uk": "Стратегія захисту життя буде посилюватись. Вже це робить.",
+          "text_en": "The protection of life will intensify, already."
+        },
+        {
+          "id": 9,
+          "start": 67.6,
+          "end": 72.6,
+          "text_uk": "Перше, вчора і сьогодні я провів зустрічі з працівниками Служби безпеки України.",
+          "text_en": "First, yesterday and today, I met with the Ukraine Security Service."
+        },
+        {
+          "id": 10,
+          "start": 72.6,
+          "end": 79.6,
+          "text_uk": "Вдячні Василю Малюку за сильну бойову роботу, за асиметричні операції, які він вміє робити.",
+          "text_en": "Thank Vasil Male for the hard fighting, for the asymmetrical operations he's able to do."
+        },
+        {
+          "id": 11,
+          "start": 79.6,
+          "end": 85.6,
+          "text_uk": "Першими такими операціями Василь і буде займатись надалі. Ми обговорили з ним цю роботу.",
+          "text_en": "The first of these operations, Vasyl will continue to do, and we've discussed this work with him."
+        },
+        {
+          "id": 12,
+          "start": 85.6,
+          "end": 91.6,
+          "text_uk": "Повна політична підтримка наших асиметричних дій проти Росії у СБУ є.",
+          "text_en": "There is total political support for our asymmetric actions against Russia in the U.S.A."
+        },
+        {
+          "id": 13,
+          "start": 91.6,
+          "end": 100.6,
+          "text_uk": "Євгеній Хмар. Людина досвідчена. Саме його зараз призначено тимчасовим виконачем обов'язків голови Служби безпеки України.",
+          "text_en": "Eugene Cloud, an experienced man, is now assigned as a temporary Head of the Security Service."
+        },
+        {
+          "id": 14,
+          "start": 100.6,
+          "end": 110.6,
+          "text_uk": "Хмара очолює Цент спеціальних операцій А СБУ. Говорив також з Денисом Килимником, першим заступником керівника Альфи.",
+          "text_en": "The Cloud is the head of special operations AWO, and he's also talking to Dennis Kiliman, the first deputy manager of Alphas."
+        },
+        {
+          "id": 15,
+          "start": 110.6,
+          "end": 119.6,
+          "text_uk": "Він один з тих, хто завдає саме тих ударів по ворогу, які росіяни відшивають і які додають українцям мотивацій.",
+          "text_en": "He's one of those who are hitting the enemy, and the Russians are sending back, and they're adding motivations to the Ukrainians."
+        },
+        {
+          "id": 16,
+          "start": 119.6,
+          "end": 129.6,
+          "text_uk": "Говорив з Василем Козаком, полковником СБУ. Це молодий хлопець, один з представників нового покоління українських захисників, воїнів СБУ.",
+          "text_en": "I spoke to Basil Kozak, Colonel SBU, and this is a young boy, one of the new generation of Ukrainian defenders, of the U.S."
+        },
+        {
+          "id": 17,
+          "start": 130.6,
+          "end": 137.6,
+          "text_uk": "Майстер операцій. Ми обговорили з ними те, що вже зроблено і те, що ми ще плануємо.",
+          "text_en": "We've discussed with them what has already been done and what we're planning."
+        },
+        {
+          "id": 18,
+          "start": 137.6,
+          "end": 142.6,
+          "text_uk": "Підтримую цю роботу, вдячний за свіжий погляд на роботу СБУ.",
+          "text_en": "Supporting this job, I am grateful for the fresh look I had on my job."
+        },
+        {
+          "id": 19,
+          "start": 142.6,
+          "end": 154.6,
+          "text_uk": "Говорив с Олександром Покладом, важливо, що внутрішній захист української державності та контрразвідвальна складова роботи СБУ значно посилені за роки цієї війни.",
+          "text_en": "He's talking to Alexander Paul, and it's important that the internal defense of the Ukrainian state and the counter-recognition component of the operation of the U.S.A. has been greatly intensified during the years of this war."
+        },
+        {
+          "id": 20,
+          "start": 155.6,
+          "end": 164.6,
+          "text_uk": "Потенціал СБУ буде більшим. Саме в контексті захисту України, захисту наших позицій, захисту національних інтересів.",
+          "text_en": "The UBBU will be bigger, right in the context of protecting Ukraine, protecting our positions, protecting national interests."
+        },
+        {
+          "id": 21,
+          "start": 164.6,
+          "end": 169.6,
+          "text_uk": "Я дякую всім, хто працює. Саме так, будуть подальші кадрові рішення.",
+          "text_en": "I thank everyone who works, and that's right, there'll be further footage solutions."
+        },
+        {
+          "id": 22,
+          "start": 169.6,
+          "end": 177.6,
+          "text_uk": "Сьогодні ж була важлива розмова з Михайлом Федоровим. Він представив формат оновлення в Міністерстві оборони України.",
+          "text_en": "Now there was an important conversation with Michael Fyodorov, and he introduced an update format to the Ministry of Defense in Ukraine."
+        },
+        {
+          "id": 23,
+          "start": 177.6,
+          "end": 182.6,
+          "text_uk": "Які мають бути пріоритети, які рішення нам потрібні.",
+          "text_en": "What priorities should we need to make?"
+        }
+      ],
+      "full_text_uk": "Шановні українці, українки, зараз у Харкові та Дніпрі в інших наших містах і громадах триває ліквідація наслідків російських ударів. В Києві сьогодні російська армія пошкодила чергову лікарню, абсолютно цивільний об'єкт. В Дніпрі серед влучань цивільне підприємство, виробник продовольства, звичайно, соняшникова голія, і це для Росії, як виявляється, теж мішень. У Харкові росіяни ударили просто по теплу, по енергії для людей, по звичайному життю, балістика, проти енергетики. В Херсоні ремонтні бригади енергетики працювали, щоб відновити постачання електрики після російських ударів. І це все свідчить тільки про те, що Росія не сприймає реально всерйоз дипломатичну роботу, яку з нею намагаються ввести цивілізовані країни. Росія за тягою війну намагається завдати Україні якнайбільше шкод. Їхня стратегія незмінна. Наша стратегія. Стратегія захисту життя буде посилюватись. Вже це робить. Перше, вчора і сьогодні я провів зустрічі з працівниками Служби безпеки України. Вдячні Василю Малюку за сильну бойову роботу, за асиметричні операції, які він вміє робити. Першими такими операціями Василь і буде займатись надалі. Ми обговорили з ним цю роботу. Повна політична підтримка наших асиметричних дій проти Росії у СБУ є. Євгеній Хмар. Людина досвідчена. Саме його зараз призначено тимчасовим виконачем обов'язків голови Служби безпеки України. Хмара очолює Цент спеціальних операцій А СБУ. Говорив також з Денисом Килимником, першим заступником керівника Альфи. Він один з тих, хто завдає саме тих ударів по ворогу, які росіяни відшивають і які додають українцям мотивацій. Говорив з Василем Козаком, полковником СБУ. Це молодий хлопець, один з представників нового покоління українських захисників, воїнів СБУ. Майстер операцій. Ми обговорили з ними те, що вже зроблено і те, що ми ще плануємо. Підтримую цю роботу, вдячний за свіжий погляд на роботу СБУ. Говорив с Олександром Покладом, важливо, що внутрішній захист української державності та контрразвідвальна складова роботи СБУ значно посилені за роки цієї війни. Потенціал СБУ буде більшим. Саме в контексті захисту України, захисту наших позицій, захисту національних інтересів. Я дякую всім, хто працює. Саме так, будуть подальші кадрові рішення. Сьогодні ж була важлива розмова з Михайлом Федоровим. Він представив формат оновлення в Міністерстві оборони України. Які мають бути пріоритети, які рішення нам потрібні.",
+      "full_text_en": "Dear Ukrainians, Ukrainians, now in Kharkiv and Dnieper in other cities and communities, continue to eliminate the effects of Russian blows. In Kiev today the Russian army has damaged another hospital, a completely civil facility. In the Dnieper, amongst the civil ventures, the food manufacturer, of course, the sunflower goal, and this for Russia, it turns out, is also a target. In Kharkiv, the Russians hit just by the heat, the energy for people, in normal life, the ballistics, against energy. In Kherson, repair teams worked to restore electricity after Russian strikes. And all of this is evidence that Russia doesn't really take seriously the diplomatic work that civilized countries try to do with it. Russia for the war effort is trying to bring as much damage to Ukraine as it can, and their strategy is consistent, and our strategy. The protection of life will intensify, already. First, yesterday and today, I met with the Ukraine Security Service. Thank Vasil Male for the hard fighting, for the asymmetrical operations he's able to do. The first of these operations, Vasyl will continue to do, and we've discussed this work with him. There is total political support for our asymmetric actions against Russia in the U.S.A. Eugene Cloud, an experienced man, is now assigned as a temporary Head of the Security Service. The Cloud is the head of special operations AWO, and he's also talking to Dennis Kiliman, the first deputy manager of Alphas. He's one of those who are hitting the enemy, and the Russians are sending back, and they're adding motivations to the Ukrainians. I spoke to Basil Kozak, Colonel SBU, and this is a young boy, one of the new generation of Ukrainian defenders, of the U.S. We've discussed with them what has already been done and what we're planning. Supporting this job, I am grateful for the fresh look I had on my job. He's talking to Alexander Paul, and it's important that the internal defense of the Ukrainian state and the counter-recognition component of the operation of the U.S.A. has been greatly intensified during the years of this war. The UBBU will be bigger, right in the context of protecting Ukraine, protecting our positions, protecting national interests. I thank everyone who works, and that's right, there'll be further footage solutions. Now there was an important conversation with Michael Fyodorov, and he introduced an update format to the Ministry of Defense in Ukraine. What priorities should we need to make?",
+      "asr_time_sec": 31.457930799981114,
+      "mt_time_sec": 13.373935600044206,
+      "total_time_sec": 44.83186640002532,
+      "whisper_model": "medium",
+      "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+      "language": "uk"
+    },
+    {
+      "audio_file": "Наша_стратегія_seg002.wav",
+      "duration_sec": 150.361,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 14.0,
+          "text_uk": "Звісно, має бути ще більше технологічності і це основне завдання для міністра. Саме більшою технологічностю маємо протистояти російському намаганню зробити цю війну безкінечною.",
+          "text_en": "Of course, there's got to be even more technology and that's a major task for the minister, and it's a lot more technology that we have to confront Russian efforts to make this war go on forever."
+        },
+        {
+          "id": 2,
+          "start": 14.0,
+          "end": 19.0,
+          "text_uk": "Протидіємо на рівні нашого сектору безпеки – СБУ.",
+          "text_en": "Let's fight the safety levels of our area."
+        },
+        {
+          "id": 3,
+          "start": 19.0,
+          "end": 33.0,
+          "text_uk": "Розвідка, інші наші елементи безпеки також і на рівні сектору оборони, і саме Міністерство оборони – ключ до більшої стійкості України та початок змін всієї структури захисту, включено з армію.",
+          "text_en": "It's the Defense Department. It's the key to Ukraine's greater resilience and the beginning of the changes in the entire defense structure involved with the army."
+        },
+        {
+          "id": 4,
+          "start": 33.0,
+          "end": 49.0,
+          "text_uk": "Конкретні речі вже зроблені, очевидно, працюють ефективно. За грудень 35 тисяч знищених окупантів – це підтверджено на відео. За листопад було 30 тисяч, за жовтень 26 тисяч знищених окупантів.",
+          "text_en": "The concrete things that have already been done are obviously being done effectively, and during December the 35,000 invaders that have been destroyed, this has been confirmed in the video, and in November there were 30,000, in October there were 26 thousand that were destroyed by the invaders."
+        },
+        {
+          "id": 5,
+          "start": 49.0,
+          "end": 62.0,
+          "text_uk": "Зростання цих показників – це наслідок правильних рішень. Саме таких рішень має бути більше. І кожне правильне рішення у сфері оборони береже життя наших українських війнів.",
+          "text_en": "The increase in these numbers is the result of the right decisions, and that's what every right decision in defense is going to save the lives of our Ukrainian wars."
+        },
+        {
+          "id": 6,
+          "start": 62.0,
+          "end": 78.0,
+          "text_uk": "Було сьогодні багато міжнародної роботи. Готуємося до зустрічі в Європі на цьому тижні. Звісно, в комунікації також з командою президента США. ППО для України, підтримка для України – це завдання щоденне.",
+          "text_en": "There was a lot of international work going on today, and we're getting ready to meet in Europe this week, and of course we're also talking to the U.S. President's team."
+        },
+        {
+          "id": 7,
+          "start": 78.0,
+          "end": 93.0,
+          "text_uk": "І щодня ми маємо давати цей результат. Будуть нові рішення заради нашої держави. Українська переговорна команда працює 24 на 7. Сьогодні була доповідь міністра закордонних справ України Андрія Себіги.",
+          "text_en": "And every day, we have to give this result -- there will be new decisions for our country -- the Ukrainian Negotiation Team works 24 times 7. Today was a report by Ukraine's foreign minister, Andriy Sebiges."
+        },
+        {
+          "id": 8,
+          "start": 93.0,
+          "end": 112.0,
+          "text_uk": "Я доручив йому значно активізувати реалізацію всіх наших домовленостей з партнерами. Минулий рік дав Україні багато угод, багато позитивних документів. За кожним документом має бути і буде результат для нашої стійкості.",
+          "text_en": "I have commissioned him to dramatically activate all our agreements with our partners, and this past year has given Ukraine a lot of deals, a lot of positive documents, and every document has to be and there will be a result of our resilience."
+        },
+        {
+          "id": 9,
+          "start": 113.0,
+          "end": 123.0,
+          "text_uk": "Є ще одне призначення сьогодні. Христия Фріланд допомагатиме Україні визначати корисні економічні рішення. Це людина зі значним досвітом.",
+          "text_en": "Christa Friedan will help Ukraine to determine beneficial economic decisions, a man with a great age."
+        },
+        {
+          "id": 10,
+          "start": 123.0,
+          "end": 133.0,
+          "text_uk": "Христия працювала в урядових структурах Канади, має хороші зв'язки у світі. Це все підтримає Україн. Сьогодні ж я говорив з Дмитром Кулебовим.",
+          "text_en": "Christa was working in Canada's government structures, and she has good connections in the world, and that's what will support Ukraine, and today I've been talking to Dimitro Culebov."
+        },
+        {
+          "id": 11,
+          "start": 133.0,
+          "end": 150.0,
+          "text_uk": "Важливо, щоб усі ми зараз у єдності працювали в одній команді України. Саме так і робимо. Україна заслуговує на повагу. Україна потребує результатів. Дякую всім, хто нам допомагає. Слава Україні!",
+          "text_en": "It's important that all of us now work together on the same team in Ukraine, and that's what we do. Ukraine deserves respect. Ukraine needs results."
+        }
+      ],
+      "full_text_uk": "Звісно, має бути ще більше технологічності і це основне завдання для міністра. Саме більшою технологічностю маємо протистояти російському намаганню зробити цю війну безкінечною. Протидіємо на рівні нашого сектору безпеки – СБУ. Розвідка, інші наші елементи безпеки також і на рівні сектору оборони, і саме Міністерство оборони – ключ до більшої стійкості України та початок змін всієї структури захисту, включено з армію. Конкретні речі вже зроблені, очевидно, працюють ефективно. За грудень 35 тисяч знищених окупантів – це підтверджено на відео. За листопад було 30 тисяч, за жовтень 26 тисяч знищених окупантів. Зростання цих показників – це наслідок правильних рішень. Саме таких рішень має бути більше. І кожне правильне рішення у сфері оборони береже життя наших українських війнів. Було сьогодні багато міжнародної роботи. Готуємося до зустрічі в Європі на цьому тижні. Звісно, в комунікації також з командою президента США. ППО для України, підтримка для України – це завдання щоденне. І щодня ми маємо давати цей результат. Будуть нові рішення заради нашої держави. Українська переговорна команда працює 24 на 7. Сьогодні була доповідь міністра закордонних справ України Андрія Себіги. Я доручив йому значно активізувати реалізацію всіх наших домовленостей з партнерами. Минулий рік дав Україні багато угод, багато позитивних документів. За кожним документом має бути і буде результат для нашої стійкості. Є ще одне призначення сьогодні. Христия Фріланд допомагатиме Україні визначати корисні економічні рішення. Це людина зі значним досвітом. Христия працювала в урядових структурах Канади, має хороші зв'язки у світі. Це все підтримає Україн. Сьогодні ж я говорив з Дмитром Кулебовим. Важливо, щоб усі ми зараз у єдності працювали в одній команді України. Саме так і робимо. Україна заслуговує на повагу. Україна потребує результатів. Дякую всім, хто нам допомагає. Слава Україні!",
+      "full_text_en": "Of course, there's got to be even more technology and that's a major task for the minister, and it's a lot more technology that we have to confront Russian efforts to make this war go on forever. Let's fight the safety levels of our area. It's the Defense Department. It's the key to Ukraine's greater resilience and the beginning of the changes in the entire defense structure involved with the army. The concrete things that have already been done are obviously being done effectively, and during December the 35,000 invaders that have been destroyed, this has been confirmed in the video, and in November there were 30,000, in October there were 26 thousand that were destroyed by the invaders. The increase in these numbers is the result of the right decisions, and that's what every right decision in defense is going to save the lives of our Ukrainian wars. There was a lot of international work going on today, and we're getting ready to meet in Europe this week, and of course we're also talking to the U.S. President's team. And every day, we have to give this result -- there will be new decisions for our country -- the Ukrainian Negotiation Team works 24 times 7. Today was a report by Ukraine's foreign minister, Andriy Sebiges. I have commissioned him to dramatically activate all our agreements with our partners, and this past year has given Ukraine a lot of deals, a lot of positive documents, and every document has to be and there will be a result of our resilience. Christa Friedan will help Ukraine to determine beneficial economic decisions, a man with a great age. Christa was working in Canada's government structures, and she has good connections in the world, and that's what will support Ukraine, and today I've been talking to Dimitro Culebov. It's important that all of us now work together on the same team in Ukraine, and that's what we do. Ukraine deserves respect. Ukraine needs results.",
+      "asr_time_sec": 26.17721429996891,
+      "mt_time_sec": 10.348318899981678,
+      "total_time_sec": 36.52553319995059,
+      "whisper_model": "medium",
+      "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+      "language": "uk"
+    },
+    {
+      "audio_file": "Отримуємо_хороші_seg001.wav",
+      "duration_sec": 214.447,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 4.48,
+          "text_uk": "Шановні українці-українки, сьогодні активний день дипломатичної роботи.",
+          "text_en": "Dear Ukrainian Ukrainians, today is an active diplomatic day."
+        },
+        {
+          "id": 2,
+          "start": 4.48,
+          "end": 8.28,
+          "text_uk": "Сьогодні я говорив з Кіром Стармером, прем'єром Британії,",
+          "text_en": "Today I spoke to Cyrus Starmer, prime minister of Britain,"
+        },
+        {
+          "id": 3,
+          "start": 8.28,
+          "end": 14.2,
+          "text_uk": "сьогодні ж були у мене розмови з прем'єром Норвегії та канцлером Австрії.",
+          "text_en": "Today I had a conversation with the prime minister of Norway and the chancellor of Austria."
+        },
+        {
+          "id": 4,
+          "start": 14.2,
+          "end": 15.96,
+          "text_uk": "Я хочу подякувати за підтримку.",
+          "text_en": "I want to thank you for your support."
+        },
+        {
+          "id": 5,
+          "start": 15.96,
+          "end": 21.48,
+          "text_uk": "Дуже щиро цікавість, що у перемовинах з Америкою та російською стороною.",
+          "text_en": "What's really interesting is in negotiations with America and the Russian side."
+        },
+        {
+          "id": 6,
+          "start": 21.48,
+          "end": 24.08,
+          "text_uk": "Наші команди працюють активно сьогодні.",
+          "text_en": "Our teams are working actively today."
+        },
+        {
+          "id": 7,
+          "start": 24.08,
+          "end": 28.24,
+          "text_uk": "Якраз ми з урядовцями та командою Офісу президента",
+          "text_en": "It's just that the government and the Ops team of the president."
+        },
+        {
+          "id": 8,
+          "start": 28.64,
+          "end": 30.88,
+          "text_uk": "працювали з документом щодо відбудови,",
+          "text_en": "worked with the rebuilding document,"
+        },
+        {
+          "id": 9,
+          "start": 30.88,
+          "end": 36.16,
+          "text_uk": "я сподіваюсь, що наші партнери так само ставляться до завдань.",
+          "text_en": "I hope our partners feel the same way about problems."
+        },
+        {
+          "id": 10,
+          "start": 36.16,
+          "end": 39.24,
+          "text_uk": "Чіткі гранті безпеки для України та всієї Європи,",
+          "text_en": "Clear Grants of Security for Ukraine and all of Europe,"
+        },
+        {
+          "id": 11,
+          "start": 39.24,
+          "end": 43.68,
+          "text_uk": "абсолютно чіткі зобов'язання і можливості для відбудови України,",
+          "text_en": "A completely clear commitment and opportunity to rebuild Ukraine,"
+        },
+        {
+          "id": 12,
+          "start": 43.68,
+          "end": 48.72,
+          "text_uk": "та, звісно, реальні можливості достойно закінчити цю війну.",
+          "text_en": "and, of course, the real possibilities are worthy of ending this war."
+        },
+        {
+          "id": 13,
+          "start": 48.72,
+          "end": 53.16,
+          "text_uk": "Зараз жодних сумнівів не може бути ні у кого в світі.",
+          "text_en": "There can be no doubt right now about anyone in the world."
+        },
+        {
+          "id": 14,
+          "start": 53.16,
+          "end": 56.92,
+          "text_uk": "Що це за війна? Хто її почав? Чому війна досі триває?",
+          "text_en": "Why is the war still going on?"
+        },
+        {
+          "id": 15,
+          "start": 56.92,
+          "end": 59.24,
+          "text_uk": "Всі розуміють, що це російська війна.",
+          "text_en": "Everybody understands it's Russian war."
+        },
+        {
+          "id": 16,
+          "start": 59.24,
+          "end": 63.44,
+          "text_uk": "І відповідальність також російська, щоб війну закінчити.",
+          "text_en": "And it's also Russian to end the war."
+        },
+        {
+          "id": 17,
+          "start": 63.44,
+          "end": 65.24,
+          "text_uk": "І тиск на Росії має бути.",
+          "text_en": "And there's got to be pressure on Russia."
+        },
+        {
+          "id": 18,
+          "start": 65.24,
+          "end": 67.96,
+          "text_uk": "Ми зараз отримаємо хороші сигнали з Європи",
+          "text_en": "We're now getting good signals from Europe."
+        },
+        {
+          "id": 19,
+          "start": 67.96,
+          "end": 72.24,
+          "text_uk": "щодо готовності європейців більш активно тиснути на агресора.",
+          "text_en": "You know, I think it's more about the willingness of Europeans to put more pressure on the antagonist."
+        },
+        {
+          "id": 20,
+          "start": 72.24,
+          "end": 77.12,
+          "text_uk": "Дуже важливо, щоб це був тиск, зокрема, на танкерний флот Росії,",
+          "text_en": "It's very important that it be the pressure, especially on the Russian tanker fleet,"
+        },
+        {
+          "id": 21,
+          "start": 77.12,
+          "end": 80.16,
+          "text_uk": "на всю інфраструктуру російського експорту навти.",
+          "text_en": "the entire infrastructure of Russian exports to teach."
+        },
+        {
+          "id": 22,
+          "start": 80.16,
+          "end": 82.96,
+          "text_uk": "Це дуже допоможе нам усім в Європі,",
+          "text_en": "It's going to help us all in Europe,"
+        },
+        {
+          "id": 23,
+          "start": 82.96,
+          "end": 86.6,
+          "text_uk": "якщо російські доходи будуть обрізані ще більш.",
+          "text_en": "If Russian revenues were to be circumcised even more."
+        },
+        {
+          "id": 24,
+          "start": 86.6,
+          "end": 91.28,
+          "text_uk": "Вже бачимо колосальні нові проблеми у агресора з федеральним бюджетом,",
+          "text_en": "We're already seeing huge new problems with the federal budget aggression,"
+        },
+        {
+          "id": 25,
+          "start": 91.28,
+          "end": 95.92,
+          "text_uk": "а також з інфляцією, з економічними показниками.",
+          "text_en": "as well as inflation, with economic performance."
+        },
+        {
+          "id": 26,
+          "start": 95.92,
+          "end": 101.68,
+          "text_uk": "Це все хороші, правильні сигнали для того, щоб мир все ж таки настав.",
+          "text_en": "These are all good, the right signals for peace to come."
+        },
+        {
+          "id": 27,
+          "start": 101.68,
+          "end": 104.44,
+          "text_uk": "Чим для Росії складніше, тим мир ближче.",
+          "text_en": "The harder Russia gets, the closer peace."
+        },
+        {
+          "id": 28,
+          "start": 104.44,
+          "end": 108.32,
+          "text_uk": "Говорили з прем'єром Британії, зокрема, про ці удари,",
+          "text_en": "They spoke to the prime minister of Britain, especially these blows,"
+        },
+        {
+          "id": 29,
+          "start": 108.32,
+          "end": 112.0,
+          "text_uk": "про потребу захисту нашої держави і людей.",
+          "text_en": "magazines on the need to protect our country and people."
+        },
+        {
+          "id": 30,
+          "start": 112.0,
+          "end": 116.2,
+          "text_uk": "Сьогодні в Одесі протягом дня рятувальні роботи, розбір завалів",
+          "text_en": "Today, in Odessa, there's a life rescue day, there's an invasion of the wrecks."
+        },
+        {
+          "id": 31,
+          "start": 116.64,
+          "end": 120.32,
+          "text_uk": "після російського удару 52 ударні дрони саме проти міста,",
+          "text_en": "After the Russian strike, 52 shock drones are against the city,"
+        },
+        {
+          "id": 32,
+          "start": 120.32,
+          "end": 124.48,
+          "text_uk": "багато проти центру Одеси, район навколо привозу.",
+          "text_en": "A lot of it against the center of Odessa, the area around the invasion."
+        },
+        {
+          "id": 33,
+          "start": 124.48,
+          "end": 128.4,
+          "text_uk": "Жодних військових об'єктів там не було, немає.",
+          "text_en": "No military facilities were there, no."
+        },
+        {
+          "id": 34,
+          "start": 128.4,
+          "end": 132.64,
+          "text_uk": "І фактично усі мішені російських шахеїв – це звичайні будинки.",
+          "text_en": "And in fact, all the targets of Russian shahea are ordinary houses."
+        },
+        {
+          "id": 35,
+          "start": 132.64,
+          "end": 136.12,
+          "text_uk": "Проста цивільна інфраструктура, жорсткий був удар.",
+          "text_en": "Simple civil infrastructure, hard was the blow."
+        },
+        {
+          "id": 36,
+          "start": 136.12,
+          "end": 140.08,
+          "text_uk": "Більшість дронів вдалося збити, але, на жаль, не всі.",
+          "text_en": "Most drones have been knocked down, but unfortunately not all."
+        },
+        {
+          "id": 37,
+          "start": 140.08,
+          "end": 144.28,
+          "text_uk": "Три людини загинули, мої співчуття рідним і близьким.",
+          "text_en": "Three people died, my sympathy for family and loved ones."
+        },
+        {
+          "id": 38,
+          "start": 144.32,
+          "end": 146.68,
+          "text_uk": "Майже 50 людей звернулися по допомогою.",
+          "text_en": "Almost 50 people called for help."
+        },
+        {
+          "id": 39,
+          "start": 146.68,
+          "end": 149.56,
+          "text_uk": "Це один удар по одному місту.",
+          "text_en": "It's one punch on the same city."
+        },
+        {
+          "id": 40,
+          "start": 149.56,
+          "end": 153.64,
+          "text_uk": "Наприклад, до дні був ще російський удар по енергетиці Харкова,",
+          "text_en": "For example, until the day when there was a Russian attack on Kharkov's energy,"
+        },
+        {
+          "id": 41,
+          "start": 153.64,
+          "end": 157.28,
+          "text_uk": "удар РСЗВ, реактивні системи залпового вогню.",
+          "text_en": "I'm gonna go. I'm gonna take care of you. I'm gonna take care of you. I'm gonna take care of you."
+        },
+        {
+          "id": 42,
+          "start": 157.28,
+          "end": 161.84,
+          "text_uk": "Значні були пошкодження, відновлення буде максимально швидким,",
+          "text_en": "There were significant damages, the recovery will be as fast as possible,"
+        },
+        {
+          "id": 43,
+          "start": 161.84,
+          "end": 164.44,
+          "text_uk": "настільки-наскільки це можливо.",
+          "text_en": "You know, as much as possible."
+        },
+        {
+          "id": 44,
+          "start": 164.44,
+          "end": 169.08,
+          "text_uk": "Я хочу відзначити нашу ДСНС України і Українера,",
+          "text_en": "I want to celebrate our Ukraine and Ukraine,"
+        },
+        {
+          "id": 45,
+          "start": 169.08,
+          "end": 172.52,
+          "text_uk": "і Харків обл енера, усіх фахівців, які працюють,",
+          "text_en": "And Kharkiv is surrounded by energy, all of the experts who work,"
+        },
+        {
+          "id": 46,
+          "start": 172.52,
+          "end": 174.72,
+          "text_uk": "щоб стабілізувати цю ситуацію.",
+          "text_en": "I'm here to stabilize this situation."
+        },
+        {
+          "id": 47,
+          "start": 174.72,
+          "end": 178.36,
+          "text_uk": "Кожен, хто працює зараз, заради стікості України,",
+          "text_en": "Anyone who works now, for Ukraine's sewers,"
+        },
+        {
+          "id": 48,
+          "start": 178.36,
+          "end": 182.6,
+          "text_uk": "працює над десь, щоб життя, як таке, перемагало.",
+          "text_en": "She's working on something to make life like this win."
+        },
+        {
+          "id": 49,
+          "start": 182.6,
+          "end": 185.4,
+          "text_uk": "Хочу також подякувати всім, хто працює і в Києві,",
+          "text_en": "I also want to thank all those who work in Kiev,"
+        },
+        {
+          "id": 50,
+          "start": 185.4,
+          "end": 188.52,
+          "text_uk": "і на Київщині, в Запоріжжині, на Дніпровщині,",
+          "text_en": "and in Kyiv, in Zaporozin, in Dnieper,"
+        },
+        {
+          "id": 51,
+          "start": 188.52,
+          "end": 191.48,
+          "text_uk": "Сумщині, Чернігівщині, в усіх областях,",
+          "text_en": "The land, the Chernigs, all over the world,"
+        },
+        {
+          "id": 52,
+          "start": 191.48,
+          "end": 194.04,
+          "text_uk": "в усіх громадах після ударів.",
+          "text_en": "In all communities after the beating."
+        },
+        {
+          "id": 53,
+          "start": 194.04,
+          "end": 196.92,
+          "text_uk": "Був також удар росіян по газовій інфраструктурі",
+          "text_en": "There was also a blow to the Russians in gas infrastructure."
+        },
+        {
+          "id": 54,
+          "start": 196.92,
+          "end": 199.24,
+          "text_uk": "у західній частині нашої держави,",
+          "text_en": "in the western part of our state,"
+        },
+        {
+          "id": 55,
+          "start": 199.24,
+          "end": 202.24,
+          "text_uk": "але всюди є наша допомога,",
+          "text_en": "But everywhere there's our help,"
+        },
+        {
+          "id": 56,
+          "start": 202.24,
+          "end": 204.68,
+          "text_uk": "всюди є робота заради життя і людей.",
+          "text_en": "There's work everywhere for the sake of life and for people."
+        },
+        {
+          "id": 57,
+          "start": 204.68,
+          "end": 207.84,
+          "text_uk": "Я дякую кожному, хто допомагає, тим, хто поруч.",
+          "text_en": "I give thanks to everyone who helps, to those around me."
+        },
+        {
+          "id": 58,
+          "start": 207.84,
+          "end": 211.2,
+          "text_uk": "Я дякую всім, хто б'ється заради України,",
+          "text_en": "I thank everyone who fights for Ukraine,"
+        },
+        {
+          "id": 59,
+          "start": 211.2,
+          "end": 213.56,
+          "text_uk": "як заради самого себе.",
+          "text_en": "It's not like it's for the sake of itself."
+        },
+        {
+          "id": 60,
+          "start": 213.56,
+          "end": 214.4,
+          "text_uk": "Слава Україні!",
+          "text_en": "Thank you, Ukraine!"
+        }
+      ],
+      "full_text_uk": "Шановні українці-українки, сьогодні активний день дипломатичної роботи. Сьогодні я говорив з Кіром Стармером, прем'єром Британії, сьогодні ж були у мене розмови з прем'єром Норвегії та канцлером Австрії. Я хочу подякувати за підтримку. Дуже щиро цікавість, що у перемовинах з Америкою та російською стороною. Наші команди працюють активно сьогодні. Якраз ми з урядовцями та командою Офісу президента працювали з документом щодо відбудови, я сподіваюсь, що наші партнери так само ставляться до завдань. Чіткі гранті безпеки для України та всієї Європи, абсолютно чіткі зобов'язання і можливості для відбудови України, та, звісно, реальні можливості достойно закінчити цю війну. Зараз жодних сумнівів не може бути ні у кого в світі. Що це за війна? Хто її почав? Чому війна досі триває? Всі розуміють, що це російська війна. І відповідальність також російська, щоб війну закінчити. І тиск на Росії має бути. Ми зараз отримаємо хороші сигнали з Європи щодо готовності європейців більш активно тиснути на агресора. Дуже важливо, щоб це був тиск, зокрема, на танкерний флот Росії, на всю інфраструктуру російського експорту навти. Це дуже допоможе нам усім в Європі, якщо російські доходи будуть обрізані ще більш. Вже бачимо колосальні нові проблеми у агресора з федеральним бюджетом, а також з інфляцією, з економічними показниками. Це все хороші, правильні сигнали для того, щоб мир все ж таки настав. Чим для Росії складніше, тим мир ближче. Говорили з прем'єром Британії, зокрема, про ці удари, про потребу захисту нашої держави і людей. Сьогодні в Одесі протягом дня рятувальні роботи, розбір завалів після російського удару 52 ударні дрони саме проти міста, багато проти центру Одеси, район навколо привозу. Жодних військових об'єктів там не було, немає. І фактично усі мішені російських шахеїв – це звичайні будинки. Проста цивільна інфраструктура, жорсткий був удар. Більшість дронів вдалося збити, але, на жаль, не всі. Три людини загинули, мої співчуття рідним і близьким. Майже 50 людей звернулися по допомогою. Це один удар по одному місту. Наприклад, до дні був ще російський удар по енергетиці Харкова, удар РСЗВ, реактивні системи залпового вогню. Значні були пошкодження, відновлення буде максимально швидким, настільки-наскільки це можливо. Я хочу відзначити нашу ДСНС України і Українера, і Харків обл енера, усіх фахівців, які працюють, щоб стабілізувати цю ситуацію. Кожен, хто працює зараз, заради стікості України, працює над десь, щоб життя, як таке, перемагало. Хочу також подякувати всім, хто працює і в Києві, і на Київщині, в Запоріжжині, на Дніпровщині, Сумщині, Чернігівщині, в усіх областях, в усіх громадах після ударів. Був також удар росіян по газовій інфраструктурі у західній частині нашої держави, але всюди є наша допомога, всюди є робота заради життя і людей. Я дякую кожному, хто допомагає, тим, хто поруч. Я дякую всім, хто б'ється заради України, як заради самого себе. Слава Україні!",
+      "full_text_en": "Dear Ukrainian Ukrainians, today is an active diplomatic day. Today I spoke to Cyrus Starmer, prime minister of Britain, Today I had a conversation with the prime minister of Norway and the chancellor of Austria. I want to thank you for your support. What's really interesting is in negotiations with America and the Russian side. Our teams are working actively today. It's just that the government and the Ops team of the president. worked with the rebuilding document, I hope our partners feel the same way about problems. Clear Grants of Security for Ukraine and all of Europe, A completely clear commitment and opportunity to rebuild Ukraine, and, of course, the real possibilities are worthy of ending this war. There can be no doubt right now about anyone in the world. Why is the war still going on? Everybody understands it's Russian war. And it's also Russian to end the war. And there's got to be pressure on Russia. We're now getting good signals from Europe. You know, I think it's more about the willingness of Europeans to put more pressure on the antagonist. It's very important that it be the pressure, especially on the Russian tanker fleet, the entire infrastructure of Russian exports to teach. It's going to help us all in Europe, If Russian revenues were to be circumcised even more. We're already seeing huge new problems with the federal budget aggression, as well as inflation, with economic performance. These are all good, the right signals for peace to come. The harder Russia gets, the closer peace. They spoke to the prime minister of Britain, especially these blows, magazines on the need to protect our country and people. Today, in Odessa, there's a life rescue day, there's an invasion of the wrecks. After the Russian strike, 52 shock drones are against the city, A lot of it against the center of Odessa, the area around the invasion. No military facilities were there, no. And in fact, all the targets of Russian shahea are ordinary houses. Simple civil infrastructure, hard was the blow. Most drones have been knocked down, but unfortunately not all. Three people died, my sympathy for family and loved ones. Almost 50 people called for help. It's one punch on the same city. For example, until the day when there was a Russian attack on Kharkov's energy, I'm gonna go. I'm gonna take care of you. I'm gonna take care of you. I'm gonna take care of you. There were significant damages, the recovery will be as fast as possible, You know, as much as possible. I want to celebrate our Ukraine and Ukraine, And Kharkiv is surrounded by energy, all of the experts who work, I'm here to stabilize this situation. Anyone who works now, for Ukraine's sewers, She's working on something to make life like this win. I also want to thank all those who work in Kiev, and in Kyiv, in Zaporozin, in Dnieper, The land, the Chernigs, all over the world, In all communities after the beating. There was also a blow to the Russians in gas infrastructure. in the western part of our state, But everywhere there's our help, There's work everywhere for the sake of life and for people. I give thanks to everyone who helps, to those around me. I thank everyone who fights for Ukraine, It's not like it's for the sake of itself. Thank you, Ukraine!",
+      "asr_time_sec": 41.241554700012784,
+      "mt_time_sec": 19.512939600041136,
+      "total_time_sec": 60.75449430005392,
+      "whisper_model": "medium",
+      "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+      "language": "uk"
+    },
+    {
+      "audio_file": "Поведінка_seg001.wav",
+      "duration_sec": 190.145,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.18,
+          "end": 9.54,
+          "text_uk": "Бажаю здоров'я сьогоднішній день. Була зустріч з переговорною групою по всім підсумкам спілкування з американською командою.",
+          "text_en": "I wish you health today, there was a meeting with the Negotiation Group all over the network with the American team."
+        },
+        {
+          "id": 2,
+          "start": 9.54,
+          "end": 19.86,
+          "text_uk": "Фактично, кожен день хлопці на зв'язку. Багато зроблено. Ми домовляємось з представниками президента Трампа про графіки зустрічі.",
+          "text_en": "It's a lot done, we're talking to representatives of President Trump about meeting schedules."
+        },
+        {
+          "id": 3,
+          "start": 19.86,
+          "end": 37.38,
+          "text_uk": "Наші документи багато в чому вже готові до підписання. Розраховуємо, що формат Давосу в цьому році буде достатньо результативним саме з точки зору наших відносин з партнерами і нашого відновлення після російських ударів.",
+          "text_en": "Our documents are a lot ready to sign, and we're going to figure out that the Davos format this year is going to be pretty good from the perspective of our relationship with our partners and our recovery from Russian strikes."
+        },
+        {
+          "id": 4,
+          "start": 37.38,
+          "end": 48.58,
+          "text_uk": "Зараз треба, щоб урядовці проаналізували оперативно кожен з документів економічних угод, щоб всі інтереси України були враховані повністю.",
+          "text_en": "It is now necessary for government officials to analyze every economic treaty document, so that all of Ukraine's interests will be taken into account."
+        },
+        {
+          "id": 5,
+          "start": 48.58,
+          "end": 58.66,
+          "text_uk": "Працюємо і для того, щоб створити дієві механізми фінансування відновлення справедливі для України. Я дякую всім, хто допомагає нам.",
+          "text_en": "We're also working to create effective funding mechanisms that are fair to Ukraine, and I thank everyone who helps us."
+        },
+        {
+          "id": 6,
+          "start": 58.66,
+          "end": 68.66,
+          "text_uk": "Розуміємо, що американська сторона постійно спілкується з Росією і в тому числі по базовому документу для закінчення війни.",
+          "text_en": "We understand that the American side is constantly communicating with Russia and including the basic document for ending the war."
+        },
+        {
+          "id": 7,
+          "start": 68.66,
+          "end": 87.22,
+          "text_uk": "Це політичний документ і ми сформулювали наше бачення те, що може спрацювати реально. І хоча дипломатія України, Америки та партнерів протягом кількох місяців була надзвичайно активною, залишається без відповіді головне питання.",
+          "text_en": "It's a political document, and we've formulated our vision of what might actually work, and although Ukraine, the United States, and partners have been extremely active for several months, there is no answer."
+        },
+        {
+          "id": 8,
+          "start": 87.22,
+          "end": 99.7,
+          "text_uk": "Це питання про Росію, про те, на що там готові. Поведінка територіка російська взагалі не свідчить, що вони хочуть закінчити цю війну чи готуються до цього.",
+          "text_en": "It's a question about Russia, about what it's all about, and the behavior of the teritorical Russian doesn't mean that they want to end this war or they're preparing for it."
+        },
+        {
+          "id": 9,
+          "start": 99.7,
+          "end": 108.18,
+          "text_uk": "Кожен це бачить, це залежить виключно від партнерів, передусім від Сполучених Штатів Америки та президента Сполучених Штатів.",
+          "text_en": "Everyone sees it, it depends solely on partners, mainly on the United States and the president of the United States."
+        },
+        {
+          "id": 10,
+          "start": 108.18,
+          "end": 117.94,
+          "text_uk": "Що обере Росія, мир чи подальшу війну? Саме тому опції тиску на агресора мають залишатись на столі. Всі опції тиску.",
+          "text_en": "What Russia will choose, whether it's peace or not, which is why the pressure on the machine has to stay on the table, all the pressure options."
+        },
+        {
+          "id": 11,
+          "start": 117.94,
+          "end": 131.38,
+          "text_uk": "Ми бачимо, яким принциповим може бути ставлення до танкерів Тіньового флоту те, що стосується нафти з Венесеве. Якщо є воля, можна зупиняти рух нафта. Жодних проблем для світового ринку.",
+          "text_en": "We're seeing how basically what the Shadow Fleet Tanks really do about is oil from Venezuela, and if you want to, you can stop oil from moving, and there's no problem with the global market."
+        },
+        {
+          "id": 12,
+          "start": 131.38,
+          "end": 140.1,
+          "text_uk": "Бачимо також, що існує багато інструментів, щоб заблокувати всіх, хто обходить санкції чи допомагає маргінальним режимам.",
+          "text_en": "We also see that there are a lot of tools to block everyone who walks around sanitation or helps marginal regimes."
+        },
+        {
+          "id": 13,
+          "start": 140.1,
+          "end": 150.9,
+          "text_uk": "Все це Росія повинна примірювати на себе вже, якщо не піде на мирні рішні. Тим більше, що коло російських спільників звужується.",
+          "text_en": "All of this Russia has to try on itself now if it doesn't go to peace, especially if it's near Russian partners."
+        },
+        {
+          "id": 14,
+          "start": 151.62,
+          "end": 160.66,
+          "text_uk": "І те, що відбувається в Ірані зараз. Масштабні протести, фактично повстання. Це теж чітка ознака, що Росії простіше не буде.",
+          "text_en": "And what's happening in Iran right now is the massive protests, in fact the uprising, and it's also a clear sign that Russia will not be easier."
+        },
+        {
+          "id": 15,
+          "start": 160.66,
+          "end": 170.66,
+          "text_uk": "І кожна нормальна людина на Землі дуже хоче, щоб народу Ірану нарешті пощастило звільнитися від режиму, який там є та який приніс тільки зла.",
+          "text_en": "And every normal human being on Earth really wants Iran to finally be lucky enough to get rid of the regime that's there and that's brought only evil."
+        },
+        {
+          "id": 16,
+          "start": 170.66,
+          "end": 178.42,
+          "text_uk": "Зокрема, і в Україну приніс, і в іншу країну. Важливо, щоб світ не упустив цей момент, коли зміни можливі.",
+          "text_en": "In particular, Ukraine has brought it to another country, and it's important that the world not miss this moment when changes are possible."
+        },
+        {
+          "id": 17,
+          "start": 178.42,
+          "end": 190.42,
+          "text_uk": "Кожен лідер, кожна країна, міжнародні організації повинні зараз включитись, допомогти людям, прибрати тих, хто винен, що Іран, на жаль, був такий.",
+          "text_en": "Every leader, every country, international organizations should now turn on, help people, clean up those who owe Iran what, unfortunately, it was."
+        }
+      ],
+      "full_text_uk": "Бажаю здоров'я сьогоднішній день. Була зустріч з переговорною групою по всім підсумкам спілкування з американською командою. Фактично, кожен день хлопці на зв'язку. Багато зроблено. Ми домовляємось з представниками президента Трампа про графіки зустрічі. Наші документи багато в чому вже готові до підписання. Розраховуємо, що формат Давосу в цьому році буде достатньо результативним саме з точки зору наших відносин з партнерами і нашого відновлення після російських ударів. Зараз треба, щоб урядовці проаналізували оперативно кожен з документів економічних угод, щоб всі інтереси України були враховані повністю. Працюємо і для того, щоб створити дієві механізми фінансування відновлення справедливі для України. Я дякую всім, хто допомагає нам. Розуміємо, що американська сторона постійно спілкується з Росією і в тому числі по базовому документу для закінчення війни. Це політичний документ і ми сформулювали наше бачення те, що може спрацювати реально. І хоча дипломатія України, Америки та партнерів протягом кількох місяців була надзвичайно активною, залишається без відповіді головне питання. Це питання про Росію, про те, на що там готові. Поведінка територіка російська взагалі не свідчить, що вони хочуть закінчити цю війну чи готуються до цього. Кожен це бачить, це залежить виключно від партнерів, передусім від Сполучених Штатів Америки та президента Сполучених Штатів. Що обере Росія, мир чи подальшу війну? Саме тому опції тиску на агресора мають залишатись на столі. Всі опції тиску. Ми бачимо, яким принциповим може бути ставлення до танкерів Тіньового флоту те, що стосується нафти з Венесеве. Якщо є воля, можна зупиняти рух нафта. Жодних проблем для світового ринку. Бачимо також, що існує багато інструментів, щоб заблокувати всіх, хто обходить санкції чи допомагає маргінальним режимам. Все це Росія повинна примірювати на себе вже, якщо не піде на мирні рішні. Тим більше, що коло російських спільників звужується. І те, що відбувається в Ірані зараз. Масштабні протести, фактично повстання. Це теж чітка ознака, що Росії простіше не буде. І кожна нормальна людина на Землі дуже хоче, щоб народу Ірану нарешті пощастило звільнитися від режиму, який там є та який приніс тільки зла. Зокрема, і в Україну приніс, і в іншу країну. Важливо, щоб світ не упустив цей момент, коли зміни можливі. Кожен лідер, кожна країна, міжнародні організації повинні зараз включитись, допомогти людям, прибрати тих, хто винен, що Іран, на жаль, був такий.",
+      "full_text_en": "I wish you health today, there was a meeting with the Negotiation Group all over the network with the American team. It's a lot done, we're talking to representatives of President Trump about meeting schedules. Our documents are a lot ready to sign, and we're going to figure out that the Davos format this year is going to be pretty good from the perspective of our relationship with our partners and our recovery from Russian strikes. It is now necessary for government officials to analyze every economic treaty document, so that all of Ukraine's interests will be taken into account. We're also working to create effective funding mechanisms that are fair to Ukraine, and I thank everyone who helps us. We understand that the American side is constantly communicating with Russia and including the basic document for ending the war. It's a political document, and we've formulated our vision of what might actually work, and although Ukraine, the United States, and partners have been extremely active for several months, there is no answer. It's a question about Russia, about what it's all about, and the behavior of the teritorical Russian doesn't mean that they want to end this war or they're preparing for it. Everyone sees it, it depends solely on partners, mainly on the United States and the president of the United States. What Russia will choose, whether it's peace or not, which is why the pressure on the machine has to stay on the table, all the pressure options. We're seeing how basically what the Shadow Fleet Tanks really do about is oil from Venezuela, and if you want to, you can stop oil from moving, and there's no problem with the global market. We also see that there are a lot of tools to block everyone who walks around sanitation or helps marginal regimes. All of this Russia has to try on itself now if it doesn't go to peace, especially if it's near Russian partners. And what's happening in Iran right now is the massive protests, in fact the uprising, and it's also a clear sign that Russia will not be easier. And every normal human being on Earth really wants Iran to finally be lucky enough to get rid of the regime that's there and that's brought only evil. In particular, Ukraine has brought it to another country, and it's important that the world not miss this moment when changes are possible. Every leader, every country, international organizations should now turn on, help people, clean up those who owe Iran what, unfortunately, it was.",
+      "asr_time_sec": 31.98279000003822,
+      "mt_time_sec": 12.65187010000227,
+      "total_time_sec": 44.63466010004049,
+      "whisper_model": "medium",
+      "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+      "language": "uk"
+    },
+    {
+      "audio_file": "Поведінка_seg002.wav",
+      "duration_sec": 112.62,
+      "segments": [
+        {
+          "id": 1,
+          "start": 0.0,
+          "end": 2.0,
+          "text_uk": "Все може стати по-іншому.",
+          "text_en": "Everything can turn out different."
+        },
+        {
+          "id": 2,
+          "start": 2.0,
+          "end": 7.0,
+          "text_uk": "Сьогодні була хороша зустріч у мене з міністром закордонних справ Норвегії.",
+          "text_en": "Today, I had a good meeting with the Norwegian Foreign Minister."
+        },
+        {
+          "id": 3,
+          "start": 7.0,
+          "end": 13.0,
+          "text_uk": "Норвегія – один з найбільших наших помічників у захисті, лідер програми «Пёрл»,",
+          "text_en": "Norway is one of our biggest supporters in defense, the leader of the program,"
+        },
+        {
+          "id": 4,
+          "start": 13.0,
+          "end": 18.0,
+          "text_uk": "яка дозволяє нам купувати американську зброю, передусім ППО.",
+          "text_en": "Which allows us to buy American weapons, first of all, the POPO."
+        },
+        {
+          "id": 5,
+          "start": 18.0,
+          "end": 21.0,
+          "text_uk": "Норвегія значно допомала нам з ППО.",
+          "text_en": "Norway helped us a lot with the POP."
+        },
+        {
+          "id": 6,
+          "start": 21.0,
+          "end": 27.0,
+          "text_uk": "Ми знову говорили саме про такі речі, захист неба, наші спільні кроки, наші спільні плани",
+          "text_en": "We talked again about these things, the protection of the sky, our common steps, our common plans."
+        },
+        {
+          "id": 7,
+          "start": 27.0,
+          "end": 30.0,
+          "text_uk": "і з Норвегією, і з іншими партнерами в Європі.",
+          "text_en": "and Norway and other partners in Europe."
+        },
+        {
+          "id": 8,
+          "start": 30.0,
+          "end": 35.0,
+          "text_uk": "Є і новий пакет підтримки від Норвегії – 400 мільйонів на енергетику,",
+          "text_en": "There's also a new support package from Norway €400 million for energy,"
+        },
+        {
+          "id": 9,
+          "start": 35.0,
+          "end": 40.0,
+          "text_uk": "на стійкість України, 8 мільярдів за рік буде допомога Норвегії.",
+          "text_en": "On Ukraine's stability, 8 billion in a year will help Norway."
+        },
+        {
+          "id": 10,
+          "start": 40.0,
+          "end": 42.0,
+          "text_uk": "Дуже відчутно. Дякуємо.",
+          "text_en": "Thank you very much."
+        },
+        {
+          "id": 11,
+          "start": 42.0,
+          "end": 48.0,
+          "text_uk": "І продовжив сьогодні кадрові зміни і в регіонах, і в Службі безпеки України.",
+          "text_en": "And went on today to reflect changes in both regions and in the Security Service of Ukraine."
+        },
+        {
+          "id": 12,
+          "start": 48.0,
+          "end": 53.0,
+          "text_uk": "Будуть ще рішення, щойно також говорили з прем'єр-міністром Юлією Свириденко,",
+          "text_en": "There will be other decisions as soon as the Prime Minister Julia Swirdenko spoke,"
+        },
+        {
+          "id": 13,
+          "start": 53.0,
+          "end": 56.0,
+          "text_uk": "відновлення, роботи в усіх регіонах.",
+          "text_en": "recovery, work in all regions."
+        },
+        {
+          "id": 14,
+          "start": 56.0,
+          "end": 59.0,
+          "text_uk": "Дякую всім, хто працює буквально заради життя.",
+          "text_en": "Thank you, everyone who works for life, literally."
+        },
+        {
+          "id": 15,
+          "start": 59.0,
+          "end": 63.0,
+          "text_uk": "Ми домовились з прем'єр-міністром розробити спеціальну програму",
+          "text_en": "We agreed with the Prime Minister to design a special program."
+        },
+        {
+          "id": 16,
+          "start": 63.0,
+          "end": 70.0,
+          "text_uk": "для підтримки саме таких людей, хто безпосередньо працює в ремонтних бригадах.",
+          "text_en": "to support the very kind of people who are directly involved in the repair teams."
+        },
+        {
+          "id": 17,
+          "start": 70.0,
+          "end": 74.0,
+          "text_uk": "24 на 7. В найскладніших обставах.",
+          "text_en": "24 times 7. In the most difficult circumstances."
+        },
+        {
+          "id": 18,
+          "start": 74.0,
+          "end": 81.0,
+          "text_uk": "Уряд запропонує, як відчутно збільшити оплату праці таких фахівців за кожен місяць зими.",
+          "text_en": "The government will propose a measure of increase in the cost of such professionals every month of winter."
+        },
+        {
+          "id": 19,
+          "start": 81.0,
+          "end": 85.0,
+          "text_uk": "І обов'язково, будь ласка, звертають увагу на повітряну тривогу.",
+          "text_en": "And surely, please take note of air anxiety."
+        },
+        {
+          "id": 20,
+          "start": 85.0,
+          "end": 90.0,
+          "text_uk": "Є інформація від розвідки. Росіяни готують новий масований удар.",
+          "text_en": "The Russians are preparing a new massive blow."
+        },
+        {
+          "id": 21,
+          "start": 90.0,
+          "end": 94.0,
+          "text_uk": "Дрони для виснаження ППО і ракети.",
+          "text_en": "The drones for the POSP and the rockets."
+        },
+        {
+          "id": 22,
+          "start": 94.0,
+          "end": 96.0,
+          "text_uk": "Хочу скористатися холодом.",
+          "text_en": "I want to use the cold."
+        },
+        {
+          "id": 23,
+          "start": 96.0,
+          "end": 100.0,
+          "text_uk": "Найближчими днями цей удар може відбутись.",
+          "text_en": "In the days to come, this blow can take place."
+        },
+        {
+          "id": 24,
+          "start": 100.0,
+          "end": 104.0,
+          "text_uk": "Бережіть, будь ласка, себе. Бережіть Україну.",
+          "text_en": "Take care of yourself, you take care of Ukraine."
+        },
+        {
+          "id": 25,
+          "start": 104.0,
+          "end": 108.0,
+          "text_uk": "І допомагайте тим, кому найскладніше і хто потребує підтримки.",
+          "text_en": "And help those who are most difficult and who need support."
+        },
+        {
+          "id": 26,
+          "start": 108.0,
+          "end": 112.0,
+          "text_uk": "Разом все подолаємо. Слава Україні!",
+          "text_en": "The glory of Ukraine!"
+        }
+      ],
+      "full_text_uk": "Все може стати по-іншому. Сьогодні була хороша зустріч у мене з міністром закордонних справ Норвегії. Норвегія – один з найбільших наших помічників у захисті, лідер програми «Пёрл», яка дозволяє нам купувати американську зброю, передусім ППО. Норвегія значно допомала нам з ППО. Ми знову говорили саме про такі речі, захист неба, наші спільні кроки, наші спільні плани і з Норвегією, і з іншими партнерами в Європі. Є і новий пакет підтримки від Норвегії – 400 мільйонів на енергетику, на стійкість України, 8 мільярдів за рік буде допомога Норвегії. Дуже відчутно. Дякуємо. І продовжив сьогодні кадрові зміни і в регіонах, і в Службі безпеки України. Будуть ще рішення, щойно також говорили з прем'єр-міністром Юлією Свириденко, відновлення, роботи в усіх регіонах. Дякую всім, хто працює буквально заради життя. Ми домовились з прем'єр-міністром розробити спеціальну програму для підтримки саме таких людей, хто безпосередньо працює в ремонтних бригадах. 24 на 7. В найскладніших обставах. Уряд запропонує, як відчутно збільшити оплату праці таких фахівців за кожен місяць зими. І обов'язково, будь ласка, звертають увагу на повітряну тривогу. Є інформація від розвідки. Росіяни готують новий масований удар. Дрони для виснаження ППО і ракети. Хочу скористатися холодом. Найближчими днями цей удар може відбутись. Бережіть, будь ласка, себе. Бережіть Україну. І допомагайте тим, кому найскладніше і хто потребує підтримки. Разом все подолаємо. Слава Україні!",
+      "full_text_en": "Everything can turn out different. Today, I had a good meeting with the Norwegian Foreign Minister. Norway is one of our biggest supporters in defense, the leader of the program, Which allows us to buy American weapons, first of all, the POPO. Norway helped us a lot with the POP. We talked again about these things, the protection of the sky, our common steps, our common plans. and Norway and other partners in Europe. There's also a new support package from Norway €400 million for energy, On Ukraine's stability, 8 billion in a year will help Norway. Thank you very much. And went on today to reflect changes in both regions and in the Security Service of Ukraine. There will be other decisions as soon as the Prime Minister Julia Swirdenko spoke, recovery, work in all regions. Thank you, everyone who works for life, literally. We agreed with the Prime Minister to design a special program. to support the very kind of people who are directly involved in the repair teams. 24 times 7. In the most difficult circumstances. The government will propose a measure of increase in the cost of such professionals every month of winter. And surely, please take note of air anxiety. The Russians are preparing a new massive blow. The drones for the POSP and the rockets. I want to use the cold. In the days to come, this blow can take place. Take care of yourself, you take care of Ukraine. And help those who are most difficult and who need support. The glory of Ukraine!",
+      "asr_time_sec": 21.071786699991208,
+      "mt_time_sec": 8.669688800000586,
+      "total_time_sec": 29.741475499991793,
+      "whisper_model": "medium",
+      "mt_model": "Helsinki-NLP/opus-mt-uk-en",
+      "language": "uk"
+    }
+  ]
+}

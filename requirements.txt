@@ -1,0 +1,17 @@
+faster-whisper
+transformers
+torch
+sentencepiece
+jiwer
+sacrebleu
+bert-score
+nltk
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+soundfile
+openai
+anthropic
+google-generativeai
