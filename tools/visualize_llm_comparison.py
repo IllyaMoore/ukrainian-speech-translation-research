@@ -1,145 +1,127 @@
-"""
-Generate OPUS-MT vs LLM comparison plots.
-"""
-
 import json
 from pathlib import Path
-import pandas as pd
+
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 
 matplotlib.rcParams['font.family'] = 'DejaVu Sans'
 plt.rcParams['axes.unicode_minus'] = False
 
 
+MODEL_NAMES = ["OPUS-MT", "GPT-4o", "Claude", "Gemini"]
+MODEL_KEYS  = ["opus_mt", "gpt4o", "claude", "gemini"]
+MODEL_COLORS = ["#d62728", "#1f77b4", "#ff7f0e", "#2ca02c"]
+
+
 def main():
-    base_dir = Path(__file__).parent.parent
-    eval_dir = base_dir / "evaluation"
-    figures_dir = eval_dir / "figures"
-    figures_dir.mkdir(exist_ok=True)
+    base = Path(__file__).parent.parent
+    eval_dir = base / "evaluation"
+    fig_dir = eval_dir / "figures"
+    fig_dir.mkdir(exist_ok=True)
 
-    with open(eval_dir / "llm_comparison.json", encoding="utf-8") as f:
-        data = json.load(f)
-
+    data = json.loads((eval_dir / "llm_comparison.json").read_text(encoding="utf-8"))
     models = data["models"]
 
-    # 1. Mean metrics comparison
+    # --- mean metrics
     fig, axes = plt.subplots(1, 3, figsize=(14, 5))
-
-    model_names = ["OPUS-MT", "GPT-4o", "Claude", "Gemini"]
-    model_keys = ["opus_mt", "gpt4o", "claude", "gemini"]
-    colors = ["#d62728", "#1f77b4", "#ff7f0e", "#2ca02c"]
-
-    metrics = [
-        ("bleu", "BLEU Score", 0, 70),
-        ("bert_f1", "BERTScore-F1", 0, 1),
-        ("meteor", "METEOR", 0, 1)
-    ]
-
-    for ax, (metric_key, metric_name, ymin, ymax) in zip(axes, metrics):
-        means = [models[k][metric_key]["mean"] for k in model_keys]
-        stds = [models[k][metric_key]["std"] for k in model_keys]
-
-        bars = ax.bar(model_names, means, color=colors, edgecolor='black', linewidth=1.2)
-        ax.errorbar(model_names, means, yerr=stds, fmt='none', color='black', capsize=5, capthick=2)
-
-        ax.set_ylabel(metric_name, fontsize=12)
-        ax.set_ylim(ymin, ymax)
-        ax.set_title(f"{metric_name}", fontsize=14, fontweight='bold')
-
+    for ax, (key, title, ymax) in zip(axes, [
+        ("bleu", "BLEU Score", 70),
+        ("bert_f1", "BERTScore-F1", 1),
+        ("meteor", "METEOR", 1),
+    ]):
+        means = [models[k][key]["mean"] for k in MODEL_KEYS]
+        stds  = [models[k][key]["std"]  for k in MODEL_KEYS]
+        bars = ax.bar(MODEL_NAMES, means, color=MODEL_COLORS,
+                      edgecolor='black', linewidth=1.2)
+        ax.errorbar(MODEL_NAMES, means, yerr=stds, fmt='none',
+                    color='black', capsize=5, capthick=2)
+        ax.set_ylabel(title)
+        ax.set_ylim(0, ymax)
+        ax.set_title(title, fontweight='bold')
         for bar, mean in zip(bars, means):
-            height = bar.get_height()
             ax.annotate(f'{mean:.2f}',
-                       xy=(bar.get_x() + bar.get_width() / 2, height),
-                       xytext=(0, 3), textcoords="offset points",
-                       ha='center', va='bottom', fontsize=11, fontweight='bold')
-
+                        xy=(bar.get_x() + bar.get_width() / 2, bar.get_height()),
+                        xytext=(0, 3), textcoords="offset points",
+                        ha='center', va='bottom', fontweight='bold')
         ax.tick_params(axis='x', rotation=15)
         ax.grid(axis='y', alpha=0.3)
-
     plt.tight_layout()
-    plt.savefig(figures_dir / "llm_comparison_metrics.png", dpi=150, bbox_inches='tight')
+    plt.savefig(fig_dir / "llm_comparison_metrics.png", dpi=150, bbox_inches='tight')
     plt.close()
-    print(f"Збережено: {figures_dir / 'llm_comparison_metrics.png'}")
+    print("llm_comparison_metrics.png")
 
-    # 2. Improvement over OPUS-MT
-    fig, ax = plt.subplots(figsize=(10, 6))
-
+    # --- improvement over OPUS-MT
     comparisons = data["comparisons"]
     llm_names = ["GPT-4o", "Claude", "Gemini"]
     llm_keys = ["opus_vs_gpt4o", "opus_vs_claude", "opus_vs_gemini"]
+    metric_specs = [("bleu", "BLEU", "#1f77b4"),
+                    ("bert_f1", "BERTScore-F1", "#ff7f0e"),
+                    ("meteor", "METEOR", "#2ca02c")]
 
-    x = np.arange(3)
+    fig, ax = plt.subplots(figsize=(10, 6))
+    x = np.arange(len(llm_keys))
     width = 0.25
+    for i, (key, label, color) in enumerate(metric_specs):
+        vals = [comparisons[k][key]["improvement_percent"] for k in llm_keys]
+        bars = ax.bar(x + i * width, vals, width, label=label,
+                      color=color, edgecolor='black')
+        for bar, v in zip(bars, vals):
+            ax.annotate(f'+{v:.0f}%',
+                        xy=(bar.get_x() + bar.get_width() / 2, bar.get_height()),
+                        xytext=(0, 3), textcoords="offset points",
+                        ha='center', va='bottom', fontsize=9, fontweight='bold')
 
-    metric_labels = ["BLEU", "BERTScore-F1", "METEOR"]
-    metric_keys = ["bleu", "bert_f1", "meteor"]
-    colors_metrics = ["#1f77b4", "#ff7f0e", "#2ca02c"]
-
-    for i, (metric_key, metric_label, color) in enumerate(zip(metric_keys, metric_labels, colors_metrics)):
-        improvements = [comparisons[k][metric_key]["improvement_percent"] for k in llm_keys]
-        bars = ax.bar(x + i*width, improvements, width, label=metric_label, color=color, edgecolor='black')
-
-        for bar, imp in zip(bars, improvements):
-            height = bar.get_height()
-            ax.annotate(f'+{imp:.0f}%',
-                       xy=(bar.get_x() + bar.get_width() / 2, height),
-                       xytext=(0, 3), textcoords="offset points",
-                       ha='center', va='bottom', fontsize=9, fontweight='bold')
-
-    ax.set_ylabel('Improvement over OPUS-MT (%)', fontsize=12)
-    ax.set_title('Relative Improvement of LLM Translators vs OPUS-MT', fontsize=14, fontweight='bold')
+    ax.set_ylabel('Improvement over OPUS-MT (%)')
+    ax.set_title('Relative Improvement of LLM Translators vs OPUS-MT',
+                 fontweight='bold')
     ax.set_xticks(x + width)
-    ax.set_xticklabels(llm_names, fontsize=12)
+    ax.set_xticklabels(llm_names)
     ax.legend(loc='upper right')
     ax.grid(axis='y', alpha=0.3)
     ax.set_ylim(0, 180)
-
     plt.tight_layout()
-    plt.savefig(figures_dir / "llm_improvement_percent.png", dpi=150, bbox_inches='tight')
+    plt.savefig(fig_dir / "llm_improvement_percent.png", dpi=150, bbox_inches='tight')
     plt.close()
-    print(f"Збережено: {figures_dir / 'llm_improvement_percent.png'}")
+    print("llm_improvement_percent.png")
 
-    # 3. BLEU by segment across models
-    opus_df = pd.read_csv(eval_dir / "mt_metrics.csv")
-    gpt4o_df = pd.read_csv(eval_dir / "mt_gpt4o_metrics.csv")
-    claude_df = pd.read_csv(eval_dir / "mt_claude_metrics.csv")
-    gemini_df = pd.read_csv(eval_dir / "mt_gemini_metrics.csv")
+    # --- BLEU per segment
+    dfs = {}
+    for key, csv_name in [("OPUS-MT", "mt_metrics.csv"),
+                          ("GPT-4o",  "mt_gpt4o_metrics.csv"),
+                          ("Claude",  "mt_claude_metrics.csv"),
+                          ("Gemini",  "mt_gemini_metrics.csv")]:
+        dfs[key] = pd.read_csv(eval_dir / csv_name)[['segment_name', 'bleu']] \
+                     .rename(columns={'bleu': key})
 
-    merged = opus_df[['segment_name', 'bleu']].rename(columns={'bleu': 'OPUS-MT'})
-    merged = merged.merge(gpt4o_df[['segment_name', 'bleu']].rename(columns={'bleu': 'GPT-4o'}), on='segment_name')
-    merged = merged.merge(claude_df[['segment_name', 'bleu']].rename(columns={'bleu': 'Claude'}), on='segment_name')
-    merged = merged.merge(gemini_df[['segment_name', 'bleu']].rename(columns={'bleu': 'Gemini'}), on='segment_name')
+    merged = dfs["OPUS-MT"]
+    for k in ("GPT-4o", "Claude", "Gemini"):
+        merged = merged.merge(dfs[k], on='segment_name')
 
-    merged['segment_short'] = merged['segment_name'].apply(lambda x: x.replace('_seg', '\nseg').replace('_', ' ')[:20])
+    merged['short'] = merged['segment_name'].apply(
+        lambda s: s.replace('_seg', '\nseg').replace('_', ' ')[:20])
 
     fig, ax = plt.subplots(figsize=(14, 6))
-
     x = np.arange(len(merged))
     width = 0.2
+    for i, (m, color) in enumerate(zip(MODEL_NAMES, MODEL_COLORS)):
+        ax.bar(x + i * width, merged[m].values, width, label=m,
+               color=color, edgecolor='black', linewidth=0.5)
 
-    model_order = ['OPUS-MT', 'GPT-4o', 'Claude', 'Gemini']
-    colors_models = ["#d62728", "#1f77b4", "#ff7f0e", "#2ca02c"]
-
-    for i, (model, color) in enumerate(zip(model_order, colors_models)):
-        ax.bar(x + i*width, merged[model].values, width, label=model, color=color, edgecolor='black', linewidth=0.5)
-
-    ax.set_ylabel('BLEU Score', fontsize=12)
-    ax.set_title('BLEU Score by Segment: OPUS-MT vs LLM Translators', fontsize=14, fontweight='bold')
-    ax.set_xticks(x + 1.5*width)
-    ax.set_xticklabels(merged['segment_short'], fontsize=8, rotation=45, ha='right')
+    ax.set_ylabel('BLEU Score')
+    ax.set_title('BLEU Score by Segment: OPUS-MT vs LLM Translators',
+                 fontweight='bold')
+    ax.set_xticks(x + 1.5 * width)
+    ax.set_xticklabels(merged['short'], fontsize=8, rotation=45, ha='right')
     ax.legend(loc='upper right')
     ax.grid(axis='y', alpha=0.3)
     ax.set_ylim(0, 75)
-
     plt.tight_layout()
-    plt.savefig(figures_dir / "llm_bleu_by_segment.png", dpi=150, bbox_inches='tight')
+    plt.savefig(fig_dir / "llm_bleu_by_segment.png", dpi=150, bbox_inches='tight')
     plt.close()
-    print(f"Збережено: {figures_dir / 'llm_bleu_by_segment.png'}")
-
-    print("\nГотово! Всі графіки збережено.")
+    print("llm_bleu_by_segment.png")
 
 
 if __name__ == "__main__":

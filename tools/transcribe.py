@@ -1,7 +1,3 @@
-"""
-Transcribe audio files using Whisper ASR.
-"""
-
 import argparse
 from pathlib import Path
 from faster_whisper import WhisperModel
@@ -13,82 +9,56 @@ def transcribe_files(input_dir="segments", output_dir="Translations",
     out = Path(output_dir)
     out.mkdir(parents=True, exist_ok=True)
 
-    audio_files = sorted(inp.glob("*.wav"))
-    if not audio_files:
-        print(f"Не знайдено wav файлів в {inp}")
+    files = sorted(inp.glob("*.wav"))
+    if not files:
+        print(f"Немає wav в {inp}")
         return
 
-    print(f"Знайдено {len(audio_files)} файлів")
-    print(f"Завантаження моделі {model_size}...")
-
+    print(f"{len(files)} файлів, модель {model_size}")
     model = WhisperModel(model_size, device="auto", compute_type="auto")
-    print(f"Модель завантажено\n")
 
-    for i, audio_path in enumerate(audio_files, 1):
-        print(f"[{i}/{len(audio_files)}] {audio_path.name}...")
-
-        segments, info = model.transcribe(
-            str(audio_path),
+    for i, ap in enumerate(files, 1):
+        print(f"[{i}/{len(files)}] {ap.name}")
+        segments, _ = model.transcribe(
+            str(ap),
             language=language,
-            beam_size=5,
-            best_of=5,
-            temperature=0,
+            beam_size=5, best_of=5, temperature=0,
             condition_on_previous_text=True,
             vad_filter=True,
         )
-
-        text_parts = [segment.text.strip() for segment in segments]
-        full_text = " ".join(text_parts)
-
-        output_path = out / f"{audio_path.stem}.txt"
-        output_path.write_text(full_text, encoding="utf-8")
-
-        preview = full_text[:100] + "..." if len(full_text) > 100 else full_text
-        print(f"    -> {output_path.name} ({len(full_text)} symbols)")
-        print(f"    \"{preview}\"\n")
-
-    print(f"Готово! Транскрипції збережено в ./{out}/")
+        text = " ".join(s.text.strip() for s in segments)
+        outp = out / f"{ap.stem}.txt"
+        outp.write_text(text, encoding="utf-8")
+        preview = text[:100] + "..." if len(text) > 100 else text
+        print(f"    -> {outp.name} ({len(text)} симв.) \"{preview}\"")
 
 
 def merge_transcriptions(output_dir="Translations"):
     out = Path(output_dir)
-    files = sorted(out.glob("*.txt"))
     groups = {}
+    for f in sorted(out.glob("*.txt")):
+        base = f.stem.rsplit("_seg", 1)[0] if "_seg" in f.stem else f.stem
+        groups.setdefault(base, []).append(f)
 
-    for f in files:
-        name = f.stem
-        base = name.rsplit("_seg", 1)[0] if "_seg" in name else name
-        if base not in groups:
-            groups[base] = []
-        groups[base].append(f)
-
-    print(f"\nОб'єднання сегментів...")
-
-    for base, segment_files in groups.items():
-        if len(segment_files) <= 1:
+    for base, segs in groups.items():
+        if len(segs) <= 1:
             continue
-
-        segment_files.sort()
-        texts = [sf.read_text(encoding="utf-8") for sf in segment_files]
-        merged = "\n\n".join(texts)
-
-        merged_path = out / f"{base}_full.txt"
-        merged_path.write_text(merged, encoding="utf-8")
-        print(f"  {merged_path.name} ({len(segment_files)} сегментів)")
-
-    print("Готово!")
+        segs.sort()
+        merged = "\n\n".join(s.read_text(encoding="utf-8") for s in segs)
+        path = out / f"{base}_full.txt"
+        path.write_text(merged, encoding="utf-8")
+        print(f"  {path.name} ({len(segs)} сегм.)")
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Транскрипція аудіо через Whisper")
-    parser.add_argument("-i", "--input", default="segments")
-    parser.add_argument("-o", "--output", default="Translations")
-    parser.add_argument("-m", "--model", default="large-v3")
-    parser.add_argument("-l", "--language", default="uk")
-    parser.add_argument("--merge", action="store_true")
-    args = parser.parse_args()
+    p = argparse.ArgumentParser()
+    p.add_argument("-i", "--input",  default="segments")
+    p.add_argument("-o", "--output", default="Translations")
+    p.add_argument("-m", "--model",  default="large-v3")
+    p.add_argument("-l", "--language", default="uk")
+    p.add_argument("--merge", action="store_true")
+    a = p.parse_args()
 
-    transcribe_files(args.input, args.output, args.model, args.language)
-
-    if args.merge:
-        merge_transcriptions(args.output)
+    transcribe_files(a.input, a.output, a.model, a.language)
+    if a.merge:
+        merge_transcriptions(a.output)

@@ -1,54 +1,38 @@
-"""
-Spearman and Pearson correlation between ASR and MT metrics.
-"""
-
 import json
 import pandas as pd
 from scipy import stats
 from pathlib import Path
 
-base_dir = Path(__file__).parent.parent
-eval_dir = base_dir / "evaluation"
+eval_dir = Path(__file__).parent.parent / "evaluation"
 
-asr_df = pd.read_csv(eval_dir / "asr_metrics.csv")
-mt_df = pd.read_csv(eval_dir / "mt_metrics.csv")
-merged = pd.merge(asr_df, mt_df, on="segment_name")
+asr = pd.read_csv(eval_dir / "asr_metrics.csv")
+mt = pd.read_csv(eval_dir / "mt_metrics.csv")
+df = pd.merge(asr, mt, on="segment_name")
 
-print("=" * 60)
-print("КОРЕЛЯЦІЙНИЙ АНАЛІЗ")
-print("=" * 60)
+print(df[["segment_name", "wer", "cer", "bleu", "bert_f1", "meteor"]].to_string(index=False))
 
-print("\nДані:")
-print(merged[["segment_name", "wer", "cer", "bleu", "bert_f1", "meteor"]].to_string(index=False))
+asr_cols = ["wer", "cer"]
+mt_cols = ["bleu", "bert_f1", "meteor"]
 
-print("\n" + "-" * 60)
-print("Кореляція Спірмена")
-print("-" * 60)
-
+print("\nСпірмен:")
 correlations = {}
-for asr_metric in ["wer", "cer"]:
-    correlations[asr_metric] = {}
-    for mt_metric in ["bleu", "bert_f1", "meteor"]:
-        rho, pvalue = stats.spearmanr(merged[asr_metric], merged[mt_metric])
-        correlations[asr_metric][mt_metric] = {"rho": rho, "p": pvalue}
-        sig = "*" if pvalue < 0.05 else ""
-        print(f"{asr_metric} vs {mt_metric}: rho = {rho:.3f}, p = {pvalue:.3f} {sig}")
+for a in asr_cols:
+    correlations[a] = {}
+    for m in mt_cols:
+        rho, p = stats.spearmanr(df[a], df[m])
+        correlations[a][m] = {"rho": rho, "p": p}
+        mark = " *" if p < 0.05 else ""
+        print(f"  {a} vs {m}: rho={rho:+.3f}, p={p:.3f}{mark}")
 
-print("\n" + "-" * 60)
-print("Кореляція Пірсона")
-print("-" * 60)
+print("\nПірсон:")
+for a in asr_cols:
+    for m in mt_cols:
+        r, p = stats.pearsonr(df[a], df[m])
+        mark = " *" if p < 0.05 else ""
+        print(f"  {a} vs {m}: r={r:+.3f}, p={p:.3f}{mark}")
 
-for asr_metric in ["wer", "cer"]:
-    for mt_metric in ["bleu", "bert_f1", "meteor"]:
-        r, pvalue = stats.pearsonr(merged[asr_metric], merged[mt_metric])
-        sig = "*" if pvalue < 0.05 else ""
-        print(f"{asr_metric} vs {mt_metric}: r = {r:.3f}, p = {pvalue:.3f} {sig}")
-
-print("\n" + "-" * 60)
-print("Описова статистика")
-print("-" * 60)
-print(merged[["wer", "cer", "bleu", "bert_f1", "meteor"]].describe())
+print()
+print(df[asr_cols + mt_cols].describe())
 
 with open(eval_dir / "correlations.json", "w") as f:
     json.dump(correlations, f, indent=2)
-print(f"\nЗбережено: {eval_dir / 'correlations.json'}")

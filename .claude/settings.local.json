@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp:*)",
+      "Bash(which pdflatex:*)",
+      "Bash(cd:*)",
+      "Bash(tlmgr install:*)",
+      "Bash(\"C:/Users/illya/AppData/Roaming/TinyTeX/bin/windows/tlmgr.bat\" install:*)",
+      "Bash(which xelatex:*)"
+    ]
+  }
+}
