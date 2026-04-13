@@ -1,0 +1,236 @@
+{
+  "method": "phonetic_aware_correction",
+  "threshold": 0.18,
+  "dictionary_size": 39,
+  "segments": 12,
+  "total_corrections": 15,
+  "wer_before": 0.0862,
+  "wer_after": 0.0828,
+  "wer_delta_rel_pct": -3.9,
+  "cer_before": 0.021,
+  "cer_after": 0.0204,
+  "cer_delta_rel_pct": -3.0,
+  "per_segment": [
+    {
+      "segment": "В_Еміратах_сьогодні_seg001",
+      "wer_before": 0.0616,
+      "wer_after": 0.0499,
+      "cer_before": 0.0172,
+      "cer_after": 0.0148,
+      "n_corrections": 4
+    },
+    {
+      "segment": "В_Еміратах_сьогодні_seg002",
+      "wer_before": 0.0471,
+      "wer_after": 0.0471,
+      "cer_before": 0.0066,
+      "cer_after": 0.0066,
+      "n_corrections": 0
+    },
+    {
+      "segment": "Діалог_з_Америкою_seg001",
+      "wer_before": 0.067,
+      "wer_after": 0.0567,
+      "cer_before": 0.0159,
+      "cer_after": 0.014,
+      "n_corrections": 5
+    },
+    {
+      "segment": "Діалог_з_Америкою_seg002",
+      "wer_before": 0.1288,
+      "wer_after": 0.1288,
+      "cer_before": 0.0497,
+      "cer_after": 0.0497,
+      "n_corrections": 0
+    },
+    {
+      "segment": "Знаємо,_що_росіяни_seg001",
+      "wer_before": 0.1145,
+      "wer_after": 0.1089,
+      "cer_before": 0.0246,
+      "cer_after": 0.0242,
+      "n_corrections": 3
+    },
+    {
+      "segment": "Знаємо,_що_росіяни_seg002",
+      "wer_before": 0.0967,
+      "wer_after": 0.0967,
+      "cer_before": 0.0214,
+      "cer_after": 0.0214,
+      "n_corrections": 0
+    },
+    {
+      "segment": "Командна_ланка_seg001",
+      "wer_before": 0.1339,
+      "wer_after": 0.1311,
+      "cer_before": 0.0293,
+      "cer_after": 0.0289,
+      "n_corrections": 1
+    },
+    {
+      "segment": "Наша_стратегія_seg001",
+      "wer_before": 0.1014,
+      "wer_after": 0.1014,
+      "cer_before": 0.0229,
+      "cer_after": 0.0229,
+      "n_corrections": 0
+    },
+    {
+      "segment": "Наша_стратегія_seg002",
+      "wer_before": 0.0686,
+      "wer_after": 0.065,
+      "cer_before": 0.0116,
+      "cer_after": 0.0106,
+      "n_corrections": 1
+    },
+    {
+      "segment": "Отримуємо_хороші_seg001",
+      "wer_before": 0.0764,
+      "wer_after": 0.0697,
+      "cer_before": 0.0222,
+      "cer_after": 0.0208,
+      "n_corrections": 1
+    },
+    {
+      "segment": "Поведінка_seg001",
+      "wer_before": 0.0652,
+      "wer_after": 0.0652,
+      "cer_before": 0.0134,
+      "cer_after": 0.0134,
+      "n_corrections": 0
+    },
+    {
+      "segment": "Поведінка_seg002",
+      "wer_before": 0.0734,
+      "wer_after": 0.0734,
+      "cer_before": 0.017,
+      "cer_after": 0.017,
+      "n_corrections": 0
+    }
+  ],
+  "corrections": {
+    "В_Еміратах_сьогодні_seg001": [
+      {
+        "type": "phonetic",
+        "original": "Рустему Міров,",
+        "corrected": "Рустем Умєров,",
+        "ngram": 2,
+        "distance": 0.083
+      },
+      {
+        "type": "phonetic",
+        "original": "Рахамія,",
+        "corrected": "Арахамія,",
+        "ngram": 1,
+        "distance": 0.111
+      },
+      {
+        "type": "phonetic",
+        "original": "Дніпровщина,",
+        "corrected": "Дніпровщини,",
+        "ngram": 1,
+        "distance": 0.083
+      },
+      {
+        "type": "phonetic",
+        "original": "Кривирі,",
+        "corrected": "Кривий Ріг,",
+        "ngram": 1,
+        "distance": 0.125
+      }
+    ],
+    "В_Еміратах_сьогодні_seg002": [],
+    "Діалог_з_Америкою_seg001": [
+      {
+        "type": "phonetic",
+        "original": "Кирилом",
+        "corrected": "Кирило",
+        "ngram": 1,
+        "distance": 0.143
+      },
+      {
+        "type": "phonetic",
+        "original": "Бодановим,",
+        "corrected": "Будановим,",
+        "ngram": 1,
+        "distance": 0.111
+      },
+      {
+        "type": "phonetic",
+        "original": "Боданов",
+        "corrected": "Буданов",
+        "ngram": 1,
+        "distance": 0.143
+      },
+      {
+        "type": "phonetic",
+        "original": "Рустим Умеров",
+        "corrected": "Рустем Умєров",
+        "ngram": 2,
+        "distance": 0.083
+      },
+      {
+        "type": "phonetic",
+        "original": "вбойнів.",
+        "corrected": "воїнів.",
+        "ngram": 1,
+        "distance": 0.143
+      }
+    ],
+    "Діалог_з_Америкою_seg002": [],
+    "Знаємо,_що_росіяни_seg001": [
+      {
+        "type": "phonetic",
+        "original": "Крзалізниці,",
+        "corrected": "Укрзалізниці,",
+        "ngram": 1,
+        "distance": 0.083
+      },
+      {
+        "type": "phonetic",
+        "original": "Дніпровщина.",
+        "corrected": "Дніпровщини.",
+        "ngram": 1,
+        "distance": 0.083
+      },
+      {
+        "type": "phonetic",
+        "original": "Ваенкору,",
+        "corrected": "воєнкору,",
+        "ngram": 1,
+        "distance": 0.125
+      }
+    ],
+    "Знаємо,_що_росіяни_seg002": [],
+    "Командна_ланка_seg001": [
+      {
+        "type": "phonetic",
+        "original": "Дніпрощини,",
+        "corrected": "Дніпровщини,",
+        "ngram": 1,
+        "distance": 0.083
+      }
+    ],
+    "Наша_стратегія_seg001": [],
+    "Наша_стратегія_seg002": [
+      {
+        "type": "phonetic",
+        "original": "війнів.",
+        "corrected": "воїнів.",
+        "ngram": 1,
+        "distance": 0.167
+      }
+    ],
+    "Отримуємо_хороші_seg001": [
+      {
+        "type": "phonetic",
+        "original": "Харків обл енера,",
+        "corrected": "Харківобленерго,",
+        "ngram": 3,
+        "distance": 0.133
+      }
+    ],
+    "Поведінка_seg001": [],
+    "Поведінка_seg002": []
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "method": "entity_codeswitching_pipeline_with_repair",
+  "dict_size": 52,
+  "phonetic_threshold": 0.18,
+  "repair_threshold": 0.3,
+  "total_entities": 55,
+  "total_survived_pre": 29,
+  "total_repairs_applied": 14,
+  "total_survived_post": 42,
+  "survival_rate_pre": 0.5273,
+  "survival_rate_post": 0.7636,
+  "per_segment": [
+    {
+      "segment": "В_Еміратах_сьогодні_seg001",
+      "n_entities_found": 19,
+      "n_survived_pre_repair": 8,
+      "n_repairs_applied": 9,
+      "n_survived_post_repair": 16,
+      "survival_pre": 0.421,
+      "survival_post": 0.842,
+      "entities_examples": [
+        [
+          "Еміратах",
+          "Emirates"
+        ],
+        [
+          "Рустему Міров,",
+          "Rustem Umerov"
+        ],
+        [
+          "Кирило Буданов",
+          "Kyrylo Budanov"
+        ]
+      ]
+    },
+    {
+      "segment": "В_Еміратах_сьогодні_seg002",
+      "n_entities_found": 1,
+      "n_survived_pre_repair": 1,
+      "n_repairs_applied": 0,
+      "n_survived_post_repair": 1,
+      "survival_pre": 1.0,
+      "survival_post": 1.0,
+      "entities_examples": [
+        [
+          "МВС",
+          "Ministry of Internal Affairs"
+        ]
+      ]
+    },
+    {
+      "segment": "Діалог_з_Америкою_seg001",
+      "n_entities_found": 4,
+      "n_survived_pre_repair": 4,
+      "n_repairs_applied": 0,
+      "n_survived_post_repair": 4,
+      "survival_pre": 1.0,
+      "survival_post": 1.0,
+      "entities_examples": [
+        [
+          "СБУ",
+          "SBU"
+        ],
+        [
+          "Бодановим,",
+          "Budanov"
+        ],
+        [
+          "Боданов",
+          "Budanov"
+        ]
+      ]
+    },
+    {
+      "segment": "Діалог_з_Америкою_seg002",
+      "n_entities_found": 1,
+      "n_survived_pre_repair": 0,
+      "n_repairs_applied": 0,
+      "n_survived_post_repair": 0,
+      "survival_pre": 0.0,
+      "survival_post": 0.0,
+      "entities_examples": [
+        [
+          "Федорова",
+          "Fedorov"
+        ]
+      ]
+    },
+    {
+      "segment": "Знаємо,_що_росіяни_seg001",
+      "n_entities_found": 5,
+      "n_survived_pre_repair": 0,
+      "n_repairs_applied": 2,
+      "n_survived_post_repair": 2,
+      "survival_pre": 0.0,
+      "survival_post": 0.4,
+      "entities_examples": [
+        [
+          "Крзалізниці,",
+          "Ukrzaliznytsia"
+        ],
+        [
+          "МВС",
+          "Ministry of Internal Affairs"
+        ],
+        [
+          "Сумщині,",
+          "Sumy region"
+        ]
+      ]
+    },
+    {
+      "segment": "Знаємо,_що_росіяни_seg002",
+      "n_entities_found": 0,
+      "n_survived_pre_repair": 0,
+      "n_repairs_applied": 0,
+      "n_survived_post_repair": 0,
+      "survival_pre": 1.0,
+      "survival_post": 1.0,
+      "entities_examples": []
+    },
+    {
+      "segment": "Командна_ланка_seg001",
+      "n_entities_found": 7,
+      "n_survived_pre_repair": 3,
+      "n_repairs_applied": 1,
+      "n_survived_post_repair": 4,
+      "survival_pre": 0.429,
+      "survival_post": 0.571,
+      "entities_examples": [
+        [
+          "Запоріжжя",
+          "Zaporizhzhia"
+        ],
+        [
+          "Дніпрощини,",
+          "Dnipro region"
+        ],
+        [
+          "Дніпра,",
+          "Dnipro"
+        ]
+      ]
+    },
+    {
+      "segment": "Наша_стратегія_seg001",
+      "n_entities_found": 10,
+      "n_survived_pre_repair": 10,
+      "n_repairs_applied": 0,
+      "n_survived_post_repair": 10,
+      "survival_pre": 1.0,
+      "survival_post": 1.0,
+      "entities_examples": [
+        [
+          "Дніпрі",
+          "Dnipro"
+        ],
+        [
+          "Дніпрі",
+          "Dnipro"
+        ],
+        [
+          "СБУ",
+          "SBU"
+        ]
+      ]
+    },
+    {
+      "segment": "Наша_стратегія_seg002",
+      "n_entities_found": 1,
+      "n_survived_pre_repair": 0,
+      "n_repairs_applied": 0,
+      "n_survived_post_repair": 0,
+      "survival_pre": 0.0,
+      "survival_post": 0.0,
+      "entities_examples": [
+        [
+          "СБУ",
+          "SBU"
+        ]
+      ]
+    },
+    {
+      "segment": "Отримуємо_хороші_seg001",
+      "n_entities_found": 6,
+      "n_survived_pre_repair": 3,
+      "n_repairs_applied": 1,
+      "n_survived_post_repair": 4,
+      "survival_pre": 0.5,
+      "survival_post": 0.667,
+      "entities_examples": [
+        [
+          "Одесі",
+          "Odesa"
+        ],
+        [
+          "ДСНС",
+          "SES of Ukraine"
+        ],
+        [
+          "Харків",
+          "Kharkiv"
+        ]
+      ]
+    },
+    {
+      "segment": "Поведінка_seg001",
+      "n_entities_found": 1,
+      "n_survived_pre_repair": 0,
+      "n_repairs_applied": 1,
+      "n_survived_post_repair": 1,
+      "survival_pre": 0.0,
+      "survival_post": 1.0,
+      "entities_examples": [
+        [
+          "Трампа",
+          "Trump"
+        ]
+      ]
+    },
+    {
+      "segment": "Поведінка_seg002",
+      "n_entities_found": 0,
+      "n_survived_pre_repair": 0,
+      "n_repairs_applied": 0,
+      "n_survived_post_repair": 0,
+      "survival_pre": 1.0,
+      "survival_post": 1.0,
+      "entities_examples": []
+    }
+  ]
+}

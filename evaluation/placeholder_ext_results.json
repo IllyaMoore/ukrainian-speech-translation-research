@@ -1,0 +1,122 @@
+{
+  "method": "entity_codeswitching_pipeline_with_repair_extended_dict",
+  "dict_size": 176,
+  "phonetic_threshold": 0.18,
+  "repair_threshold": 0.3,
+  "total_entities": 160,
+  "total_survived_pre": 100,
+  "total_repairs_applied": 29,
+  "total_survived_post": 120,
+  "survival_rate_pre": 0.625,
+  "survival_rate_post": 0.75,
+  "per_segment": [
+    {
+      "segment": "В_Еміратах_сьогодні_seg001",
+      "n_entities_found": 19,
+      "n_survived_pre_repair": 9,
+      "n_repairs_applied": 7,
+      "n_survived_post_repair": 16,
+      "survival_pre": 0.474,
+      "survival_post": 0.842
+    },
+    {
+      "segment": "В_Еміратах_сьогодні_seg002",
+      "n_entities_found": 10,
+      "n_survived_pre_repair": 2,
+      "n_repairs_applied": 1,
+      "n_survived_post_repair": 2,
+      "survival_pre": 0.2,
+      "survival_post": 0.2
+    },
+    {
+      "segment": "Діалог_з_Америкою_seg001",
+      "n_entities_found": 9,
+      "n_survived_pre_repair": 6,
+      "n_repairs_applied": 0,
+      "n_survived_post_repair": 6,
+      "survival_pre": 0.667,
+      "survival_post": 0.667
+    },
+    {
+      "segment": "Діалог_з_Америкою_seg002",
+      "n_entities_found": 13,
+      "n_survived_pre_repair": 8,
+      "n_repairs_applied": 4,
+      "n_survived_post_repair": 11,
+      "survival_pre": 0.615,
+      "survival_post": 0.846
+    },
+    {
+      "segment": "Знаємо,_що_росіяни_seg001",
+      "n_entities_found": 21,
+      "n_survived_pre_repair": 11,
+      "n_repairs_applied": 2,
+      "n_survived_post_repair": 13,
+      "survival_pre": 0.524,
+      "survival_post": 0.619
+    },
+    {
+      "segment": "Знаємо,_що_росіяни_seg002",
+      "n_entities_found": 9,
+      "n_survived_pre_repair": 8,
+      "n_repairs_applied": 2,
+      "n_survived_post_repair": 8,
+      "survival_pre": 0.889,
+      "survival_post": 0.889
+    },
+    {
+      "segment": "Командна_ланка_seg001",
+      "n_entities_found": 15,
+      "n_survived_pre_repair": 10,
+      "n_repairs_applied": 1,
+      "n_survived_post_repair": 11,
+      "survival_pre": 0.667,
+      "survival_post": 0.733
+    },
+    {
+      "segment": "Наша_стратегія_seg001",
+      "n_entities_found": 23,
+      "n_survived_pre_repair": 20,
+      "n_repairs_applied": 3,
+      "n_survived_post_repair": 22,
+      "survival_pre": 0.87,
+      "survival_post": 0.957
+    },
+    {
+      "segment": "Наша_стратегія_seg002",
+      "n_entities_found": 6,
+      "n_survived_pre_repair": 2,
+      "n_repairs_applied": 1,
+      "n_survived_post_repair": 2,
+      "survival_pre": 0.333,
+      "survival_post": 0.333
+    },
+    {
+      "segment": "Отримуємо_хороші_seg001",
+      "n_entities_found": 21,
+      "n_survived_pre_repair": 11,
+      "n_repairs_applied": 5,
+      "n_survived_post_repair": 15,
+      "survival_pre": 0.524,
+      "survival_post": 0.714
+    },
+    {
+      "segment": "Поведінка_seg001",
+      "n_entities_found": 6,
+      "n_survived_pre_repair": 5,
+      "n_repairs_applied": 1,
+      "n_survived_post_repair": 6,
+      "survival_pre": 0.833,
+      "survival_post": 1.0
+    },
+    {
+      "segment": "Поведінка_seg002",
+      "n_entities_found": 8,
+      "n_survived_pre_repair": 8,
+      "n_repairs_applied": 2,
+      "n_survived_post_repair": 8,
+      "survival_pre": 1.0,
+      "survival_post": 1.0
+    }
+  ]
+}
