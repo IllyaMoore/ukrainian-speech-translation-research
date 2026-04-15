@@ -31,6 +31,10 @@
 - `figures/`, `evaluation/figures/` --- графіки
 - `docs/codeswitching_pipeline.md` --- документація методу
 
+## Повна оцінка одним запуском
+
+`tools/run_full_evaluation.py` — оркестратор, що за один прогін обчислює ASR-метрики (WER, CER), MT-метрики (BLEU, BERTScore, METEOR) для вибраних систем, статистичні тести та кореляції, малює графіки й генерує готові LaTeX-таблиці.
+
 ## Відтворення
 
 ```
